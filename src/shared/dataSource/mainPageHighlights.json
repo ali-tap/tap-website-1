@@ -1,0 +1,114 @@
+[
+  {
+    "smimilar":true,
+    "hasBanner": true,
+    "hasBlock": true,
+		"product":"collect",
+		"slot":"collect",
+		"brandingColor":"#ff0031",
+		"schedule_for":"GD",
+		"bannerImage":"https://www.tap.company/websiteImages/bannerImages/gocollect-en-video.png",
+		"videoLink":"https://player.vimeo.com/video/211170801?autoplay=0&byline=0&portrait=0&color=cccccc",
+		"subImage":"https://www.tap.company/websiteImages/subImages/gocollect-sub-image.jpg",
+		"countries":["kw","om","eg","qa","ae","sa","bh","jo","lb"],
+		"block":
+		{
+			"title":"gocollect",
+			"subtitle":
+			{
+				"en":"send bills",
+				"ar":"إرسال الفواتير"
+			},
+			"image":"https://www.tap.company/websiteImages/blocks/goCollect.png",
+			"hoverImage":"https://www.tap.company/websiteImages/blocks/goCollect.png"
+		}
+	},
+  {
+    "hasBanner": true,
+    "hasBlock": true,
+		"product":"sell",
+		"slot":"sell",
+		"brandingColor":"#00aff0",
+		"bannerImage":"https://www.tap.company/websiteImages/bannerImages/goSell-accept-payments-online.png",
+		"subImage":"https://www.tap.company/websiteImages/subImages/gosell-sub-image.png",
+		"countries":["kw","om","eg","qa","ae","sa","bh","jo","lb"],
+		"block":
+		{
+			"title":"gosell",
+			"subtitle":
+			{
+				"en":"accept online payments",
+				"ar":"استقبال المدفوعات الإلكترونية"
+			},
+			"image":"https://www.tap.company/websiteImages/blocks/goSell.png",
+			"hoverImage":"https://www.tap.company/websiteImages/blocks/goSell.png"
+		}
+	},
+	{
+    "hasBanner": true,
+    "hasBlock": true,
+		"product":"pay",
+		"slot":"pay",
+		"brandingColor":"#2ace00",
+		"schedule_for":"TD",
+		"bannerImage":"https://www.tap.company/websiteImages/bannerImages/gopay-eng-video.png",
+		"videoLink":"https://player.vimeo.com/video/146118094?autoplay=0&byline=0&portrait=0&color=cccccc",
+		"subImage":"https://www.tap.company/websiteImages/subImages/gopay-sub-image.jpg",
+		"countries":["kw"],
+		"block":
+		{
+			"title":"gopay",
+			"subtitle":
+			{
+				"en":"pay bills",
+				"ar":"دفع الفواتير"
+			},
+			"image":"https://www.tap.company/websiteImages/blocks/goPay.png",
+			"hoverImage":"https://www.tap.company/websiteImages/blocks/goPay.png"
+		}
+	},
+  {
+    "smimilar":true,
+    "hasBanner": true,
+    "hasBlock": true,
+		"product":"collect",
+    "partner":"nbk",
+		"slot":"nbk",
+		"brandingColor":"#1d4d8a",
+		"schedule_for":"GD",
+    "paternImage":"https://www.tap.company/websiteImages/partners/nbk/NBK-symbol.svg",
+    "logo":"https://www.tap.company/websiteImages/partners/nbk/NBK-tap-logo.svg",
+		"bannerImage":"https://www.tap.company/websiteImages/bannerImages/gocollect-en-video.png",
+		"videoLink":"https://player.vimeo.com/video/291702528?autoplay=0&byline=0&portrait=0&color=cccccc",
+		"subImage":"https://www.tap.company/websiteImages/subImages/gocollect-sub-image.jpg",
+		"countries":["kw"],
+    "block":
+    {
+      "title":"gocollect \\partner",
+      "subtitle":
+      {
+        "en":"send bills",
+        "ar":"إرسال الفواتير"
+      },
+      "image":"https://www.tap.company/websiteImages/blocks/nbk-collect1.png",
+      "hoverImage":"https://www.tap.company/websiteImages/blocks/nbk-collect2.png"
+    }
+	},
+  {
+    "hasBanner": false,
+    "hasBlock": true,
+		"slot":"api",
+		"brandingColor":"#ffc72d",
+    "block":
+    {
+      "title":"api",
+      "subtitle":
+      {
+        "en":"for developers",
+        "ar":"للمطورين"
+      },
+      "image":"https://www.tap.company/websiteImages/blocks/api-1.png",
+      "hoverImage":"https://www.tap.company/websiteImages/blocks/api-2.png"
+    }
+	}
+]

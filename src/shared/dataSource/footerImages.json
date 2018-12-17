@@ -1,0 +1,15 @@
+{
+	"appsStores":[
+				"https://www.tap.company/websiteImages/footerImages/ios-black.svg",
+				"https://www.tap.company/websiteImages/footerImages/google-play-badge.svg"
+				],
+	"paymnetMethods":[
+				"https://www.tap.company/websiteImages/footerImages/all-payment-gray-NFC.svg"
+				],
+	"securityMethods":[
+				"https://www.tap.company/websiteImages/footerImages/Thawte-logo.svg",
+				"https://www.tap.company/websiteImages/footerImages/Mastercard-Secure.svg",
+				"https://www.tap.company/websiteImages/footerImages/Verified-Visa.svg",
+				"https://www.tap.company/websiteImages/footerImages/amex-SafeKey.svg"
+	]
+}

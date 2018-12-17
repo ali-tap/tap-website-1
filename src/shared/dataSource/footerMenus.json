@@ -1,0 +1,132 @@
+[
+	{
+		"title":
+		{
+			"en":"For Users",
+			"ar":"للمستخدم"
+		},
+		"items":
+		[
+			{
+				"type":"product",
+				"title":{
+					"en":"Pay",
+					"ar":"دفع"
+				},
+				"slot":"pay",
+				"link":"/pay"
+			}
+		]
+	},
+	{
+		"title":
+		{
+			"en":"For Business",
+			"ar":"للمتاجر وأصحاب الأعمال"
+		},
+		"items":
+		[
+			{
+				"type":"product",
+				"title":{
+					"en":"Sell",
+					"ar":"بيع"
+				},
+				"slot":"sell",
+				"link":"/sell"
+			},
+			{
+				"type":"product",
+				"title":{
+					"en":"Collect",
+					"ar":"تحصيل"
+				},
+				"slot":"collect",
+				"link":"/collect"
+			}
+		]
+	},
+	{
+		"title":
+		{
+			"en":"For Developers",
+			"ar":"للمطورين"
+		},
+		"items":
+		[
+			{
+				"type":"page",
+				"title":{
+					"en":"eCommerce",
+					"ar":"التجارة الالكترونية"
+				},
+				"slot":"api",
+				"link":"/api"
+			},
+			{
+				"type":"page",
+				"title":{
+					"en":"Documentation",
+					"ar":"دليل المبرمجين"
+				},
+				"slot":"developers",
+				"link":"/developers"
+			}
+		]
+	},
+  {
+		"title":
+		{
+			"en":"About Tap",
+			"ar":"عن تاپ"
+		},
+		"items":
+		[
+			{
+				"type":"page",
+				"title":{
+					"en":"Press Info",
+					"ar":"معلومات صحفية"
+				},
+				"link":"/"
+			},
+			{
+				"type":"page",
+				"title":{
+					"en":"Our Story",
+					"ar":"قصتنا"
+				},
+				"slot":"about",
+				"link":"/about"
+			},
+			{
+				"type":"page",
+				"title":{
+					"en":"Jobs",
+					"ar":"التوظيف"
+				},
+				"slot":"jobs",
+				"link":"/jobs"
+			}
+		]
+	},
+	{
+		"title":
+		{
+			"en":"Help",
+			"ar":"للمساعدة"
+		},
+		"items":
+		[
+			{
+				"type":"page",
+				"title":{
+					"en":"Support",
+					"ar":"إتصل بنا"
+				},
+				"slot":"jobs",
+				"link":"/support"
+			}
+		]
+	}
+]
