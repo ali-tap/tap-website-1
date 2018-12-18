@@ -130,7 +130,6 @@ class App extends Component {
   }
 
   render() {
-    console.log('anytime');
     return (
       <div className='App' dir={preferencesStore.language==='ar'?'rtl':'ltr'}>
       <Intercom appID="raqrpxm0" user={preferencesStore.intercomUser}/>

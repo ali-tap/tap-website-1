@@ -48,7 +48,7 @@ countries.map(country=>{
           {
             path: '/'+country.country_code.toLowerCase()+'/'+language.slot+'/'+page.slot,
             exact: true,
-            component: page.slot==='support'?SupportPage:page.slot==='api'?APIPage:page.slot==='about'?AboutPage:page.slot==='jobs'?JobsPage:page.slot==='developers'?IframePage:page.slot==='activate-payment'?ActivatePayment:page.slot==='terms-conditions'?PoliciesPage:null,
+            component: page.slot==='support'?SupportPage:page.slot==='api'?APIPage:page.slot==='about'?AboutPage:page.slot==='jobs'?JobsPage:page.slot==='developers'?IframePage:page.slot==='activate-payment'?ActivatePayment:page.slot==='terms-conditions'||'privacy-policy'?PoliciesPage:null,
             metaTag: getMetaTag(page.slot, '/'+country.country_code.toLowerCase()+'/'+language.slot+'/'+page.slot),
             compProps: {
               country: country.country_code.toLowerCase(),

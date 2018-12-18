@@ -52,7 +52,6 @@ class ProductPage extends Component {
   }
 
   includebreaks(text){
-
       return text.split("\n").map((text,key)=><span key={key}>{text}<br/></span>);
   }
 

@@ -104,6 +104,9 @@ class UserPreferencesStore {
       arr.map(obj => {if(obj.content) {
         obj.content.map(obj => {if(obj.title&&obj.title[this.language]) {obj.title = obj.title[this.language]?obj.title[this.language]:obj.title;} return null});
         obj.content.map(obj => {if(obj.paragraph&&obj.paragraph[this.language]) {obj.paragraph = obj.paragraph[this.language]?obj.paragraph[this.language]:obj.paragraph;} return null});
+        obj.content.map(obj => {if(obj.points) {
+          obj.points.map(point=> {if(point.paragraph&&point.paragraph[this.language]) {point.paragraph = point.paragraph[this.language]?point.paragraph[this.language]:point.paragraph;} return null} )
+        } return null});
       } })
 
       arr.map(obj => {if(obj.fields) {
