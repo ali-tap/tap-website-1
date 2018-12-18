@@ -542,11 +542,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -637,13 +637,13 @@ exports.default = Img;
 /* 4 */
 /***/ (function(module, exports) {
 
-module.exports = require("window-or-global");
+module.exports = require("react-router-dom");
 
 /***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-router-dom");
+module.exports = require("window-or-global");
 
 /***/ }),
 /* 6 */
@@ -815,6 +815,12 @@ module.exports = require("mobx-react");
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports) {
+
+module.exports = [{"page":"support","slot":"support","color":"#959595","bannerImage":"http://www.tap.company/websiteImages/pages/support/banner/support-main.svg","link":"/support","content":[{"title":{"en":"How can we help you?","ar":"كيف يمكننا مساعدتك؟"},"paragraph":{"en":"We’re absolutely here to help and we’re always very happy to hear\nany of your comments, suggestions, or concerns regarding our service and our company.","ar":"نحن هنا للمساعدة ، وسعداء دائما لسماع تعليقاتك وآرائك بشأن الخدمات التي تقدمها شركتنا."}}]},{"page":"jobs","slot":"jobs","color":"#545454","bannerImage":"http://www.tap.company/websiteImages/pages/jobs/banner/jobs-main.png","link":"/jobs","intro":{"en":"Do you love Tap? Then you’ll fit right in.","ar":"هل تحب تاپ؟ حيّاك هذا مكانك."},"subIntro":{"en":"Tap is on a mission to change how businesses and consumers in the Middle East accept and make payments online. We’ve already helped hundreds of entrepreneurs and thousands of users create healthier businesses and easier transactions through Tap’s platforms and services. Every day, our hard work is spent helping others in our community build better businesses and live better lives.","ar":"لتطبيق تاپ مهمة واحدة هي تغيير النظرة السائدة في الشرق الأوسط لطرق الدفع عبر الإنترنت. لقد ساعدنا المئات لا بل الآلاف من المستخدمين وأصحاب الأعمال حتى الآن في إتمام العمليات المالية بسهولة وسلاسة عبر وسائل وخدمات تاپ. نحن نعمل بجهد كل يوم لبناء حياة أسهل لأفراد مجتمعنا ولنؤسس معهم أعمال أفضل."},"contentTitle":{"en":"Working at Tap means...","ar":"العمل في تاپ يعني..."},"content":[{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/team-icon.png","title":{"ar":"العمل ضمن فريق واحد","en":"As a team"},"paragraph":{"ar":"لأنّ طبيعة عملنا اليومية تفرض علينا الكثير من التحديات، نحن في فريق عمل تاپ نجتهد كل يوم لمواجهة هذه التحديات وتحقيق أفضل النتائج… ولكن لا مشكلة في فنجان قهوة مع الفريق في ظل هذه الزحمة.","en":"Because of the daily nature of payments, every day brings new challenges for the Tap Team, and every day we work together to meet those challenges. At Tap, we keep the coffee running and the teamwork buzzing."}},{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/creative-icon.png","title":{"ar":"في طاقمنا .. عقول مبدعة","en":"With creative people"},"paragraph":{"ar":"يقوم نصف طاقم عملنا بالعمل مع المستهلكين ومساعدة العملاء وأصحاب العمل وعلى إيجاد طرق جديدة وسهلة للتواصل مع العالم فيما يقوم النصف الآخر في تحسين خبرة تاپ وبنائها وتصميمها لجعلها وسيلة دفع متطوّرة ومتقدّمة أكثر من أي وقت مضى. ومع كلا القسمين، نستخدم الإبداع والمرح وحب الاكتشاف كوسيلة لتوليد مزيد من العمل الجيّد لبناء شركة نفتخر بها تحوز على ثقة العملاء.","en":"Half of the Tap Team works with the Tap community—helping consumers, helping business owners, and exploring new and exciting ways to connect with the world. The other half works on refining the Tap experience—building, designing, and making Tap an even greater payment tool than ever before. On both sides of the team, we all use our creativity and our joy of discovery to build an organization that our customers love and that we can all be proud of."}},{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/purpose-icon.png","title":{"ar":"نعمل لهدف","en":"For a purpose"},"paragraph":{"ar":"تنمية الكويت ودول الخليج العربي وتطويرها أحد أهم قيمنا وأكثرها تحدياً – فنحن لا نكتفي بتسويق شركتنا بل بجعل منطقتنا مكاناً فعالاً ينبض بالحيوية والإنتاجية. لذا فإن كل طاقة يبذلها كل موظف لدينا ستترك أثراً إيجابياً في المجتمع من حولنا وفي مسيرته المهنية على حد سواء.","en":"We put our values of making Kuwait and the Gulf a more innovative, daring, and productive place at the heart of how we operate as an organization—not just how we market ourselves. The time and energy you spend with Tap will go towards making a positive impact both on your own career and on the society around you."}}],"subImage":"http://www.tap.company/websiteImages/pages/jobs/banner/Jobs-sub-image.png","subImageContent":{"title":{"ar":"تشعر بأنك من هذا الفريق؟","en":"Sound like your kind of team?"},"paragraph":{"ar":"نحن في تاپ نتعامل مع كل شيء بإبداع وحرفية—\nفإذا كنت تعتمد الطريقة نفسها في عملك، سيسعدنا جداً أن نسمع منك.","en":"At Tap, we approach everything we do thoughtfully and creatively—\nif you feel the same way about your own work, we’d love to hear from you."},"buttonText":{"ar":"شارك في تاپ","en":"Join Tap"}}},{"page":"about","slot":"about","color":"#959595","bannerImage":"https://www.tap.company/websiteImages/pages/about/banner/about-main.jpg","link":"/about","intro":{"en":"Managing your money is no small task, after all.","ar":"إدارة مصاريفك ليست أمراً سهلاً في نهاية المطاف."},"subIntro":{"en":"But just because we all have to manage our money that doesn’t mean we all necessarily like managing our money… and it doesn’t mean that we’re always the best at it, either. And yet, as business owners and regular consumers alike, we all have to deal with the maddening work of managing our money—every single day, no matter what. You’re probably asking yourself the same questions we were. Isn’t that why we have technology? Weren’t we supposed to be living better and better… not more and more stressed out?","ar":"جميعنا مضطرون لإدارة مصاريفنا وحساباتنا بشكل يومي سواء كّنا مستهلكين أو أصحاب أعمال. ولا يعني قيامنا بذلك يومياً أنّنا سعداء بهذه المهمة، ولكنه أمر لا بدّ منه على الرغم من عدم نجاحنا بذلك في أغلب الأوقات.. ولعلّك تسأل نفسك الآن… لماذا كل ذلك؟ ألم توجد التكنولوجيا لجعل حياتنا أبسط وأكثر سهولة وأقل توتراً؟"},"content":[{"title":{"en":"The Beginning","ar":"البداية"},"paragraph":{"en":"That’s exactly where Tap founders found themselves, once upon a time in the year 2014. Or rather, that’s where they found most Middle Eastern business owners and consumers. They found that, for the world’s leading population of young, wealthy, online savvy, technologically advanced users to still have problems buying and selling things online in their part of the world… Something wasn’t clicking. We live in a world where we didn’t have to deal with drawn out set-up procedures, complicated systems, or inflexible payment methods anymore… but somehow we still were.\n\nWe knew there was a better way. And that way was Tap. So, Tap was born in May 2013, in Kuwait—and with it a whole new era of doing business online in the Middle East. Now businesses could finally bill, accept, receive, and make payments online… easier, faster, and smoother than ever before. Payment clearances that used to take days and weeks to setup, now took just a few hours. Integrating local businesses with the global e-commerce platforms became a real possibility.\n\nNow that Tap is around, managing money—and managing it well—became a whole lot cooler.","ar":"أمام هذا السؤال، وجد مؤسسوا تاپ أنفسهم بلا إجابة وكان ذلك بداية لتأسيس تاپ عام 2014. فقد لاحظا أن معظم أصحاب الأعمال والمستهلكين في منطقة الشرق الأوسط يعانون من هذه المسألة. وعلى الرغم من أن مجتمعاتنا مليئة بالشباب الشغوفين بالتكنولوجيا والإنترنت، ما زالت عمليات البيع والشراء الإلكترونية متأخّرة ومن هنا راودتهما هذه الفكرة الجديدة. فنحن نعيش في ظل عالم متقدّم يوفّر علينا عناء الأنظمة والإجراءات المعقّدة ، أو طرق الدفع غير المرنة، لكننا رغم ذلك ما زلنا بعيدين عن تطبيق هذا التقدّم على أرض الواقع. لذلك سعى علي ومحمد إلى إيجاد طريقة أفضل. فكانت تاپ. ولدت تاپ في مايو 2013 في الكويت مشكلة انطلاقة مرحلة جديدة للأعمال عبر الإنترنت في منطقة الشرق الأوسط. حيث بات بإمكان أصحاب الأعمال إعداد الفواتير، قبول المدفوعات، استلام وإجراء العمليات المالية إلكترونياً بسهولة وسرعة وطريقة أكثر سلاسة من قبل وباتت إجراءات الحصول على براءة ذمّة مثلا تتم في خلال عدة ساعات بعد أن كانت تتطلب أياما أو أسابيع وأصبح دمج الأعمال المحلية بنظام العمليات المصرفية العالمة حقيقة ممكنة أصبحت إدارة الأموال بطريقة صحيحة عملية أكثر سهولة ومرحاً مع تاپ الآن."}},{"title":{"en":"Fast forward to present day","ar":"تطوّر سريع ونمو متواصل"},"paragraph":{"en":"Tap now supports over 1000 businesses and major corporations (many of which we’re honored to say you’re familiar with) and has had a (digital!) hand in securing tens of thousands of transactions easily and efficiently for consumers all around the world.\n\nWe’re happily based in Kuwait where our caffeine-fueled team is working day-in, day-out on one really big mission:","ar":"يدعم تطبيق تاپ اليوم أكثر من 100 مؤسسة وشركة رئيسية (ممن نفتخر بالتعامل معهم) وقد نجح في تقديم مساعدته الرقمية في حماية الآلاف من العمليات المصرفية لعدد من العملاء حول العالم بسهولة وفعالية.\nنحن سعداء بانطلاقتنا من الكويت حيث مركزنا وطاقمنا الشغوف الذي يعمل بجهد متواصل على تنفيذ مهمتنا الضخمة:"}}],"subImage":"https://www.tap.company/websiteImages/pages/about/banner/about-sub-image.jpg","subImageContent":{"title":{"ar":"حياتك أسهل وأعمالك أقوى","en":"Making your life easier and your business stronger"}},"conclusion":{"en":"If you’re running a business of any kind and need a simple, powerful way to start selling online and accept payments using goSell\\sell and the possibility to bill clients and collect online payments using goCollect\\collect , Tap was built specifically for you.\n\nAt Tap, our greatest goal is serving our clients, our users, and our community every single day. We believe in thinking differently and doing whatever it takes to get to “yes.” Our job is turn roadblocks into opportunities, both in business and in life. In everything we do we strive to be excellent, to over-deliver, and to leave those we impact with the belief that they can do and be more than they ever thought possible.","ar":"تدير مؤسسة وترغب بنظام مالي بسيط وقوي يساعدك على بيع منتجاتك وإعداد فواتيرك إلكترونياً. goSell\\sell و goCollect\\collect صمّم خصيصاً لتلبية احتياجاتك.\n\nفي تاپ، أهم أهدافنا هو خدمة عملائنا، ومستخدمينا ومجتمعنا كل يوم. نحن نؤمن بالتفكير بطريقة مختلفة ونبذل كل ما في وسعنا لنحقّق ما نطمح إليه . وظيفتنا تحويل العقبات إلى فرص جديدة في الحياة وفي الأعمال. نحن نسعى إلى الأفضل دائماً، وإلى تقديم المزيد وترك أثر وثقة لدى كل عملائنا بأنّ كل شيء ممكن."}},{"page":"api","slot":"api","brandingColor":"#f4dc00","color":"#ffc72d","bannerImage":"https://www.tap.company/websiteImages/pages/api/banner/API-main-image.svg","block":{"title":"api","subtitle":{"en":"for developers","ar":"للمطورين"},"image":"https://www.tap.company/websiteImages/blocks/api-1.png","hoverImage":"https://www.tap.company/websiteImages/blocks/api-2.png"},"callToAction":{"title":{"en":"Start Integrating","ar":"ابدأ الدمج"},"paragraph":{"en":"custom e-payment experience, from start to finish.","ar":"تجربة دفع إلكتروني سهلة وسريعة"},"shortTitle":{"en":"Ready to start building?","ar":"هل أنت جاهز للبدء؟"},"shortParagraph":{"en":"Add Tap’s API to your system in minutes!","ar":"دمج سهل وسريع!"},"buttonText":{"en":"Get Started","ar":"ابدأ الآن"},"buttonLink":"/developers","image":"https://www.tap.company/websiteImages/pages/api/icons/api-documentation.png"},"link":"/api","features":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/build-icon.png","title":{"ar":"إنشاء","en":"Build"},"paragraph":{"ar":"ابدأ بإنشاء الموقع أو التطبيق الخاص بمشروعك.","en":"Maximize the value of Tap for your business, construct a payment framework that fits your unique needs."}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/connect-icon.png","title":{"ar":"دمج","en":"Connect"},"paragraph":{"ar":"قم بالربط مع تاپ وانضم لأكثر من 1000 مشروع نشط يومياً.","en":"Making it easy to connect businesses with customers, use our API functionality to reach out in your own way."}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/delight-icon.png","title":{"ar":"تجربة ممتعة","en":"Delight"},"paragraph":{"ar":"وفّر تجربة رائعة لعملائك من خلال بوابة تاپ للدفع الإلكتروني.","en":"Use Tap’s full-featured API to create an experience that your customers will love and remember you by."}}],"statisticsTitle":{"ar":"لمحة عن API تاپ","en":"Access the full power of Tap"},"statistics":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-integration.png","countTo":1001,"finalText":{"en":"1001+","ar":"1,001"},"description":{"ar":"عملية دمج","en":"World-class integrations"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-transaction.png","countTo":1000000000,"finalText":{"en":"1M+","ar":"أكثر من مليون"},"description":{"ar":"عمليّة تحويل","en":"Successful transactions"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-country.png","countTo":7,"finalText":{"en":"7","ar":"7"},"description":{"ar":"دول","en":"Available countries"}}],"title":{"ar":"ابدأ بالتطوير مع تاپ","en":"Feature rich"},"paragraph":{"ar":"كل ما تحتاجه لتقديم تجربة دفع إلكتروني رائعة.","en":"Everything you need to build the perfect payment experience: you name it, we’ve got it."},"apiFeatures":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Payment-requests.png","title":{"ar":"طلب\nالدفع","en":"Track\nPayments"},"subtitle":{"ar":"وجه زبائنك لبوابة الدفع الإلكتروني الخاصة بتاپ","en":"Direct your payments seamlessly"},"description":{"ar":"يحتاج صاحب العمل لتوفير تفاصيل طلب الدفع، لتقوم تاپ بإرسال رابط الدفع.","en":"Got a custom sales process in mind? Tap’s got your back. All you have to do is submit your Payment Request parameter details to Tap for verification, and we’ll set you up with everything you need to direct your payment requests to the Tap gateway."},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Track-payments.png","title":{"ar":"تتبّع\nالدفع","en":"Track\nPayments"},"subtitle":{"ar":"تتبع حالة مدفوعاتك أصبح أكثر سهولة!","en":"See your payment status in real-time"},"description":{"ar":"قم بتتبّع ومراقبة حالة طلب الدفع الذي أنشأته.","en":"Looking for more control over your payment cycle? Our Create a Payment API allows you to include a tracking feature to help you see your payment status changes as they happen."},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Refund.png","title":{"ar":"إرجاع\nالمدفوعات","en":"Painless\nRefund"},"subtitle":{"ar":"إرجاع القيمة المدفوعة إلى الزبون مرّة أخرى","en":"Super simple refund requests"},"description":{"ar":"إعادة المبلغ المدفوع إلى حساب العميل مرّة أخرى.","en":"Our API helps you make the refund process as easy and pain-free as possible through account-to-account refund requests. Just plug it in and watch the magic happen!"},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}}]},{"page":"developers","slot":"developers","color":"#959595","iframeSrc":"https://tappayments.api-docs.io/2.0"},{"page":"activate-payment","slot":"activate-payment"},{"page":"terms-conditions","slot":"terms-conditions","title":{"en":"Terms and Conditions","ar":"Terms and Conditions"},"content":[{"title":{"en":"Ownership of Site; Agreement to Terms of Use","ar":"Ownership of Site; Agreement to Terms of Use"},"paragraph":{"en":"These Terms and Conditions of Use (the “Terms of Use”) apply to the Tap web site located at www.gotapnow.com, and all associated sites linked to www.gotapnow.com by Tap, its subsidiaries and affiliates. The Site is the property of Tap Payments (“Tap”) and its licensors. BY USING THE SITE, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE THE SITE.\nTap reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the Site following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, Tap grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site.","ar":"These Terms and Conditions of Use (the “Terms of Use”) apply to the Tap web site located at www.gotapnow.com, and all associated sites linked to www.gotapnow.com by Tap, its subsidiaries and affiliates. The Site is the property of Tap Payments (“Tap”) and its licensors. BY USING THE SITE, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE THE SITE.\nTap reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the Site following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, Tap grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site."}},{"title":{"en":"Content","ar":"Content"},"paragraph":{"en":"All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork and computer code (collectively, 'Content'), including but not limited to the design, structure, selection, coordination, expression, 'look and feel' and arrangement of such Content, contained on the Site is owned, controlled or licensed by or to Apple, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws.\nExcept as expressly provided in these Terms of Use, no part of the Site and no Content may be copied, reproduced, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including 'mirroring') to any other computer, server, Web site or other medium for publication or distribution or for any commercial enterprise, without Tap's express prior written consent. You may use information on Tap services (such as data sheets, knowledge base articles, and similar materials) purposely made available by Tap for downloading from the Site, provided that you (1) not remove any proprietary notice language in all copies of such documents, (2) use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media, (3) make no modifications to any such information, and (4) not make any additional representations or warranties relating to such documents.","ar":"All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork and computer code (collectively, 'Content'), including but not limited to the design, structure, selection, coordination, expression, 'look and feel' and arrangement of such Content, contained on the Site is owned, controlled or licensed by or to Apple, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws.\nExcept as expressly provided in these Terms of Use, no part of the Site and no Content may be copied, reproduced, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including 'mirroring') to any other computer, server, Web site or other medium for publication or distribution or for any commercial enterprise, without Tap's express prior written consent. You may use information on Tap services (such as data sheets, knowledge base articles, and similar materials) purposely made available by Tap for downloading from the Site, provided that you (1) not remove any proprietary notice language in all copies of such documents, (2) use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media, (3) make no modifications to any such information, and (4) not make any additional representations or warranties relating to such documents."}},{"title":{"en":"Your Use of the Site","ar":"Your Use of the Site"},"paragraph":{"en":"You may not use any “deep-link”, “page-scrape”, “robot”, “spider” or other automatic device, program, algorithm or methodology, or any similar or equivalent manual process, to access, acquire, copy or monitor any portion of the Site or any Content, or in any way reproduce or circumvent the navigational structure or presentation of the Site or any Content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Site. Tap reserves the right to bar any such activity.\nYou may not attempt to gain unauthorized access to any portion or feature of the Site, or any other systems or networks connected to the Site or to any Tap server, or to any of the services offered on or through the Site, by hacking, password “mining” or any other illegitimate means.\nYou may not probe, scan or test the vulnerability of the Site or any network connected to the Site, nor breach the security or authentication measures on the Site or any network connected to the Site. You may not reverse look-up, trace or seek to trace any information on any other user of or visitor to the Site, or any other customer of Tap, including any Tap account not owned by you, to its source, or exploit the Site or any service or information made available or offered by or through the Site, in any way where the purpose is to reveal any information, including but not limited to personal identification or information, other than your own information, as provided for by the Site. You agree that you will not take any action that imposes an unreasonable or disproportionately large load on the infrastructure of the Site or Tap’s systems or networks, or any systems or networks connected to the Site or to Tap.\nYou agree not to use any device, software or routine to interfere or attempt to interfere with the proper working of the Site or any transaction being conducted on the Site, or with any other person’s use of the Site. You may not forge headers or otherwise manipulate identifiers in order to disguise the origin of any message or transmittal you send to Apple on or through the Site or any service offered on or through the Site. You may not pretend that you are, or that you represent, someone else, or impersonate any other individual or entity.\nYou may not use the Site or any Content for any purpose that is unlawful or prohibited by these Terms of Use, or to solicit the performance of any illegal activity or other activity which infringes the rights of Tap or others.","ar":"You may not use any “deep-link”, “page-scrape”, “robot”, “spider” or other automatic device, program, algorithm or methodology, or any similar or equivalent manual process, to access, acquire, copy or monitor any portion of the Site or any Content, or in any way reproduce or circumvent the navigational structure or presentation of the Site or any Content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Site. Tap reserves the right to bar any such activity.\nYou may not attempt to gain unauthorized access to any portion or feature of the Site, or any other systems or networks connected to the Site or to any Tap server, or to any of the services offered on or through the Site, by hacking, password “mining” or any other illegitimate means.\nYou may not probe, scan or test the vulnerability of the Site or any network connected to the Site, nor breach the security or authentication measures on the Site or any network connected to the Site. You may not reverse look-up, trace or seek to trace any information on any other user of or visitor to the Site, or any other customer of Tap, including any Tap account not owned by you, to its source, or exploit the Site or any service or information made available or offered by or through the Site, in any way where the purpose is to reveal any information, including but not limited to personal identification or information, other than your own information, as provided for by the Site. You agree that you will not take any action that imposes an unreasonable or disproportionately large load on the infrastructure of the Site or Tap’s systems or networks, or any systems or networks connected to the Site or to Tap.\nYou agree not to use any device, software or routine to interfere or attempt to interfere with the proper working of the Site or any transaction being conducted on the Site, or with any other person’s use of the Site. You may not forge headers or otherwise manipulate identifiers in order to disguise the origin of any message or transmittal you send to Apple on or through the Site or any service offered on or through the Site. You may not pretend that you are, or that you represent, someone else, or impersonate any other individual or entity.\nYou may not use the Site or any Content for any purpose that is unlawful or prohibited by these Terms of Use, or to solicit the performance of any illegal activity or other activity which infringes the rights of Tap or others."}},{"title":{"en":"Purchases; Other Terms and Conditions","ar":"Purchases; Other Terms and Conditions"},"paragraph":{"en":"Additional terms and conditions may apply to purchases of services and to specific portions or features of the Site, including contests, promotions or other similar features, all of which terms are made a part of these Terms of Use by this reference. You agree to abide by such other terms and conditions, including where applicable representing that you are of sufficient legal age to use or participate in such service or feature. If there is a conflict between these Terms of Use and the terms posted for or applicable to a specific portion of the Site or for any service offered on or through the Site, the latter terms shall control with respect to your use of that portion of the Site or the specific service.\nTap’s obligations, if any, with regard to its products and services are governed solely by the agreements pursuant to which they are provided, and nothing on this Site should be construed to alter such agreements. Tap may make changes to any products or services offered on the Site, or to the applicable prices for any such products or services, at any time, without notice. The materials on the Site with respect to products and services may be out of date, and Tap makes no commitment to update the materials on the Site with respect to such products and services.","ar":"Additional terms and conditions may apply to purchases of services and to specific portions or features of the Site, including contests, promotions or other similar features, all of which terms are made a part of these Terms of Use by this reference. You agree to abide by such other terms and conditions, including where applicable representing that you are of sufficient legal age to use or participate in such service or feature. If there is a conflict between these Terms of Use and the terms posted for or applicable to a specific portion of the Site or for any service offered on or through the Site, the latter terms shall control with respect to your use of that portion of the Site or the specific service.\nTap’s obligations, if any, with regard to its products and services are governed solely by the agreements pursuant to which they are provided, and nothing on this Site should be construed to alter such agreements. Tap may make changes to any products or services offered on the Site, or to the applicable prices for any such products or services, at any time, without notice. The materials on the Site with respect to products and services may be out of date, and Tap makes no commitment to update the materials on the Site with respect to such products and services."}},{"title":{"en":"Purchases; Other Terms and Conditions","ar":"Purchases; Other Terms and Conditions"},"paragraph":{"en":"Additional terms and conditions may apply to purchases of services and to specific portions or features of the Site, including contests, promotions or other similar features, all of which terms are made a part of these Terms of Use by this reference. You agree to abide by such other terms and conditions, including where applicable representing that you are of sufficient legal age to use or participate in such service or feature. If there is a conflict between these Terms of Use and the terms posted for or applicable to a specific portion of the Site or for any service offered on or through the Site, the latter terms shall control with respect to your use of that portion of the Site or the specific service.\nTap’s obligations, if any, with regard to its products and services are governed solely by the agreements pursuant to which they are provided, and nothing on this Site should be construed to alter such agreements. Tap may make changes to any products or services offered on the Site, or to the applicable prices for any such products or services, at any time, without notice. The materials on the Site with respect to products and services may be out of date, and Tap makes no commitment to update the materials on the Site with respect to such products and services.","ar":"Additional terms and conditions may apply to purchases of services and to specific portions or features of the Site, including contests, promotions or other similar features, all of which terms are made a part of these Terms of Use by this reference. You agree to abide by such other terms and conditions, including where applicable representing that you are of sufficient legal age to use or participate in such service or feature. If there is a conflict between these Terms of Use and the terms posted for or applicable to a specific portion of the Site or for any service offered on or through the Site, the latter terms shall control with respect to your use of that portion of the Site or the specific service.\nTap’s obligations, if any, with regard to its products and services are governed solely by the agreements pursuant to which they are provided, and nothing on this Site should be construed to alter such agreements. Tap may make changes to any products or services offered on the Site, or to the applicable prices for any such products or services, at any time, without notice. The materials on the Site with respect to products and services may be out of date, and Tap makes no commitment to update the materials on the Site with respect to such products and services."}},{"title":{"en":"Accounts, Passwords and Security","ar":"Accounts, Passwords and Security"},"paragraph":{"en":"Certain features or services offered on or through the Site may require you to open an account. You are entirely responsible for maintaining the confidentiality of the information you hold for your account, including your password, and for any and all activity that occurs under your account as a result of your failing to keep this information secure and confidential. You agree to notify Tap immediately of any unauthorized use of your account or password, or any other breach of security. You may be held liable for losses incurred by Tap or any other user of or visitor to the Site due to someone else using your, password or account as a result of your failing to keep your account information secure and confidential.","ar":"Certain features or services offered on or through the Site may require you to open an account. You are entirely responsible for maintaining the confidentiality of the information you hold for your account, including your password, and for any and all activity that occurs under your account as a result of your failing to keep this information secure and confidential. You agree to notify Tap immediately of any unauthorized use of your account or password, or any other breach of security. You may be held liable for losses incurred by Tap or any other user of or visitor to the Site due to someone else using your, password or account as a result of your failing to keep your account information secure and confidential."}},{"title":{"en":"Privacy","ar":"Privacy"},"paragraph":{"en":"Tap’s Privacy Policy applies to use of this Site, and its terms are made a part of these Terms of Use by this reference. To view Tap’s Privacy Policy, click here. Additionally, by using the Site, you acknowledge and agree that Internet transmissions are never completely private or secure. You understand that any message or information you send to the Site may be read or intercepted by others, even if there is a special notice that a particular transmission (for example, credit card information) is encrypted.","ar":"Tap’s Privacy Policy applies to use of this Site, and its terms are made a part of these Terms of Use by this reference. To view Tap’s Privacy Policy, click here. Additionally, by using the Site, you acknowledge and agree that Internet transmissions are never completely private or secure. You understand that any message or information you send to the Site may be read or intercepted by others, even if there is a special notice that a particular transmission (for example, credit card information) is encrypted."}},{"title":{"en":"Links to Other Sites and to the Apple Site","ar":"Links to Other Sites and to the Apple Site"},"paragraph":{"en":"This Site may contain links to other independent third-party Web sites (“Linked Sites”). These Linked Sites are provided solely as a convenience to our visitors. Such Linked Sites are not under Tap’s control, and Tap is not responsible for and does not endorse the content of such Linked Sites, including any information or materials contained on such Linked Sites. You will need to make your own independent judgment regarding your interaction with these Linked Sites.","ar":"This Site may contain links to other independent third-party Web sites (“Linked Sites”). These Linked Sites are provided solely as a convenience to our visitors. Such Linked Sites are not under Tap’s control, and Tap is not responsible for and does not endorse the content of such Linked Sites, including any information or materials contained on such Linked Sites. You will need to make your own independent judgment regarding your interaction with these Linked Sites."}},{"title":{"en":"Disclaimers","ar":"Disclaimers"},"paragraph":{"en":"TAP DOES NOT PROMISE THAT THE SITE OR ANY CONTENT, SERVICE OR FEATURE OF THE SITE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT ANY DEFECTS WILL BE CORRECTED, OR THAT YOUR USE OF THE SITE WILL PROVIDE SPECIFIC RESULTS. THE SITE AND ITS CONTENT ARE DELIVERED ON AN “AS-IS” AND “AS-AVAILABLE” BASIS. ALL INFORMATION PROVIDED ON THE SITE IS SUBJECT TO CHANGE WITHOUT NOTICE. TAP CANNOT ENSURE THAT ANY FILES OR OTHER DATA YOU DOWNLOAD FROM THE SITE WILL BE FREE OF VIRUSES OR CONTAMINATION OR DESTRUCTIVE FEATURES. TAP DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF ACCURACY, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. TAP DISCLAIMS ANY AND ALL LIABILITY FOR THE ACTS, OMISSIONS AND CONDUCT OF ANY THIRD PARTIES IN CONNECTION WITH OR RELATED TO YOUR USE OF THE SITE AND/OR ANY TAP SERVICES. YOU ASSUME TOTAL RESPONSIBILITY FOR YOUR USE OF THE SITE AND ANY LINKED SITES. YOUR SOLE REMEDY AGAINST TAP FOR DISSATISFACTION WITH THE SITE OR ANY CONTENT IS TO STOP USING THE SITE OR ANY SUCH CONTENT. THIS LIMITATION OF RELIEF IS A PART OF THE BARGAIN BETWEEN THE PARTIES.\nThe above disclaimer applies to any damages, liability or injuries caused by any failure of performance, error, omission, interruption, deletion, defect, delay in operation or transmission, computer virus, communication line failure, theft or destruction of or unauthorized access to, alteration of, or use, whether for breach of contract, tort, negligence or any other cause of action. Tap reserves the right to do any of the following, at any time, without notice: (1) to modify, suspend or terminate operation of or access to the Site, or any portion of the Site, for any reason; (2) to modify or change the Site, or any portion of the Site, and any applicable policies or terms; and (3) to interrupt the operation of the Site, or any portion of the Site, as necessary to perform routine or non-routine maintenance, error correction, or other changes.","ar":"TAP DOES NOT PROMISE THAT THE SITE OR ANY CONTENT, SERVICE OR FEATURE OF THE SITE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT ANY DEFECTS WILL BE CORRECTED, OR THAT YOUR USE OF THE SITE WILL PROVIDE SPECIFIC RESULTS. THE SITE AND ITS CONTENT ARE DELIVERED ON AN “AS-IS” AND “AS-AVAILABLE” BASIS. ALL INFORMATION PROVIDED ON THE SITE IS SUBJECT TO CHANGE WITHOUT NOTICE. TAP CANNOT ENSURE THAT ANY FILES OR OTHER DATA YOU DOWNLOAD FROM THE SITE WILL BE FREE OF VIRUSES OR CONTAMINATION OR DESTRUCTIVE FEATURES. TAP DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF ACCURACY, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. TAP DISCLAIMS ANY AND ALL LIABILITY FOR THE ACTS, OMISSIONS AND CONDUCT OF ANY THIRD PARTIES IN CONNECTION WITH OR RELATED TO YOUR USE OF THE SITE AND/OR ANY TAP SERVICES. YOU ASSUME TOTAL RESPONSIBILITY FOR YOUR USE OF THE SITE AND ANY LINKED SITES. YOUR SOLE REMEDY AGAINST TAP FOR DISSATISFACTION WITH THE SITE OR ANY CONTENT IS TO STOP USING THE SITE OR ANY SUCH CONTENT. THIS LIMITATION OF RELIEF IS A PART OF THE BARGAIN BETWEEN THE PARTIES.\nThe above disclaimer applies to any damages, liability or injuries caused by any failure of performance, error, omission, interruption, deletion, defect, delay in operation or transmission, computer virus, communication line failure, theft or destruction of or unauthorized access to, alteration of, or use, whether for breach of contract, tort, negligence or any other cause of action. Tap reserves the right to do any of the following, at any time, without notice: (1) to modify, suspend or terminate operation of or access to the Site, or any portion of the Site, for any reason; (2) to modify or change the Site, or any portion of the Site, and any applicable policies or terms; and (3) to interrupt the operation of the Site, or any portion of the Site, as necessary to perform routine or non-routine maintenance, error correction, or other changes."}},{"title":{"en":"Limitation of Liability","ar":"Limitation of Liability"},"type":"warning","paragraph":{"en":"Except where prohibited by law, in no event will Tap be liable to you for any indirect, consequential, exemplary, incidental or punitive damages, including lost profits, even if Apple has been advised of the possibility of such damages.\nIf, notwithstanding the other provisions of these Terms of Use, Tap is found to be liable to you for any damage or loss which arises out of or is in any way connected with your use of the Site or any Content, Tap’s liability shall in no event exceed the greater of (1) the total of any subscription or similar fees with respect to any service or feature of or on the Site paid in the six months prior to the date of the initial claim made against Tap (but not including the purchase price for any Tap hardware or software products or any AppleCare or similar support program), or (2) US$100.00. Some jurisdictions do not allow limitations of liability, so the foregoing limitation may not apply to you.","ar":"Except where prohibited by law, in no event will Tap be liable to you for any indirect, consequential, exemplary, incidental or punitive damages, including lost profits, even if Apple has been advised of the possibility of such damages.\nIf, notwithstanding the other provisions of these Terms of Use, Tap is found to be liable to you for any damage or loss which arises out of or is in any way connected with your use of the Site or any Content, Tap’s liability shall in no event exceed the greater of (1) the total of any subscription or similar fees with respect to any service or feature of or on the Site paid in the six months prior to the date of the initial claim made against Tap (but not including the purchase price for any Tap hardware or software products or any AppleCare or similar support program), or (2) US$100.00. Some jurisdictions do not allow limitations of liability, so the foregoing limitation may not apply to you."}},{"title":{"en":"Indemnity","ar":"Indemnity"},"type":"warning","paragraph":{"en":"You agree to indemnify and hold Tap, its officers, directors, shareholders, predecessors, successors in interest, employees, agents, subsidiaries and affiliates, harmless from any demands, loss, liability, claims or expenses (including attorneys’ fees), made against Tap by any third party due to or arising out of or in connection with your use of the Site.","ar":"You agree to indemnify and hold Tap, its officers, directors, shareholders, predecessors, successors in interest, employees, agents, subsidiaries and affiliates, harmless from any demands, loss, liability, claims or expenses (including attorneys’ fees), made against Tap by any third party due to or arising out of or in connection with your use of the Site."}},{"title":{"en":"Violation of These Terms of Use","ar":"Violation of These Terms of Use"},"paragraph":{"en":"Tap may disclose any information we have about you (including your identity) if we determine that such disclosure is necessary in connection with any investigation or complaint regarding your use of the Site, or to identify, contact or bring legal action against someone who may be causing injury to or interference with (either intentionally or unintentionally) Tap’s rights or property, or the rights or property of visitors to or users of the Site, including Tap’s customers. Tap reserves the right at all times to disclose any information that Tap deems necessary to comply with any applicable law, regulation, legal process or governmental request. Tap also may disclose your information when Tap determines that applicable law requires or permits such disclosure, including exchanging information with other companies and organizations for fraud protection purposes.\nYou acknowledge and agree that Tap may preserve any transmittal or communication by you with Apple through the Site or any service offered on or through the Site, and may also disclose such data if required to do so by law or Tap determines that such preservation or disclosure is reasonably necessary to (1) comply with legal process, (2) enforce these Terms of Use, (3) respond to claims that any such data violates the rights of others, or (4) protect the rights, property or personal safety of Tap, its employees, users of or visitors to the Site, and the public.\nYou agree that Tap may, in its sole discretion and without prior notice, terminate your access to the Site and/or block your future access to the Site if we determine that you have violated these Terms of Use or other agreements or guidelines which may be associated with your use of the Site. You also agree that any violation by you of these Terms of Use will constitute an unlawful and unfair business practice, and will cause irreparable harm to Tap, for which monetary damages would be inadequate, and you consent to Tap obtaining any injunctive or equitable relief that Apple deems necessary or appropriate in such circumstances. These remedies are in addition to any other remedies Tap may have at law or in equity.\nYou agree that Tap may, in its sole discretion and without prior notice, terminate your access to the Site, for cause, which includes (but is not limited to) (1) requests by law enforcement or other government agencies, (2) a request by you (self-initiated account deletions), (3) discontinuance or material modification of the Site or any service offered on or through the Site, or (4) unexpected technical issues or problems.\nIf Tap does take any legal action against you as a result of your violation of these Terms of Use, Tap will be entitled to recover from you, and you agree to pay, all reasonable attorneys’ fees and costs of such action, in addition to any other relief granted to Tap. You agree that Tap will not be liable to you or to any third party for termination of your access to the Site as a result of any violation of these Terms of Use.","ar":"Tap may disclose any information we have about you (including your identity) if we determine that such disclosure is necessary in connection with any investigation or complaint regarding your use of the Site, or to identify, contact or bring legal action against someone who may be causing injury to or interference with (either intentionally or unintentionally) Tap’s rights or property, or the rights or property of visitors to or users of the Site, including Tap’s customers. Tap reserves the right at all times to disclose any information that Tap deems necessary to comply with any applicable law, regulation, legal process or governmental request. Tap also may disclose your information when Tap determines that applicable law requires or permits such disclosure, including exchanging information with other companies and organizations for fraud protection purposes.\nYou acknowledge and agree that Tap may preserve any transmittal or communication by you with Apple through the Site or any service offered on or through the Site, and may also disclose such data if required to do so by law or Tap determines that such preservation or disclosure is reasonably necessary to (1) comply with legal process, (2) enforce these Terms of Use, (3) respond to claims that any such data violates the rights of others, or (4) protect the rights, property or personal safety of Tap, its employees, users of or visitors to the Site, and the public.\nYou agree that Tap may, in its sole discretion and without prior notice, terminate your access to the Site and/or block your future access to the Site if we determine that you have violated these Terms of Use or other agreements or guidelines which may be associated with your use of the Site. You also agree that any violation by you of these Terms of Use will constitute an unlawful and unfair business practice, and will cause irreparable harm to Tap, for which monetary damages would be inadequate, and you consent to Tap obtaining any injunctive or equitable relief that Apple deems necessary or appropriate in such circumstances. These remedies are in addition to any other remedies Tap may have at law or in equity.\nYou agree that Tap may, in its sole discretion and without prior notice, terminate your access to the Site, for cause, which includes (but is not limited to) (1) requests by law enforcement or other government agencies, (2) a request by you (self-initiated account deletions), (3) discontinuance or material modification of the Site or any service offered on or through the Site, or (4) unexpected technical issues or problems.\nIf Tap does take any legal action against you as a result of your violation of these Terms of Use, Tap will be entitled to recover from you, and you agree to pay, all reasonable attorneys’ fees and costs of such action, in addition to any other relief granted to Tap. You agree that Tap will not be liable to you or to any third party for termination of your access to the Site as a result of any violation of these Terms of Use."}},{"title":{"en":"Governing Law; Dispute Resolution","ar":"Governing Law; Dispute Resolution"},"type":"warning","paragraph":{"en":"You agree that all matters relating to your access to or use of the Site, including all disputes, will be governed by the laws of Kuwait. You agree to the personal jurisdiction by and venue in the state and federal courts in Santa Clara County, California, and waive any objection to such jurisdiction or venue. The preceding provision regarding venue does not apply if you are a consumer based in the European Union. If you are a consumer based in the European Union, you may make a claim in the courts of the country where you reside. Any claim under these Terms of Use must be brought within one (1) year after the cause of action arises, or such claim or cause of action is barred. Claims made under the separate terms and conditions of purchase for goods and services are not subject to this limitation. No recovery may be sought or received for damages other than out-of-pocket expenses, except that the prevailing party will be entitled to costs and attorneys’ fees. In the event of any controversy or dispute between Apple and you arising out of or in connection with your use of the Site, the parties shall attempt, promptly and in good faith, to resolve any such dispute. If we are unable to resolve any such dispute within a reasonable time (not to exceed thirty (30) days), then either party may submit such controversy or dispute to mediation. If the dispute cannot be resolved through mediation, then the parties shall be free to pursue any right or remedy available to them under applicable law.","ar":"You agree that all matters relating to your access to or use of the Site, including all disputes, will be governed by the laws of Kuwait. You agree to the personal jurisdiction by and venue in the state and federal courts in Santa Clara County, California, and waive any objection to such jurisdiction or venue. The preceding provision regarding venue does not apply if you are a consumer based in the European Union. If you are a consumer based in the European Union, you may make a claim in the courts of the country where you reside. Any claim under these Terms of Use must be brought within one (1) year after the cause of action arises, or such claim or cause of action is barred. Claims made under the separate terms and conditions of purchase for goods and services are not subject to this limitation. No recovery may be sought or received for damages other than out-of-pocket expenses, except that the prevailing party will be entitled to costs and attorneys’ fees. In the event of any controversy or dispute between Apple and you arising out of or in connection with your use of the Site, the parties shall attempt, promptly and in good faith, to resolve any such dispute. If we are unable to resolve any such dispute within a reasonable time (not to exceed thirty (30) days), then either party may submit such controversy or dispute to mediation. If the dispute cannot be resolved through mediation, then the parties shall be free to pursue any right or remedy available to them under applicable law."}},{"title":{"en":"Void Where Prohibited","ar":"Void Where Prohibited"},"paragraph":{"en":"Tap administers and operates the www.gotapnow.com Site from its location in Kuwait. Although the Site is accessible worldwide, not all features, products or services discussed, referenced, provided or offered through or on the Site are available to all persons or in all geographic locations, or appropriate or available for use outside Kuwait. Tap reserves the right to limit, in its sole discretion, the provision and quantity of any feature, product or service to any person or geographic area. Any offer for any feature, product or service made on the Site is void where prohibited. If you choose to access the Site from outside Middle East, you do so on your own initiative and you are solely responsible for complying with applicable local laws.","ar":"Tap administers and operates the www.gotapnow.com Site from its location in Kuwait. Although the Site is accessible worldwide, not all features, products or services discussed, referenced, provided or offered through or on the Site are available to all persons or in all geographic locations, or appropriate or available for use outside Kuwait. Tap reserves the right to limit, in its sole discretion, the provision and quantity of any feature, product or service to any person or geographic area. Any offer for any feature, product or service made on the Site is void where prohibited. If you choose to access the Site from outside Middle East, you do so on your own initiative and you are solely responsible for complying with applicable local laws."}},{"title":{"en":"Miscellaneous","ar":"Miscellaneous"},"paragraph":{"en":"You may not use or export or re-export any Content or any copy or adaptation of such Content, or any product or service offered on the Site, in violation of any applicable laws or regulations, including without limitation Kuwait export laws and regulations.\nIf any of the provisions of these Terms of Use are held by a court or other tribunal of competent jurisdiction to be void or unenforceable, such provisions shall be limited or eliminated to the minimum extent necessary and replaced with a valid provision that best embodies the intent of these Terms of Use, so that these Terms of Use shall remain in full force and effect. These Terms of Use constitute the entire agreement between you and Tap with regard to your use of the Site, and any and all other written or oral agreements or understandings previously existing between you and Tap with respect to such use are hereby superseded and cancelled. Other than as provided in a purchase agreement you enter into with Tap, Tap will not accept any counter-offers to these Terms of Use, and all such offers are hereby categorically rejected. Tap’s failure to insist on or enforce strict performance of these Terms of Use shall not be construed as a waiver by Tap of any provision or any right it has to enforce these Terms of Use, nor shall any course of conduct between Tap and you or any other party be deemed to modify any provision of these Terms of Use. These Terms of Use shall not be interpreted or construed to confer any rights or remedies on any third parties.\nTap provides access to Tap international data and, therefore, may contain references or cross references to Tap products, programs and services that are not announced in your country. Such reference does not imply that Tap in your country intends to announce such products, programs or services.","ar":"You may not use or export or re-export any Content or any copy or adaptation of such Content, or any product or service offered on the Site, in violation of any applicable laws or regulations, including without limitation Kuwait export laws and regulations.\nIf any of the provisions of these Terms of Use are held by a court or other tribunal of competent jurisdiction to be void or unenforceable, such provisions shall be limited or eliminated to the minimum extent necessary and replaced with a valid provision that best embodies the intent of these Terms of Use, so that these Terms of Use shall remain in full force and effect. These Terms of Use constitute the entire agreement between you and Tap with regard to your use of the Site, and any and all other written or oral agreements or understandings previously existing between you and Tap with respect to such use are hereby superseded and cancelled. Other than as provided in a purchase agreement you enter into with Tap, Tap will not accept any counter-offers to these Terms of Use, and all such offers are hereby categorically rejected. Tap’s failure to insist on or enforce strict performance of these Terms of Use shall not be construed as a waiver by Tap of any provision or any right it has to enforce these Terms of Use, nor shall any course of conduct between Tap and you or any other party be deemed to modify any provision of these Terms of Use. These Terms of Use shall not be interpreted or construed to confer any rights or remedies on any third parties.\nTap provides access to Tap international data and, therefore, may contain references or cross references to Tap products, programs and services that are not announced in your country. Such reference does not imply that Tap in your country intends to announce such products, programs or services."}},{"title":{"en":"Feedback and Information","ar":"Feedback and Information"},"paragraph":{"en":"Any feedback you provide at this site shall be deemed to be non-confidential. Tap shall be free to use such information on an unrestricted basis.\nThe information contained in this web site is subject to change without notice.\u2028 Tap Payments. TM and copyright © 2016. All rights reserved.","ar":"Any feedback you provide at this site shall be deemed to be non-confidential. Tap shall be free to use such information on an unrestricted basis.\nThe information contained in this web site is subject to change without notice.\u2028 Tap Payments. TM and copyright © 2016. All rights reserved."}}]}]
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -868,19 +874,68 @@ var Separator = function (_Component) {
 exports.default = Separator;
 
 /***/ }),
-/* 9 */
-/***/ (function(module, exports) {
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = [{"page":"support","slot":"support","color":"#959595","bannerImage":"http://www.tap.company/websiteImages/pages/support/banner/support-main.svg","link":"/support","content":[{"title":{"en":"How can we help you?","ar":"كيف يمكننا مساعدتك؟"},"paragraph":{"en":"We’re absolutely here to help and we’re always very happy to hear\nany of your comments, suggestions, or concerns regarding our service and our company.","ar":"نحن هنا للمساعدة ، وسعداء دائما لسماع تعليقاتك وآرائك بشأن الخدمات التي تقدمها شركتنا."}}]},{"page":"jobs","slot":"jobs","color":"#545454","bannerImage":"http://www.tap.company/websiteImages/pages/jobs/banner/jobs-main.png","link":"/jobs","intro":{"en":"Do you love Tap? Then you’ll fit right in.","ar":"هل تحب تاپ؟ حيّاك هذا مكانك."},"subIntro":{"en":"Tap is on a mission to change how businesses and consumers in the Middle East accept and make payments online. We’ve already helped hundreds of entrepreneurs and thousands of users create healthier businesses and easier transactions through Tap’s platforms and services. Every day, our hard work is spent helping others in our community build better businesses and live better lives.","ar":"لتطبيق تاپ مهمة واحدة هي تغيير النظرة السائدة في الشرق الأوسط لطرق الدفع عبر الإنترنت. لقد ساعدنا المئات لا بل الآلاف من المستخدمين وأصحاب الأعمال حتى الآن في إتمام العمليات المالية بسهولة وسلاسة عبر وسائل وخدمات تاپ. نحن نعمل بجهد كل يوم لبناء حياة أسهل لأفراد مجتمعنا ولنؤسس معهم أعمال أفضل."},"contentTitle":{"en":"Working at Tap means...","ar":"العمل في تاپ يعني..."},"content":[{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/team-icon.png","title":{"ar":"العمل ضمن فريق واحد","en":"As a team"},"paragraph":{"ar":"لأنّ طبيعة عملنا اليومية تفرض علينا الكثير من التحديات، نحن في فريق عمل تاپ نجتهد كل يوم لمواجهة هذه التحديات وتحقيق أفضل النتائج… ولكن لا مشكلة في فنجان قهوة مع الفريق في ظل هذه الزحمة.","en":"Because of the daily nature of payments, every day brings new challenges for the Tap Team, and every day we work together to meet those challenges. At Tap, we keep the coffee running and the teamwork buzzing."}},{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/creative-icon.png","title":{"ar":"في طاقمنا .. عقول مبدعة","en":"With creative people"},"paragraph":{"ar":"يقوم نصف طاقم عملنا بالعمل مع المستهلكين ومساعدة العملاء وأصحاب العمل وعلى إيجاد طرق جديدة وسهلة للتواصل مع العالم فيما يقوم النصف الآخر في تحسين خبرة تاپ وبنائها وتصميمها لجعلها وسيلة دفع متطوّرة ومتقدّمة أكثر من أي وقت مضى. ومع كلا القسمين، نستخدم الإبداع والمرح وحب الاكتشاف كوسيلة لتوليد مزيد من العمل الجيّد لبناء شركة نفتخر بها تحوز على ثقة العملاء.","en":"Half of the Tap Team works with the Tap community—helping consumers, helping business owners, and exploring new and exciting ways to connect with the world. The other half works on refining the Tap experience—building, designing, and making Tap an even greater payment tool than ever before. On both sides of the team, we all use our creativity and our joy of discovery to build an organization that our customers love and that we can all be proud of."}},{"icon":"http://www.tap.company/websiteImages/pages/jobs/icons/purpose-icon.png","title":{"ar":"نعمل لهدف","en":"For a purpose"},"paragraph":{"ar":"تنمية الكويت ودول الخليج العربي وتطويرها أحد أهم قيمنا وأكثرها تحدياً – فنحن لا نكتفي بتسويق شركتنا بل بجعل منطقتنا مكاناً فعالاً ينبض بالحيوية والإنتاجية. لذا فإن كل طاقة يبذلها كل موظف لدينا ستترك أثراً إيجابياً في المجتمع من حولنا وفي مسيرته المهنية على حد سواء.","en":"We put our values of making Kuwait and the Gulf a more innovative, daring, and productive place at the heart of how we operate as an organization—not just how we market ourselves. The time and energy you spend with Tap will go towards making a positive impact both on your own career and on the society around you."}}],"subImage":"http://www.tap.company/websiteImages/pages/jobs/banner/Jobs-sub-image.png","subImageContent":{"title":{"ar":"تشعر بأنك من هذا الفريق؟","en":"Sound like your kind of team?"},"paragraph":{"ar":"نحن في تاپ نتعامل مع كل شيء بإبداع وحرفية—\nفإذا كنت تعتمد الطريقة نفسها في عملك، سيسعدنا جداً أن نسمع منك.","en":"At Tap, we approach everything we do thoughtfully and creatively—\nif you feel the same way about your own work, we’d love to hear from you."},"buttonText":{"ar":"شارك في تاپ","en":"Join Tap"}}},{"page":"about","slot":"about","color":"#959595","bannerImage":"https://www.tap.company/websiteImages/pages/about/banner/about-main.jpg","link":"/about","intro":{"en":"Managing your money is no small task, after all.","ar":"إدارة مصاريفك ليست أمراً سهلاً في نهاية المطاف."},"subIntro":{"en":"But just because we all have to manage our money that doesn’t mean we all necessarily like managing our money… and it doesn’t mean that we’re always the best at it, either. And yet, as business owners and regular consumers alike, we all have to deal with the maddening work of managing our money—every single day, no matter what. You’re probably asking yourself the same questions we were. Isn’t that why we have technology? Weren’t we supposed to be living better and better… not more and more stressed out?","ar":"جميعنا مضطرون لإدارة مصاريفنا وحساباتنا بشكل يومي سواء كّنا مستهلكين أو أصحاب أعمال. ولا يعني قيامنا بذلك يومياً أنّنا سعداء بهذه المهمة، ولكنه أمر لا بدّ منه على الرغم من عدم نجاحنا بذلك في أغلب الأوقات.. ولعلّك تسأل نفسك الآن… لماذا كل ذلك؟ ألم توجد التكنولوجيا لجعل حياتنا أبسط وأكثر سهولة وأقل توتراً؟"},"content":[{"title":{"en":"The Beginning","ar":"البداية"},"paragraph":{"en":"That’s exactly where Tap founders found themselves, once upon a time in the year 2014. Or rather, that’s where they found most Middle Eastern business owners and consumers. They found that, for the world’s leading population of young, wealthy, online savvy, technologically advanced users to still have problems buying and selling things online in their part of the world… Something wasn’t clicking. We live in a world where we didn’t have to deal with drawn out set-up procedures, complicated systems, or inflexible payment methods anymore… but somehow we still were.\n\nWe knew there was a better way. And that way was Tap. So, Tap was born in May 2013, in Kuwait—and with it a whole new era of doing business online in the Middle East. Now businesses could finally bill, accept, receive, and make payments online… easier, faster, and smoother than ever before. Payment clearances that used to take days and weeks to setup, now took just a few hours. Integrating local businesses with the global e-commerce platforms became a real possibility.\n\nNow that Tap is around, managing money—and managing it well—became a whole lot cooler.","ar":"أمام هذا السؤال، وجد مؤسسوا تاپ أنفسهم بلا إجابة وكان ذلك بداية لتأسيس تاپ عام 2014. فقد لاحظا أن معظم أصحاب الأعمال والمستهلكين في منطقة الشرق الأوسط يعانون من هذه المسألة. وعلى الرغم من أن مجتمعاتنا مليئة بالشباب الشغوفين بالتكنولوجيا والإنترنت، ما زالت عمليات البيع والشراء الإلكترونية متأخّرة ومن هنا راودتهما هذه الفكرة الجديدة. فنحن نعيش في ظل عالم متقدّم يوفّر علينا عناء الأنظمة والإجراءات المعقّدة ، أو طرق الدفع غير المرنة، لكننا رغم ذلك ما زلنا بعيدين عن تطبيق هذا التقدّم على أرض الواقع. لذلك سعى علي ومحمد إلى إيجاد طريقة أفضل. فكانت تاپ. ولدت تاپ في مايو 2013 في الكويت مشكلة انطلاقة مرحلة جديدة للأعمال عبر الإنترنت في منطقة الشرق الأوسط. حيث بات بإمكان أصحاب الأعمال إعداد الفواتير، قبول المدفوعات، استلام وإجراء العمليات المالية إلكترونياً بسهولة وسرعة وطريقة أكثر سلاسة من قبل وباتت إجراءات الحصول على براءة ذمّة مثلا تتم في خلال عدة ساعات بعد أن كانت تتطلب أياما أو أسابيع وأصبح دمج الأعمال المحلية بنظام العمليات المصرفية العالمة حقيقة ممكنة أصبحت إدارة الأموال بطريقة صحيحة عملية أكثر سهولة ومرحاً مع تاپ الآن."}},{"title":{"en":"Fast forward to present day","ar":"تطوّر سريع ونمو متواصل"},"paragraph":{"en":"Tap now supports over 1000 businesses and major corporations (many of which we’re honored to say you’re familiar with) and has had a (digital!) hand in securing tens of thousands of transactions easily and efficiently for consumers all around the world.\n\nWe’re happily based in Kuwait where our caffeine-fueled team is working day-in, day-out on one really big mission:","ar":"يدعم تطبيق تاپ اليوم أكثر من 100 مؤسسة وشركة رئيسية (ممن نفتخر بالتعامل معهم) وقد نجح في تقديم مساعدته الرقمية في حماية الآلاف من العمليات المصرفية لعدد من العملاء حول العالم بسهولة وفعالية.\nنحن سعداء بانطلاقتنا من الكويت حيث مركزنا وطاقمنا الشغوف الذي يعمل بجهد متواصل على تنفيذ مهمتنا الضخمة:"}}],"subImage":"https://www.tap.company/websiteImages/pages/about/banner/about-sub-image.jpg","subImageContent":{"title":{"ar":"حياتك أسهل وأعمالك أقوى","en":"Making your life easier and your business stronger"}},"conclusion":{"en":"If you’re running a business of any kind and need a simple, powerful way to start selling online and accept payments using goSell\\sell and the possibility to bill clients and collect online payments using goCollect\\collect , Tap was built specifically for you.\n\nAt Tap, our greatest goal is serving our clients, our users, and our community every single day. We believe in thinking differently and doing whatever it takes to get to “yes.” Our job is turn roadblocks into opportunities, both in business and in life. In everything we do we strive to be excellent, to over-deliver, and to leave those we impact with the belief that they can do and be more than they ever thought possible.","ar":"تدير مؤسسة وترغب بنظام مالي بسيط وقوي يساعدك على بيع منتجاتك وإعداد فواتيرك إلكترونياً. goSell\\sell و goCollect\\collect صمّم خصيصاً لتلبية احتياجاتك.\n\nفي تاپ، أهم أهدافنا هو خدمة عملائنا، ومستخدمينا ومجتمعنا كل يوم. نحن نؤمن بالتفكير بطريقة مختلفة ونبذل كل ما في وسعنا لنحقّق ما نطمح إليه . وظيفتنا تحويل العقبات إلى فرص جديدة في الحياة وفي الأعمال. نحن نسعى إلى الأفضل دائماً، وإلى تقديم المزيد وترك أثر وثقة لدى كل عملائنا بأنّ كل شيء ممكن."}},{"page":"api","slot":"api","brandingColor":"#f4dc00","color":"#ffc72d","bannerImage":"https://www.tap.company/websiteImages/pages/api/banner/API-main-image.svg","block":{"title":"api","subtitle":{"en":"for developers","ar":"للمطورين"},"image":"https://www.tap.company/websiteImages/blocks/api-1.png","hoverImage":"https://www.tap.company/websiteImages/blocks/api-2.png"},"callToAction":{"title":{"en":"Start Integrating","ar":"ابدأ الدمج"},"paragraph":{"en":"custom e-payment experience, from start to finish.","ar":"تجربة دفع إلكتروني سهلة وسريعة"},"shortTitle":{"en":"Ready to start building?","ar":"هل أنت جاهز للبدء؟"},"shortParagraph":{"en":"Add Tap’s API to your system in minutes!","ar":"دمج سهل وسريع!"},"buttonText":{"en":"Get Started","ar":"ابدأ الآن"},"buttonLink":"/developers","image":"https://www.tap.company/websiteImages/pages/api/icons/api-documentation.png"},"link":"/api","features":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/build-icon.png","title":{"ar":"إنشاء","en":"Build"},"paragraph":{"ar":"ابدأ بإنشاء الموقع أو التطبيق الخاص بمشروعك.","en":"Maximize the value of Tap for your business, construct a payment framework that fits your unique needs."}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/connect-icon.png","title":{"ar":"دمج","en":"Connect"},"paragraph":{"ar":"قم بالربط مع تاپ وانضم لأكثر من 1000 مشروع نشط يومياً.","en":"Making it easy to connect businesses with customers, use our API functionality to reach out in your own way."}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/delight-icon.png","title":{"ar":"تجربة ممتعة","en":"Delight"},"paragraph":{"ar":"وفّر تجربة رائعة لعملائك من خلال بوابة تاپ للدفع الإلكتروني.","en":"Use Tap’s full-featured API to create an experience that your customers will love and remember you by."}}],"statisticsTitle":{"ar":"لمحة عن API تاپ","en":"Access the full power of Tap"},"statistics":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-integration.png","countTo":1001,"finalText":{"en":"1001+","ar":"1,001"},"description":{"ar":"عملية دمج","en":"World-class integrations"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-transaction.png","countTo":1000000000,"finalText":{"en":"1M+","ar":"أكثر من مليون"},"description":{"ar":"عمليّة تحويل","en":"Successful transactions"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/icon-country.png","countTo":7,"finalText":{"en":"7","ar":"7"},"description":{"ar":"دول","en":"Available countries"}}],"title":{"ar":"ابدأ بالتطوير مع تاپ","en":"Feature rich"},"paragraph":{"ar":"كل ما تحتاجه لتقديم تجربة دفع إلكتروني رائعة.","en":"Everything you need to build the perfect payment experience: you name it, we’ve got it."},"apiFeatures":[{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Payment-requests.png","title":{"ar":"طلب\nالدفع","en":"Track\nPayments"},"subtitle":{"ar":"وجه زبائنك لبوابة الدفع الإلكتروني الخاصة بتاپ","en":"Direct your payments seamlessly"},"description":{"ar":"يحتاج صاحب العمل لتوفير تفاصيل طلب الدفع، لتقوم تاپ بإرسال رابط الدفع.","en":"Got a custom sales process in mind? Tap’s got your back. All you have to do is submit your Payment Request parameter details to Tap for verification, and we’ll set you up with everything you need to direct your payment requests to the Tap gateway."},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Track-payments.png","title":{"ar":"تتبّع\nالدفع","en":"Track\nPayments"},"subtitle":{"ar":"تتبع حالة مدفوعاتك أصبح أكثر سهولة!","en":"See your payment status in real-time"},"description":{"ar":"قم بتتبّع ومراقبة حالة طلب الدفع الذي أنشأته.","en":"Looking for more control over your payment cycle? Our Create a Payment API allows you to include a tracking feature to help you see your payment status changes as they happen."},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}},{"icon":"https://www.tap.company/websiteImages/pages/api/icons/Refund.png","title":{"ar":"إرجاع\nالمدفوعات","en":"Painless\nRefund"},"subtitle":{"ar":"إرجاع القيمة المدفوعة إلى الزبون مرّة أخرى","en":"Super simple refund requests"},"description":{"ar":"إعادة المبلغ المدفوع إلى حساب العميل مرّة أخرى.","en":"Our API helps you make the refund process as easy and pain-free as possible through account-to-account refund requests. Just plug it in and watch the magic happen!"},"link":"/developers","readMoreText":{"en":"Read more","ar":"اقرأ المزيد"}}]},{"page":"developers","slot":"developers","color":"#959595","iframeSrc":"https://tappayments.api-docs.io/2.0"},{"page":"activate-payment","slot":"activate-payment"},{"page":"terms-conditions","slot":"terms-conditions","title":{"en":"Terms and Conditions","ar":"Terms and Conditions"},"content":[{"title":{"en":"Ownership of Site; Agreement to Terms of Use","ar":"Ownership of Site; Agreement to Terms of Use"},"paragraph":{"en":"These Terms and Conditions of Use (the “Terms of Use”) apply to the Tap web site located at www.gotapnow.com, and all associated sites linked to www.gotapnow.com by Tap, its subsidiaries and affiliates. The Site is the property of Tap Payments (“Tap”) and its licensors. BY USING THE SITE, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE THE SITE.\nTap reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the Site following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, Tap grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site.","ar":"These Terms and Conditions of Use (the “Terms of Use”) apply to the Tap web site located at www.gotapnow.com, and all associated sites linked to www.gotapnow.com by Tap, its subsidiaries and affiliates. The Site is the property of Tap Payments (“Tap”) and its licensors. BY USING THE SITE, YOU AGREE TO THESE TERMS OF USE; IF YOU DO NOT AGREE, DO NOT USE THE SITE.\nTap reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time. It is your responsibility to check these Terms of Use periodically for changes. Your continued use of the Site following the posting of changes will mean that you accept and agree to the changes. As long as you comply with these Terms of Use, Tap grants you a personal, non-exclusive, non-transferable, limited privilege to enter and use the Site."}},{"title":{"en":"Content","ar":"Content"},"paragraph":{"en":"All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork and computer code (collectively, 'Content'), including but not limited to the design, structure, selection, coordination, expression, 'look and feel' and arrangement of such Content, contained on the Site is owned, controlled or licensed by or to Apple, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws.\nExcept as expressly provided in these Terms of Use, no part of the Site and no Content may be copied, reproduced, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including 'mirroring') to any other computer, server, Web site or other medium for publication or distribution or for any commercial enterprise, without Tap's express prior written consent. You may use information on Tap services (such as data sheets, knowledge base articles, and similar materials) purposely made available by Tap for downloading from the Site, provided that you (1) not remove any proprietary notice language in all copies of such documents, (2) use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media, (3) make no modifications to any such information, and (4) not make any additional representations or warranties relating to such documents.","ar":"All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork and computer code (collectively, 'Content'), including but not limited to the design, structure, selection, coordination, expression, 'look and feel' and arrangement of such Content, contained on the Site is owned, controlled or licensed by or to Apple, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws.\nExcept as expressly provided in these Terms of Use, no part of the Site and no Content may be copied, reproduced, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including 'mirroring') to any other computer, server, Web site or other medium for publication or distribution or for any commercial enterprise, without Tap's express prior written consent. You may use information on Tap services (such as data sheets, knowledge base articles, and similar materials) purposely made available by Tap for downloading from the Site, provided that you (1) not remove any proprietary notice language in all copies of such documents, (2) use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media, (3) make no modifications to any such information, and (4) not make any additional representations or warranties relating to such documents."}}]}]
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Title = function (_Component) {
+  _inherits(Title, _Component);
+
+  function Title() {
+    _classCallCheck(this, Title);
+
+    return _possibleConstructorReturn(this, (Title.__proto__ || Object.getPrototypeOf(Title)).apply(this, arguments));
+  }
+
+  _createClass(Title, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { style: { position: 'relative' } },
+        _react2.default.createElement(
+          'h5',
+          { style: this.props.style },
+          this.props.title
+        ),
+        this.props.separator
+      );
+    }
+  }]);
+
+  return Title;
+}(_react.Component);
+
+exports.default = Title;
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -992,7 +1047,7 @@ var LightBox = function (_Component) {
 exports.default = LightBox;
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1008,7 +1063,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -1091,7 +1146,7 @@ var Banner = function (_Component) {
 exports.default = Banner;
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1154,61 +1209,6 @@ var BannerLayer = function (_Component) {
 }(_react.Component);
 
 exports.default = BannerLayer;
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Title = function (_Component) {
-  _inherits(Title, _Component);
-
-  function Title() {
-    _classCallCheck(this, Title);
-
-    return _possibleConstructorReturn(this, (Title.__proto__ || Object.getPrototypeOf(Title)).apply(this, arguments));
-  }
-
-  _createClass(Title, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { style: { position: 'relative' } },
-        _react2.default.createElement(
-          'h5',
-          { style: this.props.style },
-          this.props.title
-        ),
-        this.props.separator
-      );
-    }
-  }]);
-
-  return Title;
-}(_react.Component);
-
-exports.default = Title;
 
 /***/ }),
 /* 15 */
@@ -1489,7 +1489,7 @@ var _errors = __webpack_require__(178);
 
 var _errors2 = _interopRequireDefault(_errors);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -1831,11 +1831,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -1994,7 +1994,11 @@ var _ErrorPage = __webpack_require__(18);
 
 var _ErrorPage2 = _interopRequireDefault(_ErrorPage);
 
-var _ActivatePaymentPage = __webpack_require__(181);
+var _PoliciesPage = __webpack_require__(181);
+
+var _PoliciesPage2 = _interopRequireDefault(_PoliciesPage);
+
+var _ActivatePaymentPage = __webpack_require__(182);
 
 var _ActivatePaymentPage2 = _interopRequireDefault(_ActivatePaymentPage);
 
@@ -2006,7 +2010,7 @@ var _products = __webpack_require__(25);
 
 var _products2 = _interopRequireDefault(_products);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -2014,7 +2018,7 @@ var _partners = __webpack_require__(26);
 
 var _partners2 = _interopRequireDefault(_partners);
 
-var _plans = __webpack_require__(184);
+var _plans = __webpack_require__(185);
 
 var _plans2 = _interopRequireDefault(_plans);
 
@@ -2022,12 +2026,12 @@ var _metaTags = __webpack_require__(81);
 
 var _metaTags2 = _interopRequireDefault(_metaTags);
 
-var _api = __webpack_require__(185);
+var _api = __webpack_require__(186);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Page from './components/Page/Page.js';
-var countries = [{ "ID": "132", "country_code": "KW", "country_name_english": "Kuwait", "country_name_arabic": "الكويت", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Kuwait.png", "international_code": "965", "businessTypeAllowed": "all" }, { "ID": "17", "country_code": "BH", "country_name_english": "Bahrain", "country_name_arabic": "البحرين", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Bahrain.png", "international_code": "973", "businessTypeAllowed": "all" }, { "ID": "70", "country_code": "EG", "country_name_english": "Egypt", "country_name_arabic": "مصر", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Egypt.png", "international_code": "20", "businessTypeAllowed": "all" }, { "ID": "124", "country_code": "JO", "country_name_english": "Jordan", "country_name_arabic": "الأردن", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Jordan.png", "international_code": "962", "businessTypeAllowed": "all" }, { "ID": "136", "country_code": "LB", "country_name_english": "Lebanon", "country_name_arabic": "لبنان", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Lebanon.png", "international_code": "961", "businessTypeAllowed": "all" }, { "ID": "184", "country_code": "OM", "country_name_english": "Oman", "country_name_arabic": "عمان", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Oman.png", "international_code": "968", "businessTypeAllowed": "all" }, { "ID": "199", "country_code": "QA", "country_name_english": "Qatar", "country_name_arabic": "قطر", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Qatar.png", "international_code": "974", "businessTypeAllowed": "all" }, { "ID": "212", "country_code": "SA", "country_name_english": "Saudi Arabia", "country_name_arabic": "المملكة العربية السعودية", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Saudi Arabia.png", "international_code": "966", "businessTypeAllowed": "all" }, { "ID": "253", "country_code": "AE", "country_name_english": "United Arab Emirates", "country_name_arabic": "الإمارات", "country_flag_url": "http://img.gotapnow.com/web/countryflag/United Arab Emirates.png", "international_code": "971", "businessTypeAllowed": "all" }];
+var countries = [{ "ID": "132", "country_code": "KW", "country_name_english": "Kuwait", "country_name_arabic": "الكويت", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Kuwait.png", "international_code": "965", "businessTypeAllowed": "all" }, { "ID": "17", "country_code": "BH", "country_name_english": "Bahrain", "country_name_arabic": "البحرين", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Bahrain.png", "international_code": "973", "businessTypeAllowed": "all" }, { "ID": "70", "country_code": "EG", "country_name_english": "Egypt", "country_name_arabic": "مصر", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Egypt.png", "international_code": "20", "businessTypeAllowed": "all" }, { "ID": "124", "country_code": "JO", "country_name_english": "Jordan", "country_name_arabic": "الأردن", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Jordan.png", "international_code": "962", "businessTypeAllowed": "all" }, { "ID": "136", "country_code": "LB", "country_name_english": "Lebanon", "country_name_arabic": "لبنان", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Lebanon.png", "international_code": "961", "businessTypeAllowed": "all" }, { "ID": "184", "country_code": "OM", "country_name_english": "Oman", "country_name_arabic": "عمان", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Oman.png", "international_code": "968", "businessTypeAllowed": "all" }, { "ID": "199", "country_code": "QA", "country_name_english": "Qatar", "country_name_arabic": "قطر", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Qatar.png", "international_code": "974", "businessTypeAllowed": "all" }, { "ID": "212", "country_code": "SA", "country_name_english": "Saudi Arabia", "country_name_arabic": "المملكة العربية السعودية", "country_flag_url": "http://img.gotapnow.com/web/countryflag/Saudi Arabia.png", "international_code": "966", "businessTypeAllowed": "all" }, { "ID": "253", "country_code": "AE", "country_name_english": "United Arab Emirates", "country_name_arabic": "الإمارات", "country_flag_url": "http://img.gotapnow.com/web/countryflag/United Arab Emirates.png", "international_code": "971", "businessTypeAllowed": "all" }]; // import Page from './components/Page/Page.js';
+
 
 function getMetaTag(pageName, windowLocationHref) {
   var result = _metaTags2.default.filter(function (item) {
@@ -2054,7 +2058,7 @@ countries.map(function (country) {
       routes.push({
         path: '/' + country.country_code.toLowerCase() + '/' + language.slot + '/' + page.slot,
         exact: true,
-        component: page.slot === 'support' ? _SupportPage2.default : page.slot === 'api' ? _APIPage2.default : page.slot === 'about' ? _AboutPage2.default : page.slot === 'jobs' ? _JobsPage2.default : page.slot === 'developers' ? _IframePage2.default : page.slot === 'activate-payment' ? _ActivatePaymentPage2.default : null,
+        component: page.slot === 'support' ? _SupportPage2.default : page.slot === 'api' ? _APIPage2.default : page.slot === 'about' ? _AboutPage2.default : page.slot === 'jobs' ? _JobsPage2.default : page.slot === 'developers' ? _IframePage2.default : page.slot === 'activate-payment' ? _ActivatePaymentPage2.default : page.slot === 'terms-conditions' ? _PoliciesPage2.default : null,
         metaTag: getMetaTag(page.slot, '/' + country.country_code.toLowerCase() + '/' + language.slot + '/' + page.slot),
         compProps: {
           country: country.country_code.toLowerCase(),
@@ -2185,11 +2189,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -2708,11 +2712,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -2859,11 +2863,11 @@ var _reactSlick = __webpack_require__(45);
 
 var _reactSlick2 = _interopRequireDefault(_reactSlick);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -4122,7 +4126,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _server = __webpack_require__(85);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _serializeJavascript = __webpack_require__(86);
 
@@ -4136,7 +4140,7 @@ var _routes = __webpack_require__(27);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _exenv = __webpack_require__(219);
+var _exenv = __webpack_require__(220);
 
 var _exenv2 = _interopRequireDefault(_exenv);
 
@@ -4227,21 +4231,21 @@ var _routes2 = _interopRequireDefault(_routes);
 
 var _mobxReact = __webpack_require__(7);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Navbar = __webpack_require__(187);
+var _Navbar = __webpack_require__(188);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
-var _NoMatch = __webpack_require__(188);
+var _NoMatch = __webpack_require__(189);
 
 var _NoMatch2 = _interopRequireDefault(_NoMatch);
 
-var _Loader = __webpack_require__(189);
+var _Loader = __webpack_require__(190);
 
 var _Loader2 = _interopRequireDefault(_Loader);
 
-var _Page = __webpack_require__(190);
+var _Page = __webpack_require__(191);
 
 var _Page2 = _interopRequireDefault(_Page);
 
@@ -4249,7 +4253,7 @@ var _ErrorPage = __webpack_require__(18);
 
 var _ErrorPage2 = _interopRequireDefault(_ErrorPage);
 
-var _UserPreferencesStore = __webpack_require__(216);
+var _UserPreferencesStore = __webpack_require__(217);
 
 var _UserPreferencesStore2 = _interopRequireDefault(_UserPreferencesStore);
 
@@ -4261,7 +4265,7 @@ var _products = __webpack_require__(25);
 
 var _products2 = _interopRequireDefault(_products);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -4269,7 +4273,7 @@ var _partners = __webpack_require__(26);
 
 var _partners2 = _interopRequireDefault(_partners);
 
-var _reactIntercom = __webpack_require__(218);
+var _reactIntercom = __webpack_require__(219);
 
 var _reactIntercom2 = _interopRequireDefault(_reactIntercom);
 
@@ -4316,6 +4320,7 @@ var App = function (_Component) {
     value: function checkParamsExistance(link) {
       var _this2 = this;
 
+      // console.log(link);
       var params = link.split('/');
       params = params.filter(function (param) {
         return param !== '';
@@ -4405,6 +4410,7 @@ var App = function (_Component) {
     value: function render() {
       var _this3 = this;
 
+      console.log('anytime');
       return _react2.default.createElement(
         'div',
         { className: 'App', dir: _UserPreferencesStore2.default.language === 'ar' ? 'rtl' : 'ltr' },
@@ -4466,13 +4472,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -4492,7 +4498,7 @@ var _ProductsBlocks = __webpack_require__(107);
 
 var _ProductsBlocks2 = _interopRequireDefault(_ProductsBlocks);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -4504,11 +4510,11 @@ var _AnimatedRow = __webpack_require__(42);
 
 var _AnimatedRow2 = _interopRequireDefault(_AnimatedRow);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -4985,7 +4991,7 @@ var _Feature = __webpack_require__(93);
 
 var _Feature2 = _interopRequireDefault(_Feature);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -5127,7 +5133,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -5139,7 +5145,7 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -5396,11 +5402,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -5513,7 +5519,7 @@ var _TapButton = __webpack_require__(6);
 
 var _TapButton2 = _interopRequireDefault(_TapButton);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -6183,9 +6189,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -6406,11 +6412,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _mobxReact = __webpack_require__(7);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -6426,7 +6432,7 @@ var _Slider = __webpack_require__(15);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -6782,17 +6788,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _TestimonialQuote = __webpack_require__(119);
 
 var _TestimonialQuote2 = _interopRequireDefault(_TestimonialQuote);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -6877,9 +6883,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -6887,7 +6893,7 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -7737,7 +7743,7 @@ var _TapButton = __webpack_require__(6);
 
 var _TapButton2 = _interopRequireDefault(_TapButton);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -8314,13 +8320,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -8328,7 +8334,7 @@ var _Slider = __webpack_require__(15);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -8340,7 +8346,7 @@ var _AnimatedRow = __webpack_require__(42);
 
 var _AnimatedRow2 = _interopRequireDefault(_AnimatedRow);
 
-var _Title = __webpack_require__(14);
+var _Title = __webpack_require__(10);
 
 var _Title2 = _interopRequireDefault(_Title);
 
@@ -8356,7 +8362,7 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -9006,15 +9012,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -9030,7 +9036,7 @@ var _TapAddress = __webpack_require__(168);
 
 var _TapAddress2 = _interopRequireDefault(_TapAddress);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -9042,7 +9048,7 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -9543,13 +9549,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -9557,7 +9563,7 @@ var _Slider = __webpack_require__(15);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -9565,7 +9571,7 @@ var _ParallaxScroll = __webpack_require__(23);
 
 var _ParallaxScroll2 = _interopRequireDefault(_ParallaxScroll);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -9803,7 +9809,7 @@ var _TeamMember = __webpack_require__(174);
 
 var _TeamMember2 = _interopRequireDefault(_TeamMember);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -9976,11 +9982,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Banner = __webpack_require__(12);
+var _Banner = __webpack_require__(13);
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _BannerLayer = __webpack_require__(13);
+var _BannerLayer = __webpack_require__(14);
 
 var _BannerLayer2 = _interopRequireDefault(_BannerLayer);
 
@@ -9988,7 +9994,7 @@ var _Slider = __webpack_require__(15);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -9996,7 +10002,7 @@ var _SendEmailFrom = __webpack_require__(79);
 
 var _SendEmailFrom2 = _interopRequireDefault(_SendEmailFrom);
 
-var _Separator = __webpack_require__(8);
+var _Separator = __webpack_require__(9);
 
 var _Separator2 = _interopRequireDefault(_Separator);
 
@@ -10012,7 +10018,7 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -10261,11 +10267,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -10299,7 +10305,7 @@ var _axios = __webpack_require__(17);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10488,7 +10494,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
@@ -10548,6 +10554,92 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _pages = __webpack_require__(8);
+
+var _pages2 = _interopRequireDefault(_pages);
+
+var _Title = __webpack_require__(10);
+
+var _Title2 = _interopRequireDefault(_Title);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var PoliciesPage = function (_Component) {
+  _inherits(PoliciesPage, _Component);
+
+  function PoliciesPage(props) {
+    _classCallCheck(this, PoliciesPage);
+
+    var _this = _possibleConstructorReturn(this, (PoliciesPage.__proto__ || Object.getPrototypeOf(PoliciesPage)).call(this, props));
+
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(PoliciesPage, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      // require('./activatePage.css');
+      this.props.preferencesStore.filterJsonStringsBasedOnLanguage(_pages2.default);
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {}
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {}
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var pageObject = _pages2.default.filter(function (obj) {
+        return obj.slot === _this2.props.page;
+      })[0];
+      console.log(pageObject);
+      return _react2.default.createElement(
+        _react2.default.Fragment,
+        null,
+        pageObject ? _react2.default.createElement(
+          _react2.default.Fragment,
+          null,
+          _react2.default.createElement(_Title2.default, {
+            title: 'g',
+            separator: _react2.default.createElement(Separator, { width: '30%' })
+          })
+        ) : null
+      );
+    }
+  }]);
+
+  return PoliciesPage;
+}(_react.Component);
+
+exports.default = PoliciesPage;
+
+/***/ }),
+/* 182 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -10556,15 +10648,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pages = __webpack_require__(9);
+var _pages = __webpack_require__(8);
 
 var _pages2 = _interopRequireDefault(_pages);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
-var _paymentMethods = __webpack_require__(182);
+var _paymentMethods = __webpack_require__(183);
 
 var _paymentMethods2 = _interopRequireDefault(_paymentMethods);
 
@@ -10578,7 +10670,7 @@ var _ErrorPage2 = _interopRequireDefault(_ErrorPage);
 
 var _loader = __webpack_require__(24);
 
-var _customLoaderStyle = __webpack_require__(183);
+var _customLoaderStyle = __webpack_require__(184);
 
 var _customLoaderStyle2 = _interopRequireDefault(_customLoaderStyle);
 
@@ -10586,7 +10678,7 @@ var _axios = __webpack_require__(17);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10750,25 +10842,25 @@ var ActivatePayment = function (_Component) {
 exports.default = ActivatePayment;
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports) {
 
 module.exports = [{"name":"knet","id":"1","image":"https://www.tap.company/websiteImages/paymentMethods/knet.svg","background":"linear-gradient(to bottom, rgba(10,114,184,1) 53%, rgba(130,202,250,1) 100%)","paragraph":{"en":"We have received your request to activate KNET,\nour team will contact you as soon as possible.","ar":"لقد تلقينا طلبك بتفعيل خدمة الكي نت،\nسيتم التواصل معكم في أقرب وقت ممكن."}},{"name":"visa","id":"3","image":"https://www.tap.company/websiteImages/paymentMethods/visa.svg","background":"linear-gradient(to bottom, rgba(10,71,146,1) 53%, rgba(56,146,255,1) 100%)","paragraph":{"en":"We have received your request to activate VISA,\nour team will contact you as soon as possible.","ar":"لقد تلقينا طلبك بتفعيل خدمة الفيزا،\nسيتم التواصل معكم في أقرب وقت ممكن."}},{"name":"mastercard","id":"4","image":"https://www.tap.company/websiteImages/paymentMethods/mastercard.svg","background":"linear-gradient(to bottom, rgba(227,4,30,1) 13%, rgba(227,4,30,1) 62%, rgba(227,4,30,1) 67%, rgba(249,179,28,1) 100%)","paragraph":{"en":"We have received your request to activate MasterCard,\nour team will contact you as soon as possible.","ar":"لقد تلقينا طلبك بتفعيل خدمة الماستر كارد،\nسيتم التواصل معكم في أقرب وقت ممكن."}},{"name":"amex","id":"10","image":"https://www.tap.company/websiteImages/paymentMethods/amex.svg","background":"linear-gradient(to bottom, rgba(1,119,169,1) 53%, rgba(33,190,252,1) 100%)","paragraph":{"en":"We have received your request to activate AMEX,\nour team will contact you as soon as possible.","ar":"لقد تلقينا طلبك بتفعيل خدمة أمريكان إكسبريس،\nسيتم التواصل معكم في أقرب وقت ممكن."}}]
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports) {
 
 module.exports = {"v":"5.2.1","fr":29.9700012207031,"ip":0,"op":300.00001221925,"w":120,"h":120,"nm":"Comp 1","ddd":0,"assets":[],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Shape Layer 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":0,"s":[0],"e":[-1080]},{"t":299.00001217852}],"ix":10},"p":{"a":0,"k":[60,60,0],"ix":2},"a":{"a":0,"k":[6.808,3.603,0],"ix":1},"s":{"a":0,"k":[78.548,78.548,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":3,"ty":"el","s":{"a":0,"k":[93.23,93.23],"ix":2},"p":{"a":0,"k":[6,2],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":0,"s":[100],"e":[5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":135,"s":[5],"e":[5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":165,"s":[5],"e":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":270,"s":[100],"e":[100]},{"t":299.00001217852}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":11,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":true},{"ty":"tr","p":{"a":0,"k":[0.5,1.5],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[105.13,105.13],"ix":3},"r":{"a":0,"k":-2520,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":4,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":300.00001221925,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":0,"s":[0],"e":[1080]},{"t":299.00001217852}],"ix":10,"x":"var $bm_rt;\n$bm_rt = transform.rotation;"},"p":{"a":0,"k":[60,60,0],"ix":2},"a":{"a":0,"k":[2.009,9.835,0],"ix":1},"s":{"a":0,"k":[118.698,118.698,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":2,"ty":"el","s":{"a":0,"k":[93.23,93.23],"ix":2},"p":{"a":0,"k":[6,2],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":0,"s":[100],"e":[5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":135,"s":[5],"e":[5]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":165,"s":[5],"e":[100]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p107"],"t":270,"s":[100],"e":[100]},{"t":299.00001217852}],"ix":2},"o":{"a":0,"k":0,"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":true},{"ty":"tr","p":{"a":0,"k":[-3.842,7.884],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[97.52,97.52],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":4,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":300.00001221925,"st":0,"bm":0}],"markers":[]}
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports) {
 
 module.exports = {"plans":[{"planName":"Start","planIcon":"https://www.tap.company/websiteImages/plans/start.svg"},{"planName":"Basic","planIcon":"https://www.tap.company/websiteImages/plans/basic.svg"},{"planName":"Advanced","planIcon":"https://www.tap.company/websiteImages/plans/advanced.svg"},{"planName":"Pro","planIcon":"https://www.tap.company/websiteImages/plans/pro.svg"}],"showMoreButtonText":"show more","showLessButtonText":"show less","subscribeButtonText":"Subscribe Now","planPricing":[{"priceType":"monthly","PriceTitle":{"Start":"Free","Basic":"KD 15.00 /month","Advanced":"KD 25.00 /month","Pro":"KD 50.00 /month"},"priceDescription":{"Start":"0","Basic":"KD 180.00 billed yearly","Advanced":"KD 300.00 billed yearly","Pro":"KD 600.00 billed yearly"}},{"priceType":"annually","PriceTitle":{"Start":"Free","Basic":"KD 150.00 /year","Advanced":"KD 250.00 /year","Pro":"KD 500.00 /year"},"priceDescription":{"Start":"0","Basic":"2 months complimentary","Advanced":"2 months complimentary","Pro":"2 months complimentary"}}],"planFeatures":[{"mainFeature":"true","featureName":"Bills","featureValue":{"Start":"30","Basic":"150","Advanced":"500","Pro":"1,000"},"featureSubValue":{"Start":"Bills per Month\n\n150 Fils\non Additional Bills","Basic":"Bills per Month\n\n150 Fils\non Additional Bills","Advanced":"Bills per Month\n\n150 Fils\non Additional Bills","Pro":"Bills per Month\n\n150 Fils\non Additional Bills"}},{"mainFeature":"true","featureName":"Users","featureValue":{"Start":"1","Basic":"5","Advanced":"10","Pro":"25"},"featureSubValue":{"Start":"Users\n\nKD 3.000\nAdditional User / Month","Basic":"Users\n\nKD 3.000\nAdditional User / Month","Advanced":"Users\n\nKD 3.000\nAdditional User / Month","Pro":"Users\n\nKD 3.000\nAdditional User / Month"}},{"featureName":"Payments","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Local Debit Cards","featureValue":{"Start":"2.75%","Basic":"2.50%","Advanced":"2.25%","Pro":"2.00%"},"featureSubValue":{"Start":"plus 100 Fils","Basic":"plus 100 Fils","Advanced":"plus 100 Fils","Pro":"plus 100 Fils"}},{"featureName":"Local Credit Cards","featureValue":{"Start":"3.75%","Basic":"3.50%","Advanced":"3.25%","Pro":"3.00%"},"featureSubValue":{"Start":"plus 100 Fils","Basic":"plus 100 Fils","Advanced":"plus 100 Fils","Pro":"plus 100 Fils"}},{"featureName":"Regional Cards","featureValue":{"Start":"3.75%","Basic":"3.50%","Advanced":"3.25%","Pro":"3.00%"},"featureSubValue":{"Start":"plus 100 Fils","Basic":"plus 100 Fils","Advanced":"plus 100 Fils","Pro":"plus 100 Fils"}},{"featureName":"Global Cards","featureValue":{"Start":"4.75%","Basic":"4.50%","Advanced":"4.25%","Pro":"4.00%"},"featureSubValue":{"Start":"plus 100 Fils","Basic":"plus 100 Fils","Advanced":"plus 100 Fils","Pro":"plus 100 Fils"}}]},{"featureName":"Send Bills","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Share a Bill","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Discounts","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Select from Contacts","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Copy a Bill’s Link","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Send Bills Abroad","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Multi-Currency","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Bill Breakdown","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Save a Bill","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Schedule a Bill","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Repeat a Bill","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"Manage Bills","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Pending Bills","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Tracking Bills","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Duplicate a Bill","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Send Reminders","featureValue":{"Start":"3","Basic":"Unlimited","Advanced":"Unlimited","Pro":"Unlimited"}},{"featureName":"My Payments","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Receipts","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Cancel a Bill","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Refund a Bill","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Search","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"View a Bill","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"Items","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Saved Items","featureValue":{"Start":"5","Basic":"Unlimited","Advanced":"Unlimited","Pro":"Unlimited"}},{"featureName":"Inventory","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"App Features","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Dashboard","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Quick Actions","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Instagram Integration","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Touch ID","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Face ID","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"In App Chat","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Multiple Account Sign-In","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Account Settings","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"Security","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Risk","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Protection","featureValue":{"Start":"true","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"API Integration","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Send a Bill","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Check a Bill","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}},{"featureName":"Check on a List of Bills","featureValue":{"Start":"false","Basic":"true","Advanced":"true","Pro":"true"}}]},{"featureName":"Support","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Online Chat","featureValue":{"Start":"Within 24 hours","Basic":"Within 3 hours","Advanced":"Wtihin 1 hour","Pro":"Instant"},"featureSubValue":{"Start":"Response Time ","Basic":"Response Time","Advanced":"Response Time","Pro":"Response Time"}},{"featureName":"Phone","featureValue":{"Start":"-","Basic":"9am to 6pm","Advanced":"9am to 12pm","Pro":"24 Hours"}},{"featureName":"Dedicated Officer","featureValue":{"Start":"-","Basic":"-","Advanced":"true","Pro":"true"}}]},{"featureName":"Settlement","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Local Debit Cards","featureValue":{"Start":"3 Days","Basic":"3 Days","Advanced":"3 Days","Pro":"3 Days"}},{"featureName":"Local Credit Cards","featureValue":{"Start":"5 Days","Basic":"5 Days","Advanced":"5 Days","Pro":"5 Days"}},{"featureName":"Regional Cards","featureValue":{"Start":"5 Days","Basic":"5 Days","Advanced":"5 Days","Pro":"5 Days"}},{"featureName":"Global Cards","featureValue":{"Start":"5 Days","Basic":"5 Days","Advanced":"5 Days","Pro":"5 Days"}}]},{"featureName":"Refunds","featureValue":{"Start":"","Basic":"","Advanced":"","Pro":""},"subFeatures":[{"featureName":"Local Debit Cards","featureValue":{"Start":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Basic":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Advanced":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Pro":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)"}},{"featureName":"Local Credit Cards","featureValue":{"Start":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Basic":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Advanced":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Pro":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)"}},{"featureName":"Regional Cards","featureValue":{"Start":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Basic":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Advanced":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Pro":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)"}},{"featureName":"Global Cards","featureValue":{"Start":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Basic":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Advanced":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)","Pro":"Refund Fee(s)\nare equivalent to\nTransaction Fee(s)"}}]},{"featureName":"Commitment","featureValue":{"Start":"12 Months","Basic":"12 Months","Advanced":"12 Months","Pro":"12 Months"},"featureSubValue":{"Start":"No financial commitment during the commitment period even with any cancellation prior to the end of the commited period","Basic":"No financial commitment during the commitment period even with any cancellation prior to the end of the commited period","Advanced":"No financial commitment during the commitment period even with any cancellation prior to the end of the commited period","Pro":"No financial commitment during the commitment period even with any cancellation prior to the end of the commited period"}}]}
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10779,7 +10871,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.fetchPopularRepos = fetchPopularRepos;
 
-var _isomorphicFetch = __webpack_require__(186);
+var _isomorphicFetch = __webpack_require__(187);
 
 var _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);
 
@@ -10801,13 +10893,13 @@ function fetchPopularRepos() {
 }
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-fetch");
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10822,7 +10914,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10864,7 +10956,7 @@ function Navbar() {
 }
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10890,7 +10982,7 @@ function NoMatch() {
 }
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10912,7 +11004,7 @@ var _Img2 = _interopRequireDefault(_Img);
 
 var _loader = __webpack_require__(24);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
@@ -10985,7 +11077,7 @@ var MyLoader = function (_Component) {
 exports.default = MyLoader;
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11003,37 +11095,37 @@ var _react2 = _interopRequireDefault(_react);
 
 var _mobxReact = __webpack_require__(7);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
-var _reactHelmet = __webpack_require__(191);
+var _reactHelmet = __webpack_require__(192);
 
-var _Header = __webpack_require__(192);
+var _Header = __webpack_require__(193);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _Footer = __webpack_require__(201);
+var _Footer = __webpack_require__(202);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _leftMenuItems = __webpack_require__(209);
+var _leftMenuItems = __webpack_require__(210);
 
 var _leftMenuItems2 = _interopRequireDefault(_leftMenuItems);
 
-var _rightMenuItems = __webpack_require__(210);
+var _rightMenuItems = __webpack_require__(211);
 
 var _rightMenuItems2 = _interopRequireDefault(_rightMenuItems);
 
-var _footerMenus = __webpack_require__(211);
+var _footerMenus = __webpack_require__(212);
 
 var _footerMenus2 = _interopRequireDefault(_footerMenus);
 
-var _footerImages = __webpack_require__(212);
+var _footerImages = __webpack_require__(213);
 
 var _footerImages2 = _interopRequireDefault(_footerImages);
 
-var _socialMedia = __webpack_require__(213);
+var _socialMedia = __webpack_require__(214);
 
 var _socialMedia2 = _interopRequireDefault(_socialMedia);
 
@@ -11041,11 +11133,11 @@ var _languages = __webpack_require__(19);
 
 var _languages2 = _interopRequireDefault(_languages);
 
-var _rightsFooterMenu = __webpack_require__(214);
+var _rightsFooterMenu = __webpack_require__(215);
 
 var _rightsFooterMenu2 = _interopRequireDefault(_rightsFooterMenu);
 
-var _loginHeaderData = __webpack_require__(215);
+var _loginHeaderData = __webpack_require__(216);
 
 var _loginHeaderData2 = _interopRequireDefault(_loginHeaderData);
 
@@ -11159,13 +11251,13 @@ var Page = function (_Component) {
 exports.default = (0, _mobxReact.observer)(Page);
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-helmet");
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11181,27 +11273,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
-var _Logo = __webpack_require__(193);
+var _Logo = __webpack_require__(194);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _HeaderMenu = __webpack_require__(195);
+var _HeaderMenu = __webpack_require__(196);
 
 var _HeaderMenu2 = _interopRequireDefault(_HeaderMenu);
 
-var _MobileIcon = __webpack_require__(197);
+var _MobileIcon = __webpack_require__(198);
 
 var _MobileIcon2 = _interopRequireDefault(_MobileIcon);
 
-var _LoginHeader = __webpack_require__(199);
+var _LoginHeader = __webpack_require__(200);
 
 var _LoginHeader2 = _interopRequireDefault(_LoginHeader);
 
-var _LoginStore = __webpack_require__(200);
+var _LoginStore = __webpack_require__(201);
 
 var _LoginStore2 = _interopRequireDefault(_LoginStore);
 
@@ -11363,7 +11455,7 @@ var Header = function (_Component) {
 exports.default = Header;
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11379,11 +11471,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _logo = __webpack_require__(194);
+var _logo = __webpack_require__(195);
 
 var _logo2 = _interopRequireDefault(_logo);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 var _Img = __webpack_require__(3);
 
@@ -11427,13 +11519,13 @@ var Logo = function (_Component) {
 exports.default = Logo;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "71ce318c49bc9ef06b204ae60bcbea8f.svg";
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11449,7 +11541,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _MenuItem = __webpack_require__(196);
+var _MenuItem = __webpack_require__(197);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
@@ -11509,7 +11601,7 @@ var HeaderMenu = function (_Component) {
 exports.default = HeaderMenu;
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11525,7 +11617,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11580,7 +11672,7 @@ var MenuItem = function (_Component) {
 exports.default = MenuItem;
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11596,7 +11688,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _menuIcon = __webpack_require__(198);
+var _menuIcon = __webpack_require__(199);
 
 var _menuIcon2 = _interopRequireDefault(_menuIcon);
 
@@ -11643,13 +11735,13 @@ var MobileIcon = function (_Component) {
 exports.default = MobileIcon;
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "e36b31cd6fea11afcea805093500bb7f.svg";
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11675,7 +11767,7 @@ var _TapButton = __webpack_require__(6);
 
 var _TapButton2 = _interopRequireDefault(_TapButton);
 
-var _LightBox = __webpack_require__(11);
+var _LightBox = __webpack_require__(12);
 
 var _LightBox2 = _interopRequireDefault(_LightBox);
 
@@ -11860,7 +11952,7 @@ var LoginHeader = function (_Component) {
 exports.default = (0, _mobxReact.observer)(LoginHeader);
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11934,7 +12026,7 @@ var loginStore = new LoginStore();
 exports.default = loginStore;
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11950,27 +12042,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _FooterMenus = __webpack_require__(202);
+var _FooterMenus = __webpack_require__(203);
 
 var _FooterMenus2 = _interopRequireDefault(_FooterMenus);
 
-var _FooterImages = __webpack_require__(204);
+var _FooterImages = __webpack_require__(205);
 
 var _FooterImages2 = _interopRequireDefault(_FooterImages);
 
-var _SocialMedia = __webpack_require__(205);
+var _SocialMedia = __webpack_require__(206);
 
 var _SocialMedia2 = _interopRequireDefault(_SocialMedia);
 
-var _LanguageSwitcher = __webpack_require__(206);
+var _LanguageSwitcher = __webpack_require__(207);
 
 var _LanguageSwitcher2 = _interopRequireDefault(_LanguageSwitcher);
 
-var _CountrySwitcher = __webpack_require__(207);
+var _CountrySwitcher = __webpack_require__(208);
 
 var _CountrySwitcher2 = _interopRequireDefault(_CountrySwitcher);
 
-var _RightsFooterMenu = __webpack_require__(208);
+var _RightsFooterMenu = __webpack_require__(209);
 
 var _RightsFooterMenu2 = _interopRequireDefault(_RightsFooterMenu);
 
@@ -12082,7 +12174,7 @@ var Footer = function (_Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12098,7 +12190,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _FooterMenu = __webpack_require__(203);
+var _FooterMenu = __webpack_require__(204);
 
 var _FooterMenu2 = _interopRequireDefault(_FooterMenu);
 
@@ -12146,7 +12238,7 @@ var FooterMenus = function (_Component) {
 exports.default = FooterMenus;
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12162,7 +12254,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12255,7 +12347,7 @@ var FooterMenu = function (_Component) {
 exports.default = FooterMenu;
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12355,7 +12447,7 @@ var FooterImages = function (_Component) {
 exports.default = FooterImages;
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12421,7 +12513,7 @@ var SocialMedia = function (_Component) {
 exports.default = SocialMedia;
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12530,7 +12622,7 @@ var LanguageSwitcher = function (_Component) {
 exports.default = LanguageSwitcher;
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12679,7 +12771,7 @@ var CountrySwitcher = function (_Component) {
 exports.default = CountrySwitcher;
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12695,7 +12787,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(5);
+var _reactRouterDom = __webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12752,49 +12844,49 @@ var RightsFooterMenu = function (_Component) {
 exports.default = RightsFooterMenu;
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports) {
 
 module.exports = [{"title":{"en":"Pay","ar":"دفع"},"link":"/pay","slot":"pay","type":"product"},{"title":{"en":"Sell","ar":"بيع"},"link":"/sell","slot":"sell","type":"product"},{"title":{"en":"Collect","ar":"تحصيل"},"link":"/collect","slot":"collect","type":"product"},{"title":{"en":"API","ar":"للمطورين"},"link":"/api","slot":"api","type":"page"}]
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports) {
 
 module.exports = [{"title":{"en":"Our Story","ar":"قصتنا"},"link":"/about","slot":"about","type":"page"},{"title":{"en":"Jobs","ar":"التوظيف"},"link":"/jobs","slot":"jobs","type":"page"},{"title":{"en":"Support","ar":"المساعدة"},"link":"/support","slot":"support","type":"page"},{"title":{"en":"Sign In","ar":"دخول"},"link":"#","action":true,"type":"action"}]
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports) {
 
 module.exports = [{"title":{"en":"For Users","ar":"للمستخدم"},"items":[{"type":"product","title":{"en":"Pay","ar":"دفع"},"slot":"pay","link":"/pay"}]},{"title":{"en":"For Business","ar":"للمتاجر وأصحاب الأعمال"},"items":[{"type":"product","title":{"en":"Sell","ar":"بيع"},"slot":"sell","link":"/sell"},{"type":"product","title":{"en":"Collect","ar":"تحصيل"},"slot":"collect","link":"/collect"}]},{"title":{"en":"For Developers","ar":"للمطورين"},"items":[{"type":"page","title":{"en":"eCommerce","ar":"التجارة الالكترونية"},"slot":"api","link":"/api"},{"type":"page","title":{"en":"Documentation","ar":"دليل المبرمجين"},"slot":"developers","link":"/developers"}]},{"title":{"en":"About Tap","ar":"عن تاپ"},"items":[{"type":"page","title":{"en":"Press Info","ar":"معلومات صحفية"},"link":"/"},{"type":"page","title":{"en":"Our Story","ar":"قصتنا"},"slot":"about","link":"/about"},{"type":"page","title":{"en":"Jobs","ar":"التوظيف"},"slot":"jobs","link":"/jobs"}]},{"title":{"en":"Help","ar":"للمساعدة"},"items":[{"type":"page","title":{"en":"Support","ar":"إتصل بنا"},"slot":"jobs","link":"/support"}]}]
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports) {
 
 module.exports = {"appsStores":["https://www.tap.company/websiteImages/footerImages/ios-black.svg","https://www.tap.company/websiteImages/footerImages/google-play-badge.svg"],"paymnetMethods":["https://www.tap.company/websiteImages/footerImages/all-payment-gray-NFC.svg"],"securityMethods":["https://www.tap.company/websiteImages/footerImages/Thawte-logo.svg","https://www.tap.company/websiteImages/footerImages/Mastercard-Secure.svg","https://www.tap.company/websiteImages/footerImages/Verified-Visa.svg","https://www.tap.company/websiteImages/footerImages/amex-SafeKey.svg"]}
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, exports) {
 
 module.exports = [{"name":"youtube","fontAwesomeIcon":"fa-youtube-square","link":"https://www.youtube.com/channel/UCGsG95ViQdDHIFijHUYRRjw"},{"name":"facebook","fontAwesomeIcon":"fa-facebook-square","link":"https://www.facebook.com/tappayments"},{"name":"twitter","fontAwesomeIcon":"fa-twitter-square","link":"http://www.twitter.com/gotapnow"},{"name":"linkedin","fontAwesomeIcon":"fa-linkedin","link":"http://www.linkedin.com/company/tap-payments"},{"name":"instagram","fontAwesomeIcon":"fa-instagram","link":"http://www.instagram.com/tappayments"}]
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, exports) {
 
 module.exports = [{"title":{"en":"Copyright © 2018 Tap Payments. All rights reserved.","ar":"جميع الحقوق محفوظة @ تاپ للدفع الإلكتروني"}},{"title":{"en":"Terms & Conditions","ar":"سياسة الإستخدام"},"link":"/terms-conditions"},{"title":{"en":"Privacy Policy","ar":"سياسة الخصوصية"},"link":"/privacy-policy"}]
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, exports) {
 
 module.exports = {"inputsPlaceholders":[{"type":"email","placeholder":{"en":"Email Address","ar":"البريد الإلكتروني"}},{"type":"password","placeholder":{"en":"Password","ar":"رمز المرور"}}],"buttonsTexts":[{"text":{"en":"Sign In","ar":"دخول"}}],"links":[{"link":"/forgot-password","linkText":{"en":"Forgot Password?","ar":"نسيت رمز المرور؟"}},{"link":"/register","linkText":{"en":"Sign Up","ar":"سجّل"}}]}
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12830,15 +12922,15 @@ var _nodeFetch = __webpack_require__(37);
 
 var _nodeFetch2 = _interopRequireDefault(_nodeFetch);
 
-var _reactDom = __webpack_require__(10);
+var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _windowOrGlobal = __webpack_require__(4);
+var _windowOrGlobal = __webpack_require__(5);
 
 var _windowOrGlobal2 = _interopRequireDefault(_windowOrGlobal);
 
-var _iplocation = __webpack_require__(217);
+var _iplocation = __webpack_require__(218);
 
 var _iplocation2 = _interopRequireDefault(_iplocation);
 
@@ -13337,19 +13429,19 @@ preferencesStore.getAvailableCountries();
 exports.default = preferencesStore;
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports) {
 
 module.exports = require("iplocation");
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-intercom");
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, exports) {
 
 module.exports = require("exenv");

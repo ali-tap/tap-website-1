@@ -9,6 +9,7 @@ import JobsPage from './components/JobsPage/JobsPage.js';
 import ActivatePage from './components/ActivatePage/ActivatePage.js';
 import IframePage from './components/IframePage/IframePage.js';
 import ErrorPage from './components/ErrorPage/ErrorPage.js';
+import PoliciesPage from './components/PoliciesPage/PoliciesPage.js';
 import ActivatePayment from './components/ActivatePaymentPage/ActivatePaymentPage.js';
 import languages from './dataSource/languages.json';
 import products from './dataSource/products.json';
@@ -47,7 +48,7 @@ countries.map(country=>{
           {
             path: '/'+country.country_code.toLowerCase()+'/'+language.slot+'/'+page.slot,
             exact: true,
-            component: page.slot==='support'?SupportPage:page.slot==='api'?APIPage:page.slot==='about'?AboutPage:page.slot==='jobs'?JobsPage:page.slot==='developers'?IframePage:page.slot==='activate-payment'?ActivatePayment:null,
+            component: page.slot==='support'?SupportPage:page.slot==='api'?APIPage:page.slot==='about'?AboutPage:page.slot==='jobs'?JobsPage:page.slot==='developers'?IframePage:page.slot==='activate-payment'?ActivatePayment:page.slot==='terms-conditions'?PoliciesPage:null,
             metaTag: getMetaTag(page.slot, '/'+country.country_code.toLowerCase()+'/'+language.slot+'/'+page.slot),
             compProps: {
               country: country.country_code.toLowerCase(),

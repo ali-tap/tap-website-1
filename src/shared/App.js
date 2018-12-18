@@ -34,6 +34,7 @@ class App extends Component {
   }
 
   checkParamsExistance(link){
+    // console.log(link);
     let params = link.split('/');
     params = params.filter(param=>param!=='');
     let orderedParams = [];
@@ -129,6 +130,7 @@ class App extends Component {
   }
 
   render() {
+    console.log('anytime');
     return (
       <div className='App' dir={preferencesStore.language==='ar'?'rtl':'ltr'}>
       <Intercom appID="raqrpxm0" user={preferencesStore.intercomUser}/>
