@@ -167,7 +167,7 @@ class APIPage extends Component {
                 <BannerLayer>
                     {pageObj.callToAction?
                       <div>
-                      <h1 style={{color:'#fff',fontSize:'60px'}}>{pageObj.callToAction.title}</h1>
+                      <h1 style={{color:'#fff',fontSize:'54px'}}>{pageObj.callToAction.title}</h1>
                       <div style={{height:'7px'}}></div>
                       <h5 style={{color:'#fff'}}>{pageObj.callToAction.paragraph}</h5>
                       <div style={{height:'15px'}}></div>

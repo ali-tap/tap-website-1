@@ -43,7 +43,6 @@ class Page extends Component {
     preferencesStore.filterJsonStringsBasedOnLanguage(metaTags);
     preferencesStore.filterMenuBasedOnCountry(leftMenuItems);
     preferencesStore.filterMenuBasedOnCountry(rightMenuItems);
-    preferencesStore.saveUrlKeys(this.props.location.search);
     preferencesStore.filterMenusBasedOnCountry(footerMenus);
   }
 

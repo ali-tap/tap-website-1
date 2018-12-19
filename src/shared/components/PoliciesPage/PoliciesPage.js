@@ -29,7 +29,6 @@ class PoliciesPage extends Component {
   render()
   {
     let pageObject = pages.filter(obj=>obj.slot===this.props.page)[0];
-    console.log(pageObject);
     return (
       <React.Fragment>
       {pageObject?

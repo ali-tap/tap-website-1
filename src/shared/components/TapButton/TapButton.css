@@ -101,6 +101,6 @@ a.tapButton:hover{
 
 @media screen and (max-width: 767px) {
     .tapButton{
-		width: 215px;
+		/* width: 215px; */
     }
 }

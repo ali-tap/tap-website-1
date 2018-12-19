@@ -81,19 +81,21 @@ class ProductPage extends Component {
 
   render() {
 
-      let parameter=this.props.partner?this.props.partner:'';
-          this.props.preferencesStore.pageUrlKeys.src && this.props.preferencesStore.pageUrlKeys.src!=='partner' && this.props.partner?
-          parameter=this.props.preferencesStore.pageUrlKeys.src
-          :
-          null
-
+    let partnerString=this.props.partner?
+    this.props.partner
+    :
+    ''
+    
+    let source=this.props.preferencesStore.pageUrlKeys.src && this.props.preferencesStore.pageUrlKeys.src==='partner' && this.props.partner?
+    this.props.partner
+    :
+    ''
 
     const preferencesStore = this.props.preferencesStore;
     let partner=false;
     this.props.partner?
         partner=preferencesStore.getCurrentPartner(this.props.partner)
         :partner=false;
-
 
     let string = this.props.product ;
     let product = preferencesStore.getProduct(string);
@@ -170,8 +172,9 @@ class ProductPage extends Component {
                         country_code={preferencesStore.country_code}
                         language={preferencesStore.language}
                         color={partner?partner.brandingColor:product.brandingColor}
-                        source={parameter}
+                        source={source}
                         schedule_for={schedule_for}
+                        partner={partnerString}
                     />
                 </BannerLayer>
                 <BannerLayer
@@ -250,9 +253,10 @@ class ProductPage extends Component {
           country_code={preferencesStore.country_code}
           language={preferencesStore.language}
           color={partner?partner.brandingColor:product.brandingColor}
-          source={parameter}
+          source={source}
           center={true}
           schedule_for={schedule_for}
+          partner={partnerString}
       />
       </div>
     </React.Fragment>

@@ -27,7 +27,7 @@ class DownloadApp extends Component {
 
   handleKeyPress(event,send_sms,redirectLink){
       if(event.which === 13) {
-        this.props.store.sendSms(this.props.schedule_for, this.props.source, send_sms, redirectLink);
+        this.props.store.sendSms(this.props.schedule_for, this.props.source, this.props.partner, send_sms, redirectLink);
       }
   }
 
@@ -42,7 +42,7 @@ class DownloadApp extends Component {
           returnValue = link["android"];
       }
 
-      else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream){
           returnValue =  link["ios"];
       }
 
@@ -87,7 +87,7 @@ class DownloadApp extends Component {
                 store={this.props.store}
                 actionType={this.props.actionType}
                 color={this.props.color}
-                onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, 1, '')}
+                onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, this.props.partner, 1, '')}
                 />
           </div>
           <p className={this.props.store.showSuccessMsg?'msg successMessage fadeInItem':'msg successMessage fadeOutItem'}
@@ -100,7 +100,7 @@ class DownloadApp extends Component {
           </p>
           </div>
           <div className='visible-xs'>
-            {window.location.href.indexOf('download=true')>-1?
+            {window.location.href.indexOf('download=true')>-1 || this.props.partner===''?
             <TapButton
                   type='link'
                   link={this.getLink(this.props.link)}
@@ -150,7 +150,7 @@ class DownloadApp extends Component {
                       language={this.props.language}
                       color={this.props.color}
                       hoverStyle={true}
-                      onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, 0, this.getLink(this.props.link))}
+                      onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, this.props.partner, 0, this.getLink(this.props.link))}
                   />
                 <p className={this.props.store.showValidateMsg?'msg validateMsg fadeInItem grayText':'msg validateMsg fadeOutItem grayText'}>
                   {this.props.store.validateMsg}

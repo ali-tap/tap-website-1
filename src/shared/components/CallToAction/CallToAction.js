@@ -24,6 +24,7 @@ class CallToAction extends Component {
       this.setState({
         actionType: <DownloadApp
                       product={this.props.callToAction.product}
+                      partner={this.props.partner}
                       placeholder={this.props.callToAction.placeholder}
                       buttonText={this.props.callToAction.buttonText}
                       linkText={this.props.callToAction.linkText}

@@ -31,10 +31,10 @@ class App extends Component {
     require('./shortRightLeftAnimation.css');
     require('./topBottomAnimation.css');
     require('./fadeAnimation.css');
+    preferencesStore.saveUrlKeys(this.props.location.search);
   }
 
   checkParamsExistance(link){
-    // console.log(link);
     let params = link.split('/');
     params = params.filter(param=>param!=='');
     let orderedParams = [];
