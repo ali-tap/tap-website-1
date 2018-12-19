@@ -7,26 +7,26 @@
       },
       "testimonials":[
       {
-        "testimonialImage": "https://www.tap.company//websiteImages/testimonials/qoutmarket.jpg",
+        "testimonialImage": "https://www.tap.company//websiteImages/testimonials/darha.png",
         "qoute":
         {
           "en":"Tap has made our lives easier! From the great around the clock customer service to creating products that fit our sometimes unconventional needs.",
-          "ar":"تاپ جعلت حياتنا أسهل! خدمة على مدار الساعة لتقديم منتجات توائم احتياجاتنا الغير تقليدية"
+          "ar":"أثّر على شييّن الصّراحة مو بس المبيعات، تاپ أثّر على راحتي وراحة الزبون."
         },
         "name":
         {
           "en": "Noaf & Budour",
-          "ar": "نوف وبدور"
+          "ar": "هيا العمر"
         },
         "role":
         {
           "en": "Founders",
-          "ar": "مؤسسين"
+          "ar": "المالك"
         },
         "businessName":
         {
           "en": "Qout Market",
-          "ar": "قوت ماركت"
+          "ar": "دار هاء"
         }
       },
       {
@@ -53,26 +53,26 @@
         }
       },
       {
-        "testimonialImage": "https://www.tap.company//websiteImages/testimonials/niu.jpg",
+        "testimonialImage": "https://www.tap.company//websiteImages/testimonials/sirdablab.jpg",
         "qoute":
         {
-          "en":"We admire Tap’s dedication to start-ups & their great customer service.",
-          "ar":"نحن نحب إخلاص تاپ للشركات الناشئة وخدمة الزبائن الرائعة التي يقدمونها"
+          "en":"Tap is the most convenient way to accept payment via email or SMS.",
+          "ar":"تاپ أنسب طريقة نستقبل فيها المدفوعات عن طريق الإيميل أو الرسائل القصيرة."
         },
         "name":
         {
-          "en": "Haytham Al-Hawaj",
-          "ar": "هيثم الحواج"
+          "en": "Haider Almosawi",
+          "ar": "حيدر الموسوي"
         },
         "role":
         {
-          "en": "Founder",
-          "ar": "مؤسس"
+          "en": "CEO & Co-founder",
+          "ar": "رئيس مجلس الإدارة والمؤسس"
         },
         "businessName":
         {
-          "en": "NIU",
-          "ar": "نيو"
+          "en": "Sirdab Lab",
+          "ar": "سرداب لاب"
         }
       },
       {
@@ -112,45 +112,45 @@
         "qoute":
         {
           "en":"Tap has truly enabled Bilbayt.com to serve it’s customer base effectively while also delivering the excellent user experience and interface we were searching for.",
-          "ar":"ا ب ت"
+          "ar":"لقد مكنت تاپ Bilbayt.com من خدمة عملائها بشكل فعال، كما تقدم أيضا تجربة ممتازة وواجهة مستخدم كنا نسعى لها"
         },
         "name":
         {
-          "en": "Ahmad Salamah",
-          "ar":"ا ب ت"
+          "en":"Ahmad Salamah",
+          "ar":"أحمد سلامة"
         },
         "role":
         {
-          "en": "Co-founder & CEO",
-          "ar":"ا ب ت"
+          "en":"Co-founder & CEO",
+          "ar":"المؤسس المشارك والرئيس التنفيذي"
         },
         "businessName":
         {
-          "en": "Bilbayt.com",
-          "ar":"ا ب ت"
+          "en":"Bilbayt.com",
+          "ar":"بالبيت"
         }
       },
       {
         "testimonialImage": "https://www.tap.company//websiteImages/testimonials/nuqat.jpg",
         "qoute":
         {
-          "en": "Tap has untapped the potential of our website through a well streamlined payment process!",
-          "ar":"ا ب ت"
+          "en":"Tap has untapped the potential of our website through a well streamlined payment process!",
+          "ar":"تاپ قد أطلقت إمكانات موقعنا عن طريق تبسيط عملية الدفع!"
         },
         "name":
         {
-          "en":  "Hussa Al Humaidhi",
-          "ar":"ا ب ت"
+          "en":"Hussa Al Humaidhi",
+          "ar":"حصة الحميضي"
         },
         "role":
         {
           "en": "Founding Member",
-          "ar":"ا ب ت"
+          "ar":"عضو مؤسس"
         },
         "businessName":
         {
           "en":"Nuqat",
-          "ar":"ا ب ت"
+          "ar":"نقاط"
         }
       },
       {
@@ -158,45 +158,45 @@
         "qoute":
         {
           "en":"We at OpenSooq.com are very happy with Tap, it proved to be a very reliable payment partner for us and our users love it!",
-          "ar":"ا ب ت"
+          "ar":"نحن في OpenSooq.com سعيدون جداً بتاپ، لقد أثبتت أنها شركة جديرة بالثقة لنا ولعملائنا"
         },
         "name":
         {
           "en":"Anas Elayyan",
-          "ar":"ا ب ت"
+          "ar":"أنس العليان"
         },
         "role":
         {
-          "en":  "Head of Business Development",
-          "ar":"ا ب ت"
+          "en":"Head of Business Development",
+          "ar":"رئيس تطوير الأعمال"
         },
         "businessName":
         {
           "en":"OpenSooq.com",
-          "ar":"ا ب ت"
+          "ar":"السوق المفتوح"
         }
       },
       {
         "testimonialImage": "https://www.tap.company//websiteImages/testimonials/sirdablab.jpg",
         "qoute":
         {
-          "en":"Tap made it easy for us to set up a payment portal and accept payments quickly. It’s a wonderful service for budding businesses.",
-          "ar":"ا ب ت"
+          "en":"Tap is the most convenient way to accept payment via email or SMS.",
+          "ar":"تاپ أنسب طريقة نستقبل فيها المدفوعات عن طريق الإيميل أو الرسائل القصيرة."
         },
         "name":
         {
-          "en":"Haider Al Mosawi",
-          "ar":"ا ب ت"
+          "en": "Haider Almosawi",
+          "ar": "حيدر الموسوي"
         },
         "role":
         {
-          "en": "Learning & Laughter Officer",
-          "ar":"ا ب ت"
+          "en": "CEO & Co-founder",
+          "ar": "رئيس مجلس الإدارة والمؤسس"
         },
         "businessName":
         {
-          "en":"Sirdab Lab",
-          "ar":"ا ب ت"
+          "en": "Sirdab Lab",
+          "ar": "سرداب لاب"
         }
       }
     ]
@@ -213,45 +213,45 @@
         "qoute":
         {
           "en":"Tap has truly enabled Bilbayt.com to serve it’s customer base effectively while also delivering the excellent user experience and interface we were searching for.",
-          "ar":"ا ب ت"
+          "ar":"لقد مكنت تاپ Bilbayt.com من خدمة عملائها بشكل فعال، كما تقدم أيضا تجربة ممتازة وواجهة مستخدم كنا نسعى لها"
         },
         "name":
         {
-          "en": "Ahmad Salamah",
-          "ar":"ا ب ت"
+          "en":"Ahmad Salamah",
+          "ar":"أحمد سلامة"
         },
         "role":
         {
-          "en": "Co-founder & CEO",
-          "ar":"ا ب ت"
+          "en":"Co-founder & CEO",
+          "ar":"المؤسس المشارك والرئيس التنفيذي"
         },
         "businessName":
         {
-          "en": "Bilbayt.com",
-          "ar":"ا ب ت"
+          "en":"Bilbayt.com",
+          "ar":"بالبيت"
         }
       },
       {
         "testimonialImage": "https://www.tap.company//websiteImages/testimonials/nuqat.jpg",
         "qoute":
         {
-          "en": "Tap has untapped the potential of our website through a well streamlined payment process!",
-          "ar":"ا ب ت"
+          "en":"Tap has untapped the potential of our website through a well streamlined payment process!",
+          "ar":"تاپ قد أطلقت إمكانات موقعنا عن طريق تبسيط عملية الدفع!"
         },
         "name":
         {
-          "en":  "Hussa Al Humaidhi",
-          "ar":"ا ب ت"
+          "en":"Hussa Al Humaidhi",
+          "ar":"حصة الحميضي"
         },
         "role":
         {
           "en": "Founding Member",
-          "ar":"ا ب ت"
+          "ar":"عضو مؤسس"
         },
         "businessName":
         {
           "en":"Nuqat",
-          "ar":"ا ب ت"
+          "ar":"نقاط"
         }
       },
       {
@@ -259,45 +259,45 @@
         "qoute":
         {
           "en":"We at OpenSooq.com are very happy with Tap, it proved to be a very reliable payment partner for us and our users love it!",
-          "ar":"ا ب ت"
+          "ar":"نحن في OpenSooq.com سعيدون جداً بتاپ، لقد أثبتت أنها شركة جديرة بالثقة لنا ولعملائنا"
         },
         "name":
         {
           "en":"Anas Elayyan",
-          "ar":"ا ب ت"
+          "ar":"أنس العليان"
         },
         "role":
         {
-          "en":  "Head of Business Development",
-          "ar":"ا ب ت"
+          "en":"Head of Business Development",
+          "ar":"رئيس تطوير الأعمال"
         },
         "businessName":
         {
           "en":"OpenSooq.com",
-          "ar":"ا ب ت"
+          "ar":"السوق المفتوح"
         }
       },
       {
         "testimonialImage": "https://www.tap.company//websiteImages/testimonials/sirdablab.jpg",
         "qoute":
         {
-          "en":"Tap made it easy for us to set up a payment portal and accept payments quickly. It’s a wonderful service for budding businesses.",
-          "ar":"ا ب ت"
+          "en":"Tap is the most convenient way to accept payment via email or SMS.",
+          "ar":"تاپ أنسب طريقة نستقبل فيها المدفوعات عن طريق الإيميل أو الرسائل القصيرة."
         },
         "name":
         {
-          "en":"Haider Al Mosawi",
-          "ar":"ا ب ت"
+          "en": "Haider Almosawi",
+          "ar": "حيدر الموسوي"
         },
         "role":
         {
-          "en": "Learning & Laughter Officer",
-          "ar":"ا ب ت"
+          "en": "CEO & Co-founder",
+          "ar": "رئيس مجلس الإدارة والمؤسس"
         },
         "businessName":
         {
-          "en":"Sirdab Lab",
-          "ar":"ا ب ت"
+          "en": "Sirdab Lab",
+          "ar": "سرداب لاب"
         }
       }
     ]
