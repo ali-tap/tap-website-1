@@ -41,7 +41,7 @@
 						"description":
 						{
 							"en":"Through Tap, your customers now have the option of paying with their preferred local card, a regional card, or even with an international credit card. Our Charge API allows them to pay for any of your listed products and services in a snap. Whether that’s through KNET, Benefit, Mada, Sadad, Visa, MasterCard, or  American Express. From now on, the only thing you won’t accept is ‘no’ for an answer.",
-							"ar":"من خلال شركة تاب، يتمتع عملائك الآن بخيار الدفع عن طريق بطاقتهم المحلية أو الإقليمية المفضلة أو حتى عن طريق بطاقة الإئتمان الدولية. واجهة برمجة التطبيقات الخاصة بالشحن تمكنهم من دفع ثمن أي من المنتجات المُدرجة والخدمات في لحظة.  سواءا كانت عملية الدفع عن طريق الكي نت أو بنفت أو مدى أو سداد أو فيزا أو ماستر كارد أو أمريكان إكسبريس. ومن الآن فصاعدا، الأمر الوحيد الذي لن تقبله هو الإجابة بكلمة 'لا'."
+							"ar":"من خلال شركة تاب يستطيع عملائك اختيار طريقة  الدفع التي يفضلونها ، إما عن طريق بطاقاتهم المحلية أو الإقليمية ، أو حتى عن طريق بطاقة الإئتمان الدولية ، من خلال بوابة الدفع الإلكتروني من تاب للمطورين API تمكنهم من دفع قيمة أي من المنتجات والخدمات في لحظة ، سواء كانت عملية عن طريق  ( كي نت ، بنفت ، مدى ، سداد ، فيزا ، ماستر كارد أو أمريكان إكسبريس) ."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/all-payments.png"
 					},
@@ -49,18 +49,18 @@
 						"title":
 						{
 							"en":"Charge",
-							"ar":"مصاريف الدفع"
+							"ar":"الرسوم"
 						},
 						"subtitle":
 						{
 							"en":"An API for the modern age",
-							"ar":"واجهة برمجة تطبيقات تناسب العصر الحديث"
+							"ar":"بوابة الدفع الإلكتروني للمطورين API تناسب العصر الحديث"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Charge.png",
 						"description":
 						{
 							"en":"We’re proud to introduce the first and only technology that allows businesses to perform an online payment using a single API endpoint action for any type of local, regional, or global card payment in the MENA region. That means a much simpler development experience on the back-end, with a smoother customer experience on the front-end.",
-							"ar":"نشعر بالفخر لطرح التقنية الأولى والوحيدة التي تسمح للشركات بتنفيذ عملية الدفع عبر الإنترنت باستخدام إجراء نقطة نهاية واجهة برمجة التطبيقات لأي نوع من بطاقات الدفع المحلية أو الإقليمية أو الدولية داخل منطقة الشرق الأوسط وشمال أفريقيا. وهذا يُعني أن تجربة تطوير أكثر بساطة فيما يخص الواجهة النهائية وتجربة أكثر سلاسة من العميل فيما يخص الواجهة الأمامية."
+							"ar":"نحن فخورون لطرحنا التقنية الأولى و الوحيدة التي تسمح للشركات بتنفيذ عملية الدفع عبر الإنترنت بإستخدام بوابة الدفع الإلكتروني للمطورين  API لأي نوع من بطاقات الدفع المحلية ، الإقليمية أو الدولية داخل منطقة الشرق الأوسط وشمال أفريقيا ، هذا يعني أن عملية التطوير أكثر بساطة فيما يخص الواجهة النهائية ، وأكثر سلاسة للعميل  فيما يخص الواجهة الأمامية."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Charge.png"
 					},
@@ -73,13 +73,13 @@
 						"subtitle":
 						{
 							"en":"Put your funds on lockdown",
-							"ar":"قم بوضع أموالك في إقفال تام"
+							"ar":"أمن على مدفوعاتك"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Authotize.png",
 						"description":
 						{
 							"en":"Take control of your cash flow through our insured authorization process. Now you can block an amount on your supported cards to keep for later use, and you can insure higher customer satisfaction while performing online order fulfillments and logistics.",
-							"ar":" تحكم في تدفق أموالك النقدية من خلال عملية الموافقة المؤمنة. الآن يمكنك حجز مبلغ من بطاقاتك المدعومة والإحتفاظ به من أجل استخدامه فيما بعد، كما يمكنك ضمان رضاء العملاء أثناء تنفيذ شروط الطلب وتجهيزاته عبر الإنترنت."
+							"ar":"تحكم في أموالك عبر نظامنا الآمن ، يمكنك الآن الحجز على أموالك والاحتفاظ بها من أجل إستخدامها فيما بعد ، كما يمكنك ضمان رضاء العملاء أثناء تنفيذ شروط عملية الطلب وتجهيزاته عبر الإنترنت."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Authorize.png"
 					},
@@ -87,18 +87,18 @@
 						"title":
 						{
 							"en":"Multi-Currency",
-							"ar":" العملات المتعددة"
+							"ar":"العملات المتعددة"
 						},
 						"subtitle":
 						{
 							"en":"Go international",
-							"ar":"التوجه إلى المستوى الدولي"
+							"ar":"التوجه إلى مستوى دولي"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Multi_currency.png",
 						"description":
 						{
 							"en":"Tap’s payment gateways supports multi-currency charging for all GCC currencies plus the Egyptian Pound along with major global currencies such as the USD, Euro & GBP. You can be an international business-owner, right from where you are.",
-							"ar":"تدعم ممرات الاتصال بالشبكات الخاصة بشركة تاب العملات المتعددة المفروضة على جميع عملات مجلس التعاون لدول الخليج العربية بالإضافة إلى الجنية المصري والعملات الدولية الرئيسة مثل الدولار الأمريكي واليورو والجنية الإسترليني. ويمكنك أن تُصبح صاحب شركة دولية من مكانك الذي تتواجد فيه."
+							"ar":"بوابة الدفع الخاصة بشركة تاب تدعم عملات متعددة ، جميع العملات الخليجية لدول مجلس التعاون ، بالإضافة إلى الجنيه المصري ، إلى جانب العملات الأجنبية كالدولار ، اليورو و الجنيه الإسترليني . وبذلك يمكنك أن تصبح صاحب أعمال وشركة تجارية دولية من المكان الذي تتواجد فيه."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_MultiCurrency.png"
 					},
@@ -106,7 +106,7 @@
 						"title":
 						{
 							"en":"Dynamic Currency Converter (DCC)",
-							"ar":"محول العملات الديناميكي "
+							"ar":"محول العملات الديناميكي"
 						},
 						"subtitle":
 						{
@@ -117,7 +117,7 @@
 						"description":
 						{
 							"en":"Stay in the know about the latest currency conversion rate, without any extra research. Our payment gateways gives the business and the customer a chance to choose their currency of preference along with the currency conversion rate at the time of the transaction.",
-							"ar":"ابقى على معرفة بآخر سعر تحويل للعملة دون مزيد من البحث.إذ  تُعطي ممرات الاتصال بالشبكات الخاصة بنا الشركات والعميل حرية اختيار العملة المفُضلة مصحوبة بسعر تحويل العملة وقت إجراء المعاملة."
+							"ar":"ابقى على معرفة بآخر أسعار تحويل العملات دون مزيد من البحث ، حيث أن شركة تاب توفر حرية اختيار العملة مصحوبة بسعر تحويل العملة وقت إجراء المعاملة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_DCC.png"
 					},
@@ -125,18 +125,18 @@
 						"title":
 						{
 							"en":"Card Saving",
-							"ar":"......."
+							"ar":"حماية البطاقة"
 						},
 						"subtitle":
 						{
 							"en":"Zoom through checkouts!",
-							"ar":"......."
+							"ar":"أمان سرعة عمليات الدفع!"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Card-Saving.png",
 						"description":
 						{
 							"en":"Now you can give customers the option to save their card information once they complete a transaction. It’ll make for a speedy, easy, and super secure payment experience the next time they check out.",
-							"ar":"......."
+							"ar":"الآن يمكنك توفير خيارات حفظ بيانات البطاقة لعملائك بمجرد إتمام المعاملة ، وذلك سيجعل عملية الدفع في المرة التالية سريعة وسهلة وآمنة تماماً ."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Card_Saving.png"
 					},
@@ -144,18 +144,18 @@
 						"title":
 						{
 							"en":"Schedule",
-							"ar":"......."
+							"ar":"الموعد المحدد"
 						},
 						"subtitle":
 						{
 							"en":"Schedule tomorrow’s payments today",
-							"ar":"......."
+							"ar":"حدد الدفعة الآن وادفع لاحقاً"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Schedule.png",
 						"description":
 						{
 							"en":"Got an advance payment coming up? Check it off your to-do list today by scheduling the payment in advance. You can even choose to authorize (block) the amount of the transaction before capturing it on a scheduled date.",
-							"ar":"......."
+							"ar":"هل لديك دفعة مقدمة ؟ تأكد من قائمة أعمال اليوم من خلال تحديد الدفع المقدم ، ويمكنك اختيار السماح بـ(حجز) مبلغ المعاملة قبل الحصول عليه في الموعد المحدد."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Schedule.png"
 					},
@@ -163,18 +163,18 @@
 						"title":
 						{
 							"en":"Subscriptions",
-							"ar":"......."
+							"ar":"الإشتراكات"
 						},
 						"subtitle":
 						{
 							"en":"Hassle free renewals",
-							"ar":"......."
+							"ar":"تجديدات خالية من المتاعب "
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Subscription.png",
 						"description":
 						{
 							"en":"Everyone loves a recurring service subscription. The only thing we don’t love? Having to hassle with the monthly renewals. That’s why we allow you to provide your customers with the option to auto-renew subscription payment services. They’ll get a seamless month-to-month service, and you’ll get paid on the fly.",
-							"ar":"......."
+							"ar":"الجميع يحب الإشتراك في الخدمات ، والشيء الوحيد الذي لا نحبه هو المتاعب الخاصة بتجديد الإشتراكات الشهرية، ولهذا السبب نسمح لك بتزويد العملاء بخيار التجديد التلقائي لخدمة الإشتراك الخاصة بالدفع ، حيث سوف يحصلون على خدمة شهرية سلسة وستستلم الدفعة فوراً."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Subscription.png"
 					}
@@ -202,7 +202,7 @@
 						"title":
 						{
 							"en":"Single API Integration",
-							"ar":"......."
+							"ar":"API"
 						},
 						"subtitle":
 						{
@@ -221,18 +221,18 @@
 						"title":
 						{
 							"en":"Mobile SDK",
-							"ar":"......."
+							"ar":"حزمة أدوات تطوير برمجيات الهاتف"
 						},
 						"subtitle":
 						{
 							"en":"Your app + the power of Tap",
-							"ar":"......."
+							"ar":"التطبيق الخاص بك + قوة تاب"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Mobile-SDK.png",
 						"description":
 						{
 							"en":"Building an iOS or Android app for your business? We’ll help you simplify your API integrations by adopting Tap’s Mobile SDK’s without the lengthy process of API implementation. Not only will it save you a ton of time and work but you’ll also get to take advantage of some powerful Tap features right out of the box. Features such as Local, Regional, & Global Card Acceptance; Multi-Currency; Dynamic Currency Converter (DCC); Card Saving; and Subscriptions.",
-							"ar":"......."
+							"ar":"هل تقوم بإنشاء تطبيق IOS و أندرويد لشركتك؟ سوف نساعدك في تسهيل إدماج واجهة برمجة التطبيقات الخاصة بك مع تطبيقات IOS  و أندرويد ، من خلال تبني حزمة أدوات تطوير برمجيات هاتف شركة تاب والتي من شأنها أن توفر عليك الكثير من الوقت ، كما ستحصل على ميزة الحصول على بعض الخصائص المبتكرة والقوية لشركة تاب ، فعلى سبيل المثال مميزات قبول البطاقة المحلية و الإقليمية و الدولية و العملات المتعددة وحول العملات الديناميكي وحماية البطاقة بالإضافة إلى الاشتراكات."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_MobileSDK.png"
 					},
@@ -279,18 +279,18 @@
 						"title":
 						{
 							"en":"Receipts",
-							"ar":"......."
+							"ar":"الفواتير"
 						},
 						"subtitle":
 						{
 							"en":"Paper-free recordkeeping",
-							"ar":"......."
+							"ar":"الاحتفاظ بالسجلات"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/statements-and-receipt.png",
 						"description":
 						{
 							"en":"Your business has the option of sending an email or an SMS receipt to your customer after a successful payment. And if you need to access it later, it’ll be available on record for any historical purposes.",
-							"ar":"......."
+							"ar":"سوف تستمتع شركتك بالحصول على خيار إرسال إيصال الاستلام عبر رسائل البريد الإلكتروني أو خدمة الرسائل النصية القصيرة بعد إتمام عملية الدفع بنجاح، و إذا أردت الرجوع إليه في وقت لاحق سيكون متوفر ضمن السجلات المحفوظة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Receipts.png"
 					},
@@ -298,18 +298,18 @@
 						"title":
 						{
 							"en":"Refunds",
-							"ar":"......."
+							"ar":"استرجاع الأموال"
 						},
 						"subtitle":
 						{
 							"en":"Super simple refunds",
-							"ar":"......."
+							"ar":"عملية استرجاع الأموال بسيطة للغاية"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Refund.png",
 						"description":
 						{
 							"en":"Refunds have always been tricky business, but with goCollect it's an easy fix. A single click is all it takes. Not only does goCollect help you with the refunding process, but now you also have a detailed picture of all past refunds at a glance.",
-							"ar":"......."
+							"ar":"دائماً ما تكون عمليات إسترجاع الأموال موضوع معقد ولكن مع goCollect  أصبحت حلاً سهلاً ، فكل ما يتطلبه الأمر هو ضغطة واحدة ، goCollect  لا يساعدك في عملية إسترجاع الأموال فحسب بل يمكنك الآن الحصول على صورة مفصلة عن جميع عمليات استرجاع الأموال الأخيرة في لمحة سريعة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Refund_transparent.gif"
 					},
@@ -317,18 +317,18 @@
 						"title":
 						{
 							"en":"Customers",
-							"ar":"......."
+							"ar":"العملاء"
 						},
 						"subtitle":
 						{
 							"en":"Keep your data organized",
-							"ar":"......."
+							"ar":"احفظ بياناتك بطريقة منظمة"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Customer.png",
 						"description":
 						{
 							"en":"We let you link the payments performed by customers to a unique customer account. It’ll make managing future payments and providing customer support a lot easier to handle.",
-							"ar":"......."
+							"ar":"سنتيح لك ربط عمليات الدفع التي نفذها العميل بحساب مميز للعميل، و الذي من شأنه أن يدير عمليات الدفع المستقبلية ويوفر الدعم بسهولة  أكثر للعميل."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Customer.png"
 					},
@@ -491,18 +491,18 @@
 						"title":
 						{
 							"en":"Multiple User Accounts",
-							"ar":"........"
+							"ar":"حساب لمستخدمين متعددين"
 						},
 						"subtitle":
 						{
 							"en":"Team Friendly Systems",
-							"ar":"........"
+							"ar":"الوصول إلى حساباتك في مكان واحد"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Multi-account.png",
 						"description":
 						{
 							"en":"Big team? No worries! Now you can give multiple users access to your account and allow each team member the power to perform their payment activities separately. You’ll still have a complete overview of all the user activity as the admin.",
-							"ar":"........"
+							"ar":"لا داعي للقلق إذا كان فريق العمل كبير! الآن يمكنك السماح للعديد من المستخدمين من الوصول إلى حسابك، والسماح لكل عضو من الفريق القيام بعملية الدفع بشكل مستقل أو منفصل، وبما أنك المشرف سيكون لك صلاحية الإطلاع على أنشطة المستخدمين."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Multi_user_account.png"
 					}
@@ -530,18 +530,18 @@
 						"title":
 						{
 							"en":"Risk",
-							"ar":"........"
+							"ar":"المخاطر"
 						},
 						"subtitle":
 						{
 							"en":"Hyper intelligent risk detection",
-							"ar":"......"
+							"ar":"اكتشاف المخاطر بذكاء!"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-risk.png",
 						"description":
 						{
 							"en":"Our robust solution detects all the necessary risk measures that need to be taken while performing transactions and identifies the risk level of every transaction -- whether it was made on mobile, tablet or PC. Not only that, but it adapts and evolves it’s intelligence mechanisms based on the behaviour of your business over time. It’s a security system you can count on no matter what.",
-							"ar":"........"
+							"ar":"الحل القوي الذي نقدمه يكتشف جميع التدابير اللازمة فيما يخص المخاطر التي يجب تجنبها أثناء تنفيذ المعاملات، كما يحدد مستوى الخطورة الخاص بكل معاملة ، سواء تم إجرائها من الهاتف أو التابلت أو الحاسوب الشخصي، وليس هذا فحسب يكيف ويطور آليات الذكاء الخاصة به استناداً إلى نظام عمل شركتك بمرور الوقت ، إنه نظام أمان يمكن الإعتماد عليه."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Risk.png"
 					},
@@ -549,18 +549,18 @@
 						"title":
 						{
 							"en":"Protection",
-							"ar":"........"
+							"ar":"الحماية"
 						},
 						"subtitle":
 						{
 							"en":"Above and beyond security",
-							"ar":"......"
+							"ar":"ما وراء الحماية!"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Protection.png",
 						"description":
 						{
 							"en":"In addition to risk detection, our safeguarding tools have the option to process risk-free transactions, and to automatically prevent payments that cross the permitted risk levels. We’re even happy to send over a specialized team from Tap to assist your business in protecting against cyber payment fraud, for that extra level of safety and assurance. ",
-							"ar":"......."
+							"ar":"بالإضافة إلى اكتشاف المخاطر فإن أدوات الحماية الخاصة بنا تحتوي على خيار إدارة معاملات خالية من المخاطر، كما أنها تلقائياً تمنع عمليات الدفع التي تتجاوز مستويات الخطورة المسموح بها، ويسعدنا أن نرسل فريق متخصص من شركة تاب لمساعدة شركتك في الحماية من الاحتيال الإلكتروني لعمليات الدفع و الوصول إلى هذا المستوى من الأمان والثقة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Protection.png"
 					},
@@ -568,18 +568,18 @@
 						"title":
 						{
 							"en":"Authentication",
-							"ar":"........"
+							"ar":"التحقق"
 						},
 						"subtitle":
 						{
 							"en":"Be 100% Assured",
-							"ar":"......."
+							"ar":"كن متأكداً 100%!"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Authentication.png",
 						"description":
 						{
 							"en":"In high-risk payment situation, customer identity can be required in order to validate specific types of transactions. Our authentication process protects you from potential fraud attempts by giving you time to check with a customer’s ID, whenever a high-risk situation arises.",
-							"ar":"........."
+							"ar":"خلال عمليات الدفع شديدة الخطورة يجب  طلب هوية العميل من أجل التأكد من أنواع المعاملات المحددة ، وتقوم عملية التحقق الخاصة بنا بحمايتك من محاولات الاحتيال المحتملة عن طريق إعطائك الوقت للتأكد من هوية العميل في حال ظهور موقف شديد الخطورة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Authentication.png"
 					},
@@ -587,18 +587,18 @@
 						"title":
 						{
 							"en":"Card",
-							"ar":"......."
+							"ar":"بطاقة الدفع"
 						},
 						"subtitle":
 						{
 							"en":"Advanced Card Monitoring",
-							"ar":"......."
+							"ar":"التحكم في بطاقات الدفع"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Card.png",
 						"description":
 						{
 							"en":"As more people are exposed to theft and fraud, risk can extend to different types of cards as well. Our card risk activity monitor helps us manage trusted sources of funds via cards that are issued locally, regionally, and globally including debit, credit, prepaid & charge cards, and e-wallets. It keeps us one step ahead of any oncoming security threats.",
-							"ar":"........."
+							"ar":"نظراً لأن العديد من الأشخاص يتعرضون لعمليات سرقة واحتيال، يمكن أن تمتد الخطورة إلى أنواع مختلفة من بطاقات الدفع على حد سواء، يساعدنا التحكم في نشاط خطورة بطاقة الدفع الخاص بنا في إدارة مصادر الأموال الموثوقة عبر بطاقة الدفع الصادرة محلياً أو إقليمياً أو دولياً، بما في ذلك بطاقات السحب والإيداع، والدفع المسبق، والخصم بالإضافة إلى الحوافظ الإلكترونية، ويحافظ على بقائنا متقدمين بخطوة على تهديدات الأمن القادمة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Card.png"
 					},
@@ -606,18 +606,18 @@
 						"title":
 						{
 							"en":"Product",
-							"ar":"......."
+							"ar":"المنتج"
 						},
 						"subtitle":
 						{
 							"en":"Automatically secure payments",
-							"ar":"........"
+							"ar":"عمليات دفع آمنة تلقائياً"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/Product.png",
 						"description":
 						{
 							"en":"Additional measures of risk can be associated with intangible items or financial digital tools. In that case, secure payment settings are automatically enabled -- all based on the type of products and related sales behavior within the business.",
-							"ar":"........"
+							"ar":"يمكن أن تكون التدابير الإضافية للخطورة مصحوبة بعناصر غير ملموسة أو أدوات مالية رقمية، وفي هذه الحالة يتم تفعيل إعدادات الدفع الآمن تلقائياً التي تعتمد على نوع المنتجات وسلوك عمليات البيع ضمن الأعمال."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Product2.png"
 					},
@@ -625,18 +625,18 @@
 						"title":
 						{
 							"en":"IP Address",
-							"ar":"......."
+							"ar":"عنوان IP"
 						},
 						"subtitle":
 						{
 							"en":"Location-based sale options",
-							"ar":"......."
+							"ar":"خيارات البيع المعتمد على الموقع"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-IP-Address.png",
 						"description":
 						{
 							"en":"All of our transactions are channeled through IP addresses. As a business owner, you have the power to permit and block the sales channels of your choice according to the location of your customers.",
-							"ar":"........"
+							"ar":"يتم تحويل جميع معاملاتنا عبر قنوات عناوين بروتوكول الإنترنت، وكصاحب شركة فأنت تمتلك قوة السماح بقنوات البيع أو منعها حسب اختيارك وفقاً لموقع العميل."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_IP_Address.png"
 					},
@@ -644,18 +644,18 @@
 						"title":
 						{
 							"en":"Billing Address",
-							"ar":"........"
+							"ar":"عنوان دفع الفواتير"
 						},
 						"subtitle":
 						{
 							"en":"Better address verifications",
-							"ar":"........"
+							"ar":"تحقق أفضل من العناوين"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Billing-address.png",
 						"description":
 						{
 							"en":"Tap gives you the power to reduce risk possibility by requiring the verification of billing addresses associated with your customer’s card. This feature is available to cardholders in specific regions such as the US.",
-							"ar":"........"
+							"ar":"تمنحك شركة تاب قوة تقليل المخاطر المحتملة عن طريق طلب التحقق من عناوين دفع الفواتير المصاحبة لبطاقة الدفع الخاصة بالعميل، هذه الميزة متوفرة لأصحاب البطاقات داخل مناطق معينة مثل الولايات المتحدة الأمريكية."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_Billing_Address.png"
 					}
@@ -665,7 +665,7 @@
 				"categoryName":
 				{
 					"en":"Device",
-					"ar":"جهازي"
+					"ar":"الجهاز"
 				},
 				"showMoreButtonText":
 				{
@@ -684,18 +684,18 @@
 						"title":
 						{
 							"en":"Router",
-							"ar":"محول"
+							"ar":"الراوتر"
 						},
 						"subtitle":
 						{
 							"en":"Online, all the time",
-							"ar":"........."
+							"ar":"متصل بالإنترنت في جميع الأوقات"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Router.png",
 						"description":
 						{
 							"en":"Zain will set you and your entire team up with a high speed WiFi router device to keep everyone in the office connected -- all day, every day. You’ll never have to worry about losing a connection as long as you work.",
-							"ar":"........."
+							"ar":"ستقوم شركة زين بتزويدك أنت وفريق عملك بجهاز راوتر ( واي فاي ) من أجل إبقاء جميع المتواجدين في المكتب متصلين بالإنترنت طوال اليوم، ولن تضطر للقلق بشأن قطع الإتصال طوال فترة عملك."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/Zain_Sell_Router.png"
 					},
@@ -703,18 +703,18 @@
 						"title":
 						{
 							"en":"Wifi",
-							"ar":"Wifi"
+							"ar":"الواي فاي"
 						},
 						"subtitle":
 						{
 							"en":"Everyone’s covered",
-							"ar":"........."
+							"ar":"يغطي جميع الأجهزة الإلكترونية "
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-Wifi.png",
 						"description":
 						{
 							"en":"When it comes to Zain’s WiFi coverage, everyone’s getting a good deal. Go ahead and enjoy office WiFi coverage for up to 100 users at the same time.",
-							"ar":"........."
+							"ar":"عندما يتعلق الأمر بتغطية الواي فاي التابعة لشركة زين فالجميع يحصل على تعامل رائع، تابع واستمتع بتغطية الواي فاي الذي يصل إلى 100 مستخدم في وقت واحد."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/Zain_Sell_Wifi.png"
 					},
@@ -727,13 +727,13 @@
 						"subtitle":
 						{
 							"en":"Turbo-powered Internet",
-							"ar":"........."
+							"ar":"إنترنت قوي"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Icons/icon-LTE.png",
 						"description":
 						{
 							"en":"With Zain’s 500GB of storage and high speed LTE internet, you’ll never miss a beat of work again. After all, business travels fast -- so why shouldn’t you?",
-							"ar":"........."
+							"ar":"مع شركة زين بسعة تخزين حجمها 500 جيجا بايت وسرعة انترنت LTE، لن يفوتك ضرب من العمل مرة أخرى، الأعمال تتطور بسرعة ، ويجب عليك ذلك أيضا."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goSell/Illustrations/goSell_LTE.png"
 					}
@@ -1858,13 +1858,13 @@
 						"subtitle":
 						{
 							"en":"Real-time Transaction Data",
-							"ar":" تسهيل سرعة عمليات التسوية"
+							"ar":"تحويل المعاملات في الوقت المحدد"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goTap/Icons/icon-BB-next-day-settlement.png",
 						"description":
 						{
 							"en":"Your Tap website dashboard gives you a live stream of your transactions as they appear in your account, in real time. You can literally watch the money pile up.",
-							"ar":"بمجرد انتهائك من معاملة كي نت بنجاح، سيتم تسويتها في حسابك البنكي بحلول يوم العمل التالي. الحديث عن سرعة الأموال"
+							"ar":"توفر لوحة التحكم لموقع شركة تاب الإلكتروني بظهور تحويلاتك داخل حسابك ، يمكنك مشاهدة تراكم الأموال."
 						},
 						"image":"https://www.tap.company/websiteImages//productsFeaturesImages/goTap/Illustrations/Boubyan-gotap-next-day.gif",
 						"partner":"boubyan"
