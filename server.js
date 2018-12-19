@@ -4776,7 +4776,8 @@ var MainPage = function (_Component) {
                     country_code: preferencesStore.country_code,
                     language: preferencesStore.language,
                     color: partner ? partner.brandingColor : banner.brandingColor,
-                    source: partner ? partner.slot : banner.partner ? banner.partner : '',
+                    source: '',
+                    partner: partner ? partner.slot : banner.partner ? banner.partner : '',
                     schedule_for: banner.schedule_for ? banner.schedule_for : null
                   })
                 ),
