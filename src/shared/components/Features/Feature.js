@@ -46,7 +46,7 @@ class Feature extends Component {
   }
 
   componentWillMount(){
-    const firstSide = <FeatureDescription feature={this.props.feature}/>;
+    const firstSide = <FeatureDescription feature={this.props.feature} language={this.props.language}/>;
     const secondSide = (<div className={' featureImage '}>
                             <Img src={this.props.feature.image} style={{width:'100%'}}/>
                         </div>);

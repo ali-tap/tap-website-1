@@ -67,6 +67,8 @@ class UserPreferencesStore {
                                                             obj.items.map(obj=>{if(obj.title) obj.title = obj.title[this.language]?obj.title[this.language]:obj.title;
                                                                                 if(obj.subtitle) obj.subtitle = obj.subtitle[this.language]?obj.subtitle[this.language]:obj.subtitle;
                                                                                 if(obj.description) obj.description = obj.description[this.language]?obj.description[this.language]:obj.description;
+                                                                                if(obj.videoButtonText) obj.videoButtonText = obj.videoButtonText[this.language]?obj.videoButtonText[this.language]:obj.videoButtonText;
+                                                                                if(obj.video) obj.video = obj.video[this.language]?obj.video[this.language]:obj.video;
                                                                                 return null;
                                                             })
                                                           };

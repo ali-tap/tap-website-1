@@ -23,6 +23,7 @@ class Features extends Component {
             rightPartAnimation={rightPartAnimation}
             leftPartAnimation={leftPartAnimation}
             partner={this.props.partner}
+            language={this.props.language}
           />
          </div>
        )

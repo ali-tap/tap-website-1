@@ -2271,7 +2271,8 @@ var Features = function (_Component) {
               category: category,
               rightPartAnimation: rightPartAnimation,
               leftPartAnimation: leftPartAnimation,
-              partner: _this2.props.partner
+              partner: _this2.props.partner,
+              language: _this2.props.language
             })
           );
         } else {
@@ -5097,7 +5098,8 @@ var FeatureCategory = function (_Component) {
             id: key,
             feature: feature,
             rightPartAnimation: _this2.props.rightPartAnimation,
-            leftPartAnimation: _this2.props.leftPartAnimation
+            leftPartAnimation: _this2.props.leftPartAnimation,
+            language: _this2.props.language
           }),
           key === 3 && features.length > 4 ? _react2.default.createElement(
             'div',
@@ -5235,7 +5237,7 @@ var Feature = function (_Component) {
   }, {
     key: 'componentWillMount',
     value: function componentWillMount() {
-      var firstSide = _react2.default.createElement(_FeatureDescription2.default, { feature: this.props.feature });
+      var firstSide = _react2.default.createElement(_FeatureDescription2.default, { feature: this.props.feature, language: this.props.language });
       var secondSide = _react2.default.createElement(
         'div',
         { className: ' featureImage ' },
@@ -5300,6 +5302,10 @@ var _Img = __webpack_require__(3);
 
 var _Img2 = _interopRequireDefault(_Img);
 
+var _LightBox = __webpack_require__(12);
+
+var _LightBox2 = _interopRequireDefault(_LightBox);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -5317,7 +5323,9 @@ var FeatureDescription = function (_Component) {
     var _this = _possibleConstructorReturn(this, (FeatureDescription.__proto__ || Object.getPrototypeOf(FeatureDescription)).call(this, props));
 
     _this.state = {
-      descriptionActive: ''
+      descriptionActive: '',
+      openLightBox: false,
+      lightBoxLink: ''
     };
     // this.descriptionToggle = this.descriptionToggle.bind(this);
     return _this;
@@ -5337,6 +5345,28 @@ var FeatureDescription = function (_Component) {
       }
     }
   }, {
+    key: 'openLightBoxFunction',
+    value: function openLightBoxFunction(link) {
+      if (link) {
+        this.setState({
+          openLightBox: true,
+          lightBoxLink: link
+        });
+      }
+    }
+  }, {
+    key: 'closeLightBoxFunction',
+    value: function closeLightBoxFunction() {
+      this.setState({
+        openLightBox: false
+      });
+      setTimeout(function () {
+        this.setState({
+          lightBoxLink: ''
+        });
+      }.bind(this), 200);
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -5344,6 +5374,13 @@ var FeatureDescription = function (_Component) {
       return _react2.default.createElement(
         'div',
         { className: ' featureDescription ' },
+        _react2.default.createElement(_LightBox2.default, {
+          link: this.state.lightBoxLink,
+          open: this.state.openLightBox,
+          onClick: function onClick() {
+            return _this2.closeLightBoxFunction();
+          }
+        }),
         _react2.default.createElement(
           'div',
           { className: 'featureShortDescription', onClick: function onClick() {
@@ -5386,7 +5423,25 @@ var FeatureDescription = function (_Component) {
             'h6',
             null,
             this.props.feature.description
-          )
+          ),
+          this.props.feature.video ? _react2.default.createElement(
+            _react2.default.Fragment,
+            null,
+            _react2.default.createElement('div', { style: { height: '15px' } }),
+            _react2.default.createElement(
+              'div',
+              { className: 'videoButtonText', onClick: function onClick() {
+                  return _this2.openLightBoxFunction(_this2.props.feature.video);
+                } },
+              _react2.default.createElement(
+                'span',
+                null,
+                this.props.feature.videoButtonText
+              ),
+              _react2.default.createElement('div', { style: { width: '5px', display: 'inline-block' } }),
+              _react2.default.createElement('i', { className: this.props.language === 'ar' ? 'fa fa-angle-left' : 'fa fa-angle-right' })
+            )
+          ) : null
         )
       );
     }
@@ -5513,7 +5568,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n.feature {\n    text-align: -webkit-auto;\n\ttext-align: justify;\n    margin: 80px 0 65px 0;\n}\n\n.featureImage{\n\ttext-align: center;\n}\n\n.featureIcon{\n\twidth: 52px;\n\theight: auto;\n\tvertical-align: top;\n}\n\n.titleSubtitle{\n\tdisplay: inline-block;\n}\n\n.subtitle {\n    margin-top: -5px;\n}\n\n.description {\n\t-webkit-transition: max-height 0.5s;\n\t-moz-transition: max-height 0.5s;\n\ttransition: max-height 0.5s;\n}\n\n.zeroOpacity{\n\topacity: 0;\n}\n\n.shownItem{\n\tdisplay: initial;\n}\n\n.hiddenItem{\n\topacity: 0;\n\t-webkit-transition: opacity 0.3s;\n\t-moz-transition: opacity 0.3s;\n\ttransition: opacity 0.3s;\n}\n\n.hiddenItem.hide{\n\tdisplay: none;\n}\n\n.colomn-6{\n\twidth: 50%;\n}\n\n@media screen and (max-width: 992px) {\n\t.featureImage>img {\n\t    width: 100%;\n\t}\n}\n\n@media screen and (max-width: 767px) {\n\t.feature {\n\t    text-align: -webkit-auto;\n\t    margin: 25px 0 0 0;\n\t}\n\t.colomn-6{\n\t\twidth: 100%;\n\t}\n\t.featureShortDescription{\n\t\tcursor: pointer;\n\t}\n\t.featureImage{\n\t\tdisplay: none;\n\t}\n\t.description{\n\t\tmargin-top: 0px;\n\t\tmax-height: 0;\n\t\toverflow: hidden;\n\t}\n\t.description.active{\n\t\tmax-height: 300px;\n\t}\n\t.categoriesTitles{\n\t\tdisplay: none;\n\t}\n\t.titleSubtitle {\n\t    width: 70%;\n\t    word-wrap: break-word;\n\t}\n}", ""]);
+exports.push([module.i, "\n.feature {\n    text-align: -webkit-auto;\n\ttext-align: justify;\n    margin: 80px 0 65px 0;\n}\n\n.featureImage{\n\ttext-align: center;\n}\n\n.featureIcon{\n\twidth: 52px;\n\theight: auto;\n\tvertical-align: top;\n}\n\n.titleSubtitle{\n\tdisplay: inline-block;\n}\n\n.subtitle {\n    margin-top: -5px;\n}\n\n.description {\n\t-webkit-transition: max-height 0.5s;\n\t-moz-transition: max-height 0.5s;\n\ttransition: max-height 0.5s;\n}\n\n.zeroOpacity{\n\topacity: 0;\n}\n\n.shownItem{\n\tdisplay: initial;\n}\n\n.hiddenItem{\n\topacity: 0;\n\t-webkit-transition: opacity 0.3s;\n\t-moz-transition: opacity 0.3s;\n\ttransition: opacity 0.3s;\n}\n\n.hiddenItem.hide{\n\tdisplay: none;\n}\n\n.colomn-6{\n\twidth: 50%;\n}\n\n.videoButtonText{\n  color: #0066cc;\n  -webkit-transition: 0.5s;\n\t-moz-transition: 0.5s;\n\ttransition: 0.5s;\n  cursor: pointer;\n}\n\n.videoButtonText:hover{\n  color: #454545;\n  text-decoration: underline;\n}\n\n@media screen and (max-width: 992px) {\n\t.featureImage>img {\n\t    width: 100%;\n\t}\n}\n\n@media screen and (max-width: 767px) {\n\t.feature {\n\t    text-align: -webkit-auto;\n\t    margin: 25px 0 0 0;\n\t}\n\t.colomn-6{\n\t\twidth: 100%;\n\t}\n\t.featureShortDescription{\n\t\tcursor: pointer;\n\t}\n\t.featureImage{\n\t\tdisplay: none;\n\t}\n\t.description{\n\t\tmargin-top: 0px;\n\t\tmax-height: 0;\n\t\toverflow: hidden;\n\t}\n\t.description.active{\n\t\tmax-height: 300px;\n\t}\n\t.categoriesTitles{\n\t\tdisplay: none;\n\t}\n\t.titleSubtitle {\n\t    width: 70%;\n\t    word-wrap: break-word;\n\t}\n}\n", ""]);
 
 // exports
 
@@ -6744,7 +6799,8 @@ var ProductPage = function (_Component) {
             title: _features2.default.name,
             rightPartAnimation: 'appearFromRight',
             leftPartAnimation: 'appearFromLeft',
-            partner: this.props.partner
+            partner: this.props.partner,
+            language: this.props.language
           })
         ),
         product.subImage ? _react2.default.createElement(
@@ -13161,6 +13217,8 @@ var UserPreferencesStore = function () {
                   if (obj.title) obj.title = obj.title[_this.language] ? obj.title[_this.language] : obj.title;
                   if (obj.subtitle) obj.subtitle = obj.subtitle[_this.language] ? obj.subtitle[_this.language] : obj.subtitle;
                   if (obj.description) obj.description = obj.description[_this.language] ? obj.description[_this.language] : obj.description;
+                  if (obj.videoButtonText) obj.videoButtonText = obj.videoButtonText[_this.language] ? obj.videoButtonText[_this.language] : obj.videoButtonText;
+                  if (obj.video) obj.video = obj.video[_this.language] ? obj.video[_this.language] : obj.video;
                   return null;
                 });
               };

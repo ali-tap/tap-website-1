@@ -14,7 +14,7 @@ class FeatureCategory extends Component {
   }
 
   showFeatures(){
-    
+
       this.setState({
         hiddenFeatures: 'shownItem'
       });
@@ -26,7 +26,7 @@ class FeatureCategory extends Component {
           }
           .bind(this),
           500
-      ); 
+      );
   }
 
   hideFeatures(middleFeatureId){
@@ -44,7 +44,7 @@ class FeatureCategory extends Component {
         showButton: 'shownItem'
       });
 
-      document.getElementById(middleFeatureId).scrollIntoView({ behavior: 'smooth' }); 
+      document.getElementById(middleFeatureId).scrollIntoView({ behavior: 'smooth' });
   }
 
   render() {
@@ -52,7 +52,7 @@ class FeatureCategory extends Component {
     let middleFeatureId = category.categoryName.replace(/\s/g,'')+'middle';
     let features = category.items.filter(feature=>((feature.partner===this.props.partner) || feature.partner===undefined))
     return features.map((feature,key) =>
-        <div 
+        <div
             key={key}
             id={key===3?middleFeatureId:''}
             className={key>3? this.state.hiddenFeatures : ''}>
@@ -61,6 +61,7 @@ class FeatureCategory extends Component {
                   feature={feature}
                   rightPartAnimation={this.props.rightPartAnimation}
                   leftPartAnimation={this.props.leftPartAnimation}
+                  language={this.props.language}
                 />
 
                 {/* WITH SHOW MORE BUTTON? */}

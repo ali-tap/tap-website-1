@@ -52,6 +52,19 @@
 	width: 50%;
 }
 
+.videoButtonText{
+  color: #0066cc;
+  -webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+  cursor: pointer;
+}
+
+.videoButtonText:hover{
+  color: #454545;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 992px) {
 	.featureImage>img {
 	    width: 100%;

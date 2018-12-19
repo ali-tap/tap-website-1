@@ -85,7 +85,7 @@ class ProductPage extends Component {
     this.props.partner
     :
     ''
-    
+
     let source=this.props.preferencesStore.pageUrlKeys.src && this.props.preferencesStore.pageUrlKeys.src==='partner' && this.props.partner?
     this.props.partner
     :
@@ -221,6 +221,7 @@ class ProductPage extends Component {
             rightPartAnimation="appearFromRight"
             leftPartAnimation="appearFromLeft"
             partner={this.props.partner}
+            language={this.props.language}
           />
         </div>
       {product.subImage?
