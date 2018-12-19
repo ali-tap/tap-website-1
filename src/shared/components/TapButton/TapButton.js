@@ -90,15 +90,42 @@ class TapButton extends Component {
                   onMouseOver={()=>this.onMouseOverOut(this.state.hoverStyle)}
                   onMouseOut={()=>this.onMouseOverOut(this.state.initialStyle)}
                   >
-                  {this.props.loading?
-                    <i className="fas fa-spinner"></i>
-                    :this.props.text}
-                  {this.props.fontAwesomeIcon?
+                  {this.props.loading && this.props.fontAwesomeIcon?
                     <React.Fragment>
+                      {this.props.text}
                       <div className="buttonIconSpace"></div>
-                      {this.props.fontAwesomeIcon}
+                      <i className="fas fa-spinner big-fa-icon"></i>
                     </React.Fragment>
-                    :null
+                    :
+                    <React.Fragment>
+                    {!this.props.loading && this.props.fontAwesomeIcon?
+                      <React.Fragment>
+                        {this.props.text}
+                        <div className="buttonIconSpace"></div>
+                        {this.props.fontAwesomeIcon}
+                      </React.Fragment>
+                      :
+                      <React.Fragment>
+                      {this.props.loading && !this.props.fontAwesomeIcon?
+                        <React.Fragment>
+                          <i className="fas fa-spinner big-fa-icon"></i>
+                        </React.Fragment>
+                        :
+                        <React.Fragment>
+                        {!this.props.loading && !this.props.fontAwesomeIcon?
+                          <React.Fragment>
+                            {this.props.text}
+                          </React.Fragment>
+                          :
+                          <React.Fragment>
+                          </React.Fragment>
+                        }
+                        </React.Fragment>
+                      }
+                      </React.Fragment>
+
+                    }
+                    </React.Fragment>
                   }
                 </button>);
     }

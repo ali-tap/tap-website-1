@@ -340,7 +340,7 @@
 						},
 						"subtitle":
 						{
-							"en":"Protection You Can Trust",
+							"en":"100% Secure",
 							"ar":"حماية تثق بها"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Security.png",
@@ -405,7 +405,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Same-Day-Activation.png",
 						"description":
 						{
-							"en":"Set up, connect, and sell in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your payment gateway up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you and get you activated as soon as possible.",
+							"en":"Set up, connect, and collect payment in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your online payments collection service up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you or through our live chat and get you activated as soon as possible.",
 							"ar":"أنشىء حسابك، تواصل وابدأ ببيع منتجك خلال 24 ساعة فقط. فبرنامج التسجيل السلس يرشدك إلى إنجاز جميع الخطوات بسهولة وسرعة ويساعدك على الحصول على مستحقاتك المالية في وقت غير مسبوق. تشعر بأن كل ذلك جديد بالنسبة إليك؟ لا تقلق. طاقمنا من المساعدين المكرّس لخدمتك سيسعده التحدث معك وإتمام عملية تفعيل حسابك بأسرع وقت ممكن."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Same-Day-Activation.png"
@@ -424,7 +424,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/statements-and-receipt.png",
 						"description":
 						{
-							"en":"Tap’s user dashboard gives you full access to your entire transaction history, and provides soft copies of all your receipts for easy printing. Now you can cut down on the paper trail and double up on the productivity. It’s a win-win: for the environment and for your sanity.",
+							"en":"Tap’s user dashboard gives you full access to your entire payment and collections history, and provides soft copies of all your receipts for easy printing. All you have to do is login on our website by inserting your email and password to access for your dashboard. You can now download your statement or save it as a PDF.",
 							"ar":"يمكنك بفضل لوحة التحكم بحسابك الدخول إلى تاريخ العمليات بالكامل والحصول على نسخ إلكترونية من إيصالاتك التي يسهل طباعتها. الآن أصبح بإمكانك توفير الوقت والجهد من المعاملات والأوراق الكثيرة واستبدال ذلك بإنتاجية أكبر. إنّها صفقة رابحة للجميع: لك وللبيئة على السواء."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Statements-&-Receipts.png"
@@ -462,7 +462,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/All-Businesses-Welcome.png",
 						"description":
 						{
-							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants like OSN, Viva, and Bein Sports, right alongside some awesome home businesses and SMEs like Khaleejesque Magazine, The Walk In Closet, and Cake District. Ready to jump on-board?",
+							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants right alongside some awesome micro businesses, SME’s or Tech Startups. Ready to jump on-board?",
 							"ar":"أهلاً بالجميع في تاپ. برنامجنا مصمم ليلائم احتياجات ومتطلبات جميع الشركات بغض النظر عن حجم المؤسسة وطبيعة عملها. ستجد ضمن قائمة عملائنا المفضّلين OSN ،VIVA ،Bein Sports إلى جانب العديد من المؤسسات المنزلية الصغيرة والمجلات أو المطبوعات الإلكترونية مثال مجلة Khaleejesque ،The WalK In Closet و Cake District. مستعد للإنضمام إلينا؟"
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/All-Businesses-Welcome.png",
@@ -482,7 +482,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Dedicated-Support.png",
 						"description":
 						{
-							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us.",
+							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us. You can easily reach out to our team using the live chat on our website (or in the goCollect application), email us or call us! ",
 							"ar":"سواء أردت إنشاء حساب، دمج أو متابعة حسابك – أو واجهتك أي مشكلة يمكنك الاعتماد علينا، فنحن في تاپ نقدّم لكل مشكلة حل لنضمن استمرارية عملك بأفضل حال. طاقمنا المكرّس لخدمتك مستعد دائماً لمساعدتك. جرّبنا."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Support.png"
@@ -753,7 +753,7 @@
 				},
 				"showMoreButtonText":
 				{
-					"en":"more send bill features",
+					"en":"Simple Mobile Billing",
 					"ar":"المزيد من مميزات إرسال الفواتير"
 				},
 				"showLessButtonText":
@@ -853,7 +853,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Send-bills-abroad.png",
 						"description":
 						{
-							"en":"No matter where your clients are, you’ve got the power to send ’em a bill right to their cellphones. Just punch in their country code and goCollect will do the rest!",
+							"en":"You can now send bills internationally, no matter where your clients are, you’ve got the power to send them a bill right to their phones. Just punch in their country code and goCollect will do the rest! Your clients can process a payment using any credit card such as VISA, MasterCard or American Express.",
 							"ar":"يمكنك الآن التوسع عالميا وتلبية طلبات عملائك في الدول المختلفة وإدارة أعمالك ضمن نطاق عالمي! فقط أدخل رقم الهاتف الخاص بالعميل في الخارج، وسوف يتم إرسال الفاتورة عن طريق رسالة نصية قصيرة (SMS) تحتوي على رابط الدفع عبر تطبيق goCollect."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Send_Bills_Abroad.png"
@@ -866,13 +866,13 @@
 						},
 						"subtitle":
 						{
-							"en":"Bill ‘Em Worldwide",
+							"en":"Bill Them Worldwide",
 							"ar":"اختار العُملة المناسبة لفواتيرك"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Multi_currency.png",
 						"description":
 						{
-							"en":"When you’re an international powerhouse fielding orders from all around the world it helps to have a payment partner that can keep up with all your multi-currency transaction needs. goCollect makes it easier than ever for you to choose the currency that you’d like your bills and displayed items to appear in, and lets you to convert prices from one currency to another on the spot.",
+							"en":"When you’re an international company receiving orders from all around the world, it helps to have an online payment solution provider that can keep up with all your multi-currency transaction needs. Our simple mobile billing system makes it easier than ever for you to choose the currency that you’d like your bills and displayed items to appear in, and lets you convert prices from one currency to another on the spot.",
 							"ar":"خروج أعمالك من نطاقها المحلي دليل على النجاح، ونحن نريد أن نساعدك في تحقيق المزيد، goCollect يُسهل عليك عملية اختيار العُملة المناسبة لفواتيرك، مع ظهور عناصر الفاتورة أيضاً. وسيكون بإمكانك تحويل أسعار الفواتير من عملة إلى أخرى بحرّية ومرونة فائقة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/multi-currancy_480.png"
@@ -891,7 +891,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/copy-link.png",
 						"description":
 						{
-							"en":"Copying the link to your bill couldn’t be easier. Just ‘Tap & Hold’ and goCollect will automatically copy it onto your clipboard for you to paste wherever you like.",
+							"en":"Copying the link to your bill couldn’t be easier. Just ‘Tap & Hold’ the link of your bill and goCollect will automatically copy it onto your clipboard for you to paste wherever you like on WhatsApp, email, SMS or any other channel.",
 							"ar":"يمكنك نسخ رابط الفاتورة بعد إرسالها، عن طريق الضغط باستمرار على رابط الفاتورة، ومن ثم يمكنك حفظة أو إرسالة مرة أخرى بطريقة مختلفة (واتس آب) إلى العميل بكل سهولة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Copy_link.png"
@@ -910,7 +910,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Duplicate-bill.png",
 						"description":
 						{
-							"en":"Now you can easily duplicate invoices for different customers, to save time when billing. A duplicate bill picks up all the details you’ve already entered, so all you have to do is review it and send it.",
+							"en":"Now you can easily duplicate invoices for different customers, to save time when sending a bill from the goCollect application. A duplicate invoice picks up all the details you’ve already entered, so all you have to do is review it and send it by SMS, email, WhatsApp or on any other social media platform.",
 							"ar":"يمكنك تكرار أي فاتورة عبر تطبيق goCollect من خلال الضغط على الفاتورة المراد تكرارها ثم اختيار أمر “تكرار الفاتورة” من ميزة العمليات السريعة، وذلك لاستخدام نفس تفاصيل تلك الفاتورة كالمبلغ والوصف، حيث يمكنك المراجعة والإطلاع على تلك التفاصيل أولًا ومن ثم تستطيع إرسال الفاتورة إلى أي عميل آخر دون عناء أو جهد."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Duplicate.png"
@@ -929,7 +929,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Multi-bills.png",
 						"description":
 						{
-							"en":"What if you need to collect the same payment amount from multiple people, like for event tickets or a charity fund? goCollect’s got you covered there as well! Just create a standard bill, then select the ‘Multiple’ option at the bottom corner of the screen, and you’re set. All you have to do is distribute the link to the bill and your customers can fill out their own contact and payment info — no matter how many they are.",
+							"en":"If you need to collect the same payment amount from multiple people, like for event tickets or a charity fund, goCollect’s got you covered there as well! Just create a standard bill, then select the ‘Multiple’ option at the bottom left corner of the screen, add the number of payers (control your inventory!) and you’re set. All you have to do is share the link of the bill and your customers can fill out their own contact and payment info — no matter how many they are.",
 							"ar":"في تطبيق goCollect يوجد خاصية لإنشاء وإرسال فاتورة معينة لعدة عملاء في نفس الوقت! وذلك من خلال إدخال المبلغ المطلوب، والوصف، ثم الضغط على العديد من العملاء وإرسال الفاتورة ورابط الدفع عبر جميع تطبيقات التواصل مع العملاء مثل (البريد الإلكتروني – الرسائل النصية – الواتس آب – فايبر – تويتر – فيسبوك – ماسنجر – الخ..) ومن ثم يقوم العميل بفتحه وإدخال المعلومات الخاصة به (الاسم – رقم الهاتف – البريد الإلكتروني) لإتمام عملية الدفع بكل سهولة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Send_to_Multiple_People.png"
@@ -968,7 +968,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/my-bills.png",
 						"description":
 						{
-							"en":"With goCollect, you work smarter. Start with the ‘My Bills’ portal for a quick, comprehensive glance of all your sent bills and a real-time status view on each one. You can even jump-start a new bill with goCollect’s ‘Quick Actions’ module. You’ll love the convenience.",
+							"en":"With goCollect, you work smarter. Start with the ‘My Bills’ portal for a quick, comprehensive glance of all your sent bills and a real-time tracking on each invoice. You can even start a new bill using the application’s ‘Quick Actions’ module. You’ll love the convenience.",
 							"ar":"التفاصيل الصغيرة مهمة لجعل حياتك العملية أسهل مهما كان حجم مبيعاتك، يمكنك الحصول على نظرة سريعة ومرتبة مع الكثير من المعلومات الفعالة للفواتير المرسلة في قائمة “فواتيري” الرئيسية عبر تطبيق goCollect، وذلك طبقاً لتوقيت وتاريخ آخر تحديث تم لكل فاتورة على حدة. لديك الآن خيارات أكثر لعرض وفلترة قائمة الفواتير المرسلة إلى عملائك ومعلومات أقوى لتساعدك على تحصيل أموالك بشكل إحترافي وبسيط."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/My_bills.png"
@@ -987,7 +987,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/My-Payments.png",
 						"description":
 						{
-							"en":"With goCollect push notifications, you’ll know instantly whenever a new bill is paid, and the minute it hits your bank account — cha-ching! For a bigger overview, you’ll also get to see all your paid bills on My Bills, organized by date received. And if you’re digging for a specific bill? You can search for it right from My Payments too.",
+							"en":"With goCollect push notifications & emails, you’ll know instantly whenever a new bill is paid, and the minute the money is in your bank account — cha-ching! For a bigger overview, you’ll also get to see all your paid bills directly from the app under ‘My Bills’, organized by date received. And if you’re looking for a specific bill? You can search for it right from ‘My Payments’ too.",
 							"ar":"يمكنك تصنيف الفواتير المرسلة في قائمة “فواتيري” لعرض قائمة بجميع الفواتير المدفوعة فقط! حيث يتم ترتيبها أتوماتيكياً وفقاً لتاريخ الدفع لكل فاتورة. كما يمكنك أيضاً البحث في قائمة الفواتير المدفوعة عن فواتير معينة تحت اسم العميل، أو رقم الهاتف الخاص به أو رقم الفاتورة لعرض الفواتير ذات الصلة لبحثك."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/My_payments.png"
@@ -1025,7 +1025,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Tracking.png",
 						"description":
 						{
-							"en":"goCollect’s powerful tracking capabilities give you the status of each bill so you can know when to expect money in your bank account. We’ve followed Whatsapp’s familiar ‘check-mark’ identification model to let you know when a bill has been sent, delivered, viewed, attempted, paid, refunded, and cancelled. Not only that, but you can also know the date of each bill, and the number of reminders you’ve sent each customer. That means you can stay on top of every detail effortlessly and instantly. Use it once and you’ll wonder how you ever lived without it!",
+							"en":"goCollect’s powerful tracking tool gives you the status of each bill so you can know when to expect money in your bank account. We’ve followed Whatsapp’s familiar ‘check-mark’ identification model to let you know when a bill has been sent, delivered, viewed, attempted, paid, refunded, and cancelled. Not only that, but you can also know the date of each bill, and the number of reminders you’ve sent each customer. That means you can stay on top of every detail effortlessly and instantly. Use it once and you’ll wonder how you ever lived without it!",
 							"ar":"لا داعي للقلق من متابعة وضع الفواتير المرسلة إلى عملائك، فقد إعتمدنا طريقة تطبيق الواتس آب في تتبع حالات الرسائل المرسلة، وتطويرها لتلائم وتناسب احتياجات عملك. فمن خلال نظرة سريعة على القائمة الرئيسية “فواتيري”، يمكنك معرفة حالة الفواتير إذا كانت مدفوعة، أو غير مدفوعة، أو ملغية. ويمكنك أيضاً الضغط على أي فاتورة لاختيار “متابعة الفاتورة” لمعرفة حالة الفاتورة إذا تم استلامها أو مشاهدتها أو تم دفعها من قبل العميل بالوقت والتاريخ."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Tracking.png"
@@ -1063,7 +1063,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Reminder.png",
 						"description":
 						{
-							"en":"goCollect takes away any awkward client interactions by sending over a professional payment reminder to nudge your customers to pay on time, with just one click.",
+							"en":"goCollect takes away any awkward client interactions by sending over a professional payment reminder to nudge your customers to pay on time, with just one click. You can send as many reminders as you want!",
 							"ar":"متابعة عمليات تحصيل الفواتير غير المدفوعة تستغرق الكثير من الوقت كما أنها قد تعرضك للكثير من الإحراجات الناتجة عن المحادثات و الاتصالات غير الملائمة مع العملاء، ولكن من خلال القائمة الرئيسية “فواتيري” يمكنك الضغط على أي فاتورة وإرسال تذكير بالدفع بطريقة مهنية وإحترافية من نظام الفواتير الخاص بك عبر تطبيق goCollect."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Reminder.png"
@@ -1082,7 +1082,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Cancel-bill.png",
 						"description":
 						{
-							"en":"Accidentally sent a bill with incorrect information or to the wrong person? No biggie. With goCollect you can cancel it in no time through the ‘Quick Actions’ module.",
+							"en":"Accidentally sent a bill with incorrect information or to the wrong person? No biggie. With goCollect you can cancel it in no time through the ‘Quick Actions’ module. All you have to do is tap on the bill you would like to cancel and click ‘cancel’. You can also choose the reason of cancellation.",
 							"ar":"هل أرسلت فاتورة خاطئة؟ لا تقلق، يمكنك إلغاء الفاتورة ببساطة من خلال ميزة العمليات السريعة في تطبيق goCollect، وبالتالي لا يمكن للعميل دفع هذه الفاتورة لتتجنب المتاعب."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Cancel_bill.png"
@@ -1101,7 +1101,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Refund.png",
 						"description":
 						{
-							"en":"Refunds have always been tricky business, but with goCollect it’s an easy fix. A single click is all it takes. Not only does goCollect help you with the refunding process, but now you also have a detailed picture of all past refunds at a glance.",
+							"en":"Refunds have always been tricky business, but with goCollect it’s an easy fix. A single click is all it takes. We will automatically get notified and process the refund to the customer with no additional charges! Not only does goCollect help you with the refunding process, but now you also have a detailed picture of all past refunds at a glance.",
 							"ar":"عملية إعادة مبلغ إلى العميل كانت دائما بمثابة عناء وإهدار كبير للوقت والجهد، لذلك فقد قمنا بإضافة ميزة فعالة يمكنك من خلالها إرجاع مبلغ مدفوع لفاتورة معينة إلى العميل بضغطة واحدة فقط!"
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Refund.png"
@@ -1120,7 +1120,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Search.png",
 						"description":
 						{
-							"en":"When the stack of bills starts piling up, you can find exactly what you’re looking for right from the search bar. Just enter your client’s name, mobile number, or bill/invoice number and goCollect will immediately filter for matches.",
+							"en":"When the stack of bills starts piling up, you can find exactly what you’re looking for right from the search bar. Just enter your client’s name, mobile number, or bill/invoice number. goCollect will immediately filter for matches and show you the invoice you’re looking for.",
 							"ar":"خاصية البحث من خلال تطبيق goCollect توفر لك الوقت لمتابعة أسرع لفواتيرك، حيث يمكنك البحث برقم الفاتورة لمشاهدتها مباشرة، أو إن كنت ترغب في عرض جميع الفواتير المتعلقة بعميل ما! يمكنك البحث بإسم ذلك العميل، أو رقم الهاتف الخاص به بكل سهولة."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Search.png"
@@ -1179,7 +1179,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Report.png",
 						"description":
 						{
-							"en":"Trying to keep up with all your bill transactions? Just turn your phone landscape and BOOM… you’ve got your very own goCollect dashboard! Your current balance, when to expect your next settlement, and your pending collection amounts are all laid out for you to see in real time and real style.",
+							"en":"Trying to keep up with all your bill transactions? Just turn your phone landscape and BOOM… you’ve got your very own goCollect dashboard! Your current balance with all the payments received, when to expect your next settlement to your bank account, and your pending payments are all laid out for you to see in real time.",
 							"ar":"هل تحاول متابعة معاملاتك المالية؟ فقط قم بتدوير هاتفك أفقياً وستظهر أمامك لوحة التحكم الخاصة بحسابك! تُظهر اللوحة رصيدك، تسديداتك القادمة، كذلك التحصيلات قيد الانتظار، معروضة كلها بوضوح ومنظمة أولاً بأول."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Dashboard_Balance1.png"
@@ -1198,7 +1198,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/instagram.png",
 						"description":
 						{
-							"en":"With goCollect, you’ve got the power take your awesome Instagram product shots beyond social media. Now you can import your favorite item images straight from your Instagram account onto the goCollect application in just a few seconds. Even better? You can also have your Instagram profile picture imported as your business logo for your application invoices. Easy, speedy, and super polished!",
+							"en":"With goCollect, you’ve got the power to take your awesome Instagram product shots beyond social media. Now you can import your favorite item images straight from your Instagram business account onto the goCollect application in just a few seconds. Even better? You can also have your Instagram profile picture imported as your business logo for your application invoices. Easy, speedy, and super polished!",
 							"ar":"الصوِر مُهمّة للتعريف بأعمالك، من خلال goCollect أصبح بإمكانك استخدام صوِر مُنْتجك الموجودة على حسابك في انستقرام، واستيّراد ما تُفضله منها إلى goCollect خلال ثوانٍ معدودة. وسيُمكنك أيضاً استخدام صورة حسابك الشخصيّ على انستقرام كشعار لأعمالك في تطبيق الفواتير، وذلك ليكون الأمر أسهل وأسرع بكثير."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/instgram_integration.png"
@@ -1217,7 +1217,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Touch-ID.png",
 						"description":
 						{
-							"en":"goCollect keeps all your important business details and daily transactions on lock-down with the best and most advanced financial and digital security practices available worldwide. And if you want more added reassurance, you can use your Touch ID to make logging in to goCollect even more safe and secure.",
+							"en":"goCollect keeps all your important business details and daily transactions on lock-down with the best and most advanced financial and digital security practices available worldwide. And if you want more added reassurance, you can use your Touch ID to make logging in to goCollect even more safe and secure. All your payments are 100% secure!",
 							"ar":"تأميّن معلومات عملك بالتأكيد عملية مهمة طوال الوقت، goCollect يحافظ على سريّة تفاصيل عملك والمُعاملات اليومية، وذلك من خلال أحدث طُرق التأمين المالي والرقمي على مستوى العالم. وإن كنت تحتاج لاطمئنان أكثر يُمكنك استخدام Touch ID، لدخول أكثر آماناً على حساب goCollect."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/Touch_ID.png"
@@ -1236,7 +1236,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/In_app_chat.png",
 						"description":
 						{
-							"en":"At Tap, we’ve always got your back. That’s why we made it super easy for you to chat with our support team right through the goCollect app. If you ever run into any trouble, just hop over into the in-app chat window where you can share images of your issue and see your chat history for future reference. We’ll even email you a record of your conversation once you’re done. Cause when we say ‘support’ we really mean it.",
+							"en":"At Tap, we’ve always got your back. That’s why we made it super easy for you to chat with our support team right through the goCollect app. If you ever run into any trouble, just hop over into the in-app chat window where you can share images of your issue and see your chat history for future reference. Our gurus are available 24h/7! We’ll even email you a record of your conversation once you’re done. Cause when we say ‘support’ we really mean it.",
 							"ar":"في تاپ نحن دائماً في خدمتك، لذلك سهلنا عليك التواصل مع فريق الدعم من خلال تطبيق goCollect، إذا واجهتك أي متاعب يمكنك فتح نافذة الدردشة التي تمكنك من مشاركة الصور لتوضيح مشكلتك، وسوف نقوم بحفظ سجل محادثتك كمرجع لك، نحن عندما نقول “دعم” فنحن حقاً نعنيها!"
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Illustrations/In_App_Chat.png"
@@ -1453,7 +1453,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Dedicated-Support.png",
 						"description":
 						{
-							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us.",
+							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us. You can easily reach out to our team using the live chat on our website (or in the goCollect application), email us or call us! ",
 							"ar":"سواء أردت إنشاء حساب، دمج أو متابعة حسابك – أو واجهتك أي مشكلة يمكنك الاعتماد علينا، فنحن في تاپ نقدّم لكل مشكلة حل لنضمن استمرارية عملك بأفضل حال. طاقمنا المكرّس لخدمتك مستعد دائماً لمساعدتك. جرّبنا."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Support.png"
@@ -1472,7 +1472,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Same-Day-Activation.png",
 						"description":
 						{
-							"en":"Set up, connect, and sell in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your payment gateway up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you and get you activated as soon as possible.",
+							"en":"Set up, connect, and collect payment in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your online payments collection service up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you or through our live chat and get you activated as soon as possible.",
 							"ar":"أنشىء حسابك، تواصل وابدأ ببيع منتجك خلال 24 ساعة فقط. فبرنامج التسجيل السلس يرشدك إلى إنجاز جميع الخطوات بسهولة وسرعة ويساعدك على الحصول على مستحقاتك المالية في وقت غير مسبوق. تشعر بأن كل ذلك جديد بالنسبة إليك؟ لا تقلق. طاقمنا من المساعدين المكرّس لخدمتك سيسعده التحدث معك وإتمام عملية تفعيل حسابك بأسرع وقت ممكن."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Same-Day-Activation.png"
@@ -1491,7 +1491,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/statements-and-receipt.png",
 						"description":
 						{
-							"en":"Tap’s user dashboard gives you full access to your entire transaction history, and provides soft copies of all your receipts for easy printing. Now you can cut down on the paper trail and double up on the productivity. It’s a win-win: for the environment and for your sanity.",
+							"en":"Tap’s user dashboard gives you full access to your entire payment and collections history, and provides soft copies of all your receipts for easy printing. All you have to do is login on our website by inserting your email and password to access for your dashboard. You can now download your statement or save it as a PDF.",
 							"ar":"يمكنك بفضل لوحة التحكم بحسابك الدخول إلى تاريخ العمليات بالكامل والحصول على نسخ إلكترونية من إيصالاتك التي يسهل طباعتها. الآن أصبح بإمكانك توفير الوقت والجهد من المعاملات والأوراق الكثيرة واستبدال ذلك بإنتاجية أكبر. إنّها صفقة رابحة للجميع: لك وللبيئة على السواء."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Statements-&-Receipts.png"
@@ -1542,7 +1542,7 @@
 						},
 						"subtitle":
 						{
-							"en":"Protection You Can Trust",
+							"en":"100% Secure",
 							"ar":"حماية تثق بها"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Security.png",
@@ -1567,7 +1567,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/All-Businesses-Welcome.png",
 						"description":
 						{
-							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants like OSN, Viva, and Bein Sports, right alongside some awesome home businesses and SMEs like Khaleejesque Magazine, The Walk In Closet, and Cake District. Ready to jump on-board?",
+							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants right alongside some awesome micro businesses, SME’s or Tech Startups. Ready to jump on-board?",
 							"ar":"أهلاً بالجميع في تاپ. برنامجنا مصمم ليلائم احتياجات ومتطلبات جميع الشركات بغض النظر عن حجم المؤسسة وطبيعة عملها. ستجد ضمن قائمة عملائنا المفضّلين OSN ،VIVA ،Bein Sports إلى جانب العديد من المؤسسات المنزلية الصغيرة والمجلات أو المطبوعات الإلكترونية مثال مجلة Khaleejesque ،The WalK In Closet و Cake District. مستعد للإنضمام إلينا؟"
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/All-Businesses-Welcome.png",
@@ -1903,7 +1903,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Same-Day-Activation.png",
 						"description":
 						{
-							"en":"Set up, connect, and sell in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your payment gateway up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you and get you activated as soon as possible.",
+							"en":"Set up, connect, and collect payment in less than 24 hours. Our online registration system smoothly guides you through all the required steps, and helps you get your online payments collection service up and running in record time. A little more old-school? No problem. Our team of dedicated onboarding assistants is happy to get on the phone with you or through our live chat and get you activated as soon as possible.",
 							"ar":"أنشىء حسابك، تواصل وابدأ ببيع منتجك خلال 24 ساعة فقط. فبرنامج التسجيل السلس يرشدك إلى إنجاز جميع الخطوات بسهولة وسرعة ويساعدك على الحصول على مستحقاتك المالية في وقت غير مسبوق. تشعر بأن كل ذلك جديد بالنسبة إليك؟ لا تقلق. طاقمنا من المساعدين المكرّس لخدمتك سيسعده التحدث معك وإتمام عملية تفعيل حسابك بأسرع وقت ممكن."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Same-Day-Activation.png"
@@ -1922,7 +1922,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Dedicated-Support.png",
 						"description":
 						{
-							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us.",
+							"en":"Whether it’s set-up, integration, or follow-through—if you’ve ever got a problem, you can count on Tap for the solution. We do our best to make sure that you can keep working at your best. As your dedicated support team, we’re always here for you—just try us. You can easily reach out to our team using the live chat on our website (or in the goCollect application), email us or call us! ",
 							"ar":"سواء أردت إنشاء حساب، دمج أو متابعة حسابك – أو واجهتك أي مشكلة يمكنك الاعتماد علينا، فنحن في تاپ نقدّم لكل مشكلة حل لنضمن استمرارية عملك بأفضل حال. طاقمنا المكرّس لخدمتك مستعد دائماً لمساعدتك. جرّبنا."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Support.png"
@@ -1941,7 +1941,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/statements-and-receipt.png",
 						"description":
 						{
-							"en":"Tap’s user dashboard gives you full access to your entire transaction history, and provides soft copies of all your receipts for easy printing. Now you can cut down on the paper trail and double up on the productivity. It’s a win-win: for the environment and for your sanity.",
+							"en":"Tap’s user dashboard gives you full access to your entire payment and collections history, and provides soft copies of all your receipts for easy printing. All you have to do is login on our website by inserting your email and password to access for your dashboard. You can now download your statement or save it as a PDF.",
 							"ar":"يمكنك بفضل لوحة التحكم بحسابك الدخول إلى تاريخ العمليات بالكامل والحصول على نسخ إلكترونية من إيصالاتك التي يسهل طباعتها. الآن أصبح بإمكانك توفير الوقت والجهد من المعاملات والأوراق الكثيرة واستبدال ذلك بإنتاجية أكبر. إنّها صفقة رابحة للجميع: لك وللبيئة على السواء."
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/Statements-&-Receipts.png"
@@ -1973,7 +1973,7 @@
 						},
 						"subtitle":
 						{
-							"en":"Protection You Can Trust",
+							"en":"100% Secure",
 							"ar":"حماية تثق بها"
 						},
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/Security.png",
@@ -1998,7 +1998,7 @@
 						"icon":"https://www.tap.company/websiteImages/productsFeaturesImages/goCollect/Icons/All-Businesses-Welcome.png",
 						"description":
 						{
-							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants like OSN, Viva, and Bein Sports, right alongside some awesome home businesses and SMEs like Khaleejesque Magazine, The Walk In Closet, and Cake District. Ready to jump on-board?",
+							"en":"At Tap, everyone’s welcome. Our system is built to fit the unique needs and demands of every business, regardless of size or operations. Among our list of favorite Tap users you’ll find mega-giants right alongside some awesome micro businesses, SME’s or Tech Startups. Ready to jump on-board?",
 							"ar":"أهلاً بالجميع في تاپ. برنامجنا مصمم ليلائم احتياجات ومتطلبات جميع الشركات بغض النظر عن حجم المؤسسة وطبيعة عملها. ستجد ضمن قائمة عملائنا المفضّلين OSN ،VIVA ،Bein Sports إلى جانب العديد من المؤسسات المنزلية الصغيرة والمجلات أو المطبوعات الإلكترونية مثال مجلة Khaleejesque ،The WalK In Closet و Cake District. مستعد للإنضمام إلينا؟"
 						},
 						"image":"https://www.tap.company/websiteImages/productsFeaturesImages/general/Illustrations/All-Businesses-Welcome.png",

@@ -88,6 +88,7 @@ class DownloadApp extends Component {
                 actionType={this.props.actionType}
                 color={this.props.color}
                 onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, this.props.partner, 1, '')}
+                loading={this.props.store.loading}
                 />
           </div>
           <p className={this.props.store.showSuccessMsg?'msg successMessage fadeInItem':'msg successMessage fadeOutItem'}
@@ -151,6 +152,7 @@ class DownloadApp extends Component {
                       color={this.props.color}
                       hoverStyle={true}
                       onClick={()=>this.props.store.sendSms(this.props.schedule_for, this.props.source, this.props.partner, 0, this.getLink(this.props.link))}
+                      loading={this.props.store.loading}
                   />
                 <p className={this.props.store.showValidateMsg?'msg validateMsg fadeInItem grayText':'msg validateMsg fadeOutItem grayText'}>
                   {this.props.store.validateMsg}

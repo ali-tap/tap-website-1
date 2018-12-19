@@ -7,7 +7,7 @@ class CallToActionStore {
   constructor() {
     this.language = '';
     this.international_code='';
-    this.loading = true;
+    this.loading = false;
     this.countries = [];
     this.currentCountry = {country_flag_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Circle_Platinum_Solid.svg/2000px-Circle_Platinum_Solid.svg.png'};
     this.showSuccessMsg = false;
@@ -60,6 +60,7 @@ class CallToActionStore {
 
 
   sendSms(schedule_for, source, partner, send_sms, redirectLink){
+    this.loading=true;
     console.log('source '+source);
     console.log('partner '+partner);
     console.log('schedule_for '+schedule_for);
@@ -84,6 +85,7 @@ class CallToActionStore {
                       if (postrequest.status===200 || window.location.href.indexOf("http")===-1){
                             this_.successMsg = JSON.parse(postrequest.responseText).response_message;
                             this_.showSuccessMsg = true;
+                            this_.loading=false;
                             setTimeout(() => {
                               this_.showSuccessMsg = false;
                             }, 5000);
@@ -92,7 +94,8 @@ class CallToActionStore {
                             }
                       }
                       else{
-                       //alert("An error has occured making the request");
+                        this.loading=false;
+                       alert("An error has occured making the request");
                       }
                      }
                     }
@@ -100,6 +103,7 @@ class CallToActionStore {
             else{
                 this_.validateMsg = JSON.parse(mypostrequest.responseText).response_message;
                 this_.showValidateMsg = true;
+                this_.loading=false;
                 setTimeout(() => {
                   this_.showValidateMsg = false;
                 }, 5000);
