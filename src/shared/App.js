@@ -137,7 +137,7 @@ class App extends Component {
         <Loader/>
         :
         <Switch>
-          {routes.map(({ path, exact, compProps, hideFooter, component: Component, ...rest }) => (
+          {routes.map(({ path, exact, compProps, component: Component, ...rest }) => (
             <Route key={path} path={path} exact={exact} render={(props) => (
               <Page {...props} {...rest} {...compProps} preferencesStore={preferencesStore}>
                 <Component {...props} {...rest} {...compProps} preferencesStore={preferencesStore}/>

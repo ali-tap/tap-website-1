@@ -4449,9 +4449,8 @@ var App = function (_Component) {
             var path = _ref.path,
                 exact = _ref.exact,
                 compProps = _ref.compProps,
-                hideFooter = _ref.hideFooter,
                 Component = _ref.component,
-                rest = _objectWithoutProperties(_ref, ['path', 'exact', 'compProps', 'hideFooter', 'component']);
+                rest = _objectWithoutProperties(_ref, ['path', 'exact', 'compProps', 'component']);
 
             return _react2.default.createElement(_reactRouterDom.Route, { key: path, path: path, exact: exact, render: function render(props) {
                 return _react2.default.createElement(
