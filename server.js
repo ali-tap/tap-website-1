@@ -751,7 +751,7 @@ var TapButton = function (_Component) {
         return _react2.default.createElement(
           'a',
           {
-            href: this.props.link,
+            href: this.props.link.indexOf('register/') > -1 ? this.props.link + '&lang=' + this.props.language : this.props.link,
             target: '_blank',
             className: 'tapButton ' + this.props.shape + ' ' + this.props.className,
             style: _extends({}, this.props.style, this.state.style),
@@ -3028,7 +3028,7 @@ if(false) {
 /* 47 */
 /***/ (function(module, exports) {
 
-module.exports = [{"product":"pay","title":{"en":"Bills? Paid. Subscriptions? Renewed.\nWorries? All Gone.","ar":"كل مدفوعاتك بدفعة واحدة"},"shortTitle":{"en":"Bills? Paid.\nWorries? All Gone.","ar":"مدفوعاتك\nفي دفعة واحدة!"},"actionType":"sms","placeholder":{"en":"Mobile Number","ar":"رقم الهاتف"},"buttonText":{"en":"Send a download link","ar":"أرسل رابط التحميل"},"linkText":{"en":"Download the app","ar":"حمّل التطبيق "},"link":{"ios":"https://itunes.apple.com/us/app/gopay!/id1020065700"}},{"product":"collect","title":{"en":"Start Sending Bills\nand Collect Payments Easily","ar":"أرسل الفواتير وحصّل مدفوعاتك بسهولة"},"shortTitle":{"en":"The ease of online\nbuilt for offline","ar":" الإستخدام أونلاين\nحتى عندما تكون أوفلاين"},"actionTitle":{"en":"Please enter your mobile number","ar":"الرجاء إدخال رقم هاتفك"},"actionType":"sms","placeholder":{"en":"Mobile Number","ar":"رقم الهاتف"},"buttonText":{"en":"Send a download link","ar":"أرسل رابط التحميل"},"linkText":{"en":"Download the app","ar":"حمّل التطبيق "},"link":{"ios":"https://itunes.apple.com/us/app/gocollect!/id1157951837?ls=1&mt=8","android":"https://play.google.com/store/apps/details?id=tap.gocollect"}},{"product":"sell","title":{"en":"Start Accepting Online Payments\non your App or Website","ar":"استقبل المدفوعات\nعلى التطبيق الخاص بك\nأو على موقعك الإلكتروني"},"shortTitle":{"en":"Start Accepting\nOnline Payments","ar":"استقبل المدفوعات\nعلى تطبيقك أو موقعك"},"shortTitle_":{"en":"Try the Tap advantage","ar":"جرّب مميّزات تاپ"},"actionType":"link","linkText":{"en":"Open an account","ar":"افتح حساباً"},"link":"/register"},{"product":"tap","title":{"en":"goTap\nGo Everywhere","ar":"goTap\nعملك في كل مكان"},"shortTitle":{"en":"goTap\nGo Everywhere","ar":"goTap\nعملك في كل مكان"},"actionType":"link","linkText":{"en":"Grab your device","ar":"اطلب جهازك"},"link":"/order"}]
+module.exports = [{"product":"pay","title":{"en":"Bills? Paid. Subscriptions? Renewed.\nWorries? All Gone.","ar":"كل مدفوعاتك بدفعة واحدة"},"shortTitle":{"en":"Bills? Paid.\nWorries? All Gone.","ar":"مدفوعاتك\nفي دفعة واحدة!"},"actionType":"sms","placeholder":{"en":"Mobile Number","ar":"رقم الهاتف"},"buttonText":{"en":"Send a download link","ar":"أرسل رابط التحميل"},"linkText":{"en":"Download the app","ar":"حمّل التطبيق "},"link":{"ios":"https://itunes.apple.com/us/app/gopay!/id1020065700"}},{"product":"collect","title":{"en":"Start Sending Bills\nand Collect Payments Easily","ar":"أرسل الفواتير وحصّل مدفوعاتك بسهولة"},"shortTitle":{"en":"The ease of online\nbuilt for offline","ar":" الإستخدام أونلاين\nحتى عندما تكون أوفلاين"},"actionTitle":{"en":"Please enter your mobile number","ar":"الرجاء إدخال رقم هاتفك"},"actionType":"sms","placeholder":{"en":"Mobile Number","ar":"رقم الهاتف"},"buttonText":{"en":"Send a download link","ar":"أرسل رابط التحميل"},"linkText":{"en":"Download the app","ar":"حمّل التطبيق "},"link":{"ios":"https://itunes.apple.com/us/app/gocollect!/id1157951837?ls=1&mt=8","android":"https://play.google.com/store/apps/details?id=tap.gocollect"}},{"product":"sell","title":{"en":"Start Accepting Online Payments\non your App or Website","ar":"استقبل المدفوعات\nعلى التطبيق الخاص بك\nأو على موقعك الإلكتروني"},"shortTitle":{"en":"Start Accepting\nOnline Payments","ar":"استقبل المدفوعات\nعلى تطبيقك أو موقعك"},"shortTitle_":{"en":"Try the Tap advantage","ar":"جرّب مميّزات تاپ"},"actionType":"link","linkText":{"en":"Open an account","ar":"افتح حساباً"},"link":"https://www.tap.company/register/?service=goSell"},{"product":"tap","title":{"en":"goTap\nGo Everywhere","ar":"goTap\nعملك في كل مكان"},"shortTitle":{"en":"goTap\nGo Everywhere","ar":"goTap\nعملك في كل مكان"},"actionType":"link","linkText":{"en":"Grab your device","ar":"اطلب جهازك"},"link":"/order"}]
 
 /***/ }),
 /* 48 */
@@ -7231,7 +7231,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "@font-face{\n    font-family: 'circe';\n    src: url(" + escape(__webpack_require__(60)) + "),\n    url(" + escape(__webpack_require__(60)) + ");\n}\n\n.notFound{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  height: -webkit-fill-available;\n  align-items: center;\n}\n\n.notFoundContent{\n}\n\n.notFoundTitle{\n  font-size: 120px;\n  font-family: 'circe'\n}\n\n.notFoundImage{\n  width: 420px;\n}\n\n.notFoundParagraph{\n  font-size: 25px;\n  font-family: 'circe'\n}\n\n@media screen and (max-width: 767px) {\n  .notFoundImage{\n    width: 250px;\n  }\n  .notFoundTitle{\n    font-size: 90px;\n  }\n  .notFoundParagraph{\n    font-size: 20px;\n  }\n}\n", ""]);
+exports.push([module.i, "@font-face{\n    font-family: 'circe';\n    src: url(" + escape(__webpack_require__(60)) + "),\n    url(" + escape(__webpack_require__(60)) + ");\n}\n\n.notFound{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  height: -webkit-fill-available;\n  align-items: center;\n}\n\n.notFoundContent{\n}\n\n.notFoundTitle{\n  font-size: 120px;\n  font-family: 'circe';\n}\n\n.notFoundImage{\n  width: 420px;\n}\n\n.notFoundParagraph{\n  font-size: 25px;\n  font-family: 'circe'\n}\n\n@media screen and (max-width: 767px) {\n  .notFoundImage{\n    width: 250px;\n  }\n  .notFoundTitle{\n    font-size: 90px;\n  }\n  .notFoundParagraph{\n    font-size: 20px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -12040,8 +12040,9 @@ var LoginHeader = function (_Component) {
                                 _react2.default.createElement(
                                     'a',
                                     {
-                                        href: item.link.indexOf('register') > -1 ? 'https://www.tap.company/' + item.link + '/?lang=' + _this2.props.language : 'https://www.tap.company/' + _this2.props.language + '/' + item.link,
-                                        className: 'loginLink' },
+                                        href: item.link.indexOf('register') > -1 ? item.link + '/?lang=' + _this2.props.language : item.link,
+                                        className: 'loginLink',
+                                        target: '_blank' },
                                     item.linkText
                                 )
                             );
@@ -13031,7 +13032,7 @@ module.exports = [{"title":{"en":"Copyright © 2018 Tap Payments. All rights res
 /* 216 */
 /***/ (function(module, exports) {
 
-module.exports = {"inputsPlaceholders":[{"type":"email","placeholder":{"en":"Email Address","ar":"البريد الإلكتروني"}},{"type":"password","placeholder":{"en":"Password","ar":"رمز المرور"}}],"buttonsTexts":[{"text":{"en":"Sign In","ar":"دخول"}}],"links":[{"link":"/forgot-password","linkText":{"en":"Forgot Password?","ar":"نسيت رمز المرور؟"}},{"link":"/register","linkText":{"en":"Sign Up","ar":"سجّل"}}]}
+module.exports = {"inputsPlaceholders":[{"type":"email","placeholder":{"en":"Email Address","ar":"البريد الإلكتروني"}},{"type":"password","placeholder":{"en":"Password","ar":"رمز المرور"}}],"buttonsTexts":[{"text":{"en":"Sign In","ar":"دخول"}}],"links":[{"link":"https://www.tap.company/register","linkText":{"en":"Sign Up","ar":"سجّل"}}]}
 
 /***/ }),
 /* 217 */

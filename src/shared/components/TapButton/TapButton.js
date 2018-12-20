@@ -64,7 +64,7 @@ class TapButton extends Component {
     }
     else if(this.props.actionType && this.props.link && this.props.actionType==='link' && this.props.type==='link'){
         return (<a
-                  href={this.props.link}
+                  href={this.props.link.indexOf('register/')>-1?this.props.link+'&lang='+this.props.language:this.props.link}
                   target="_blank"
                   className={'tapButton ' +this.props.shape + ' ' + this.props.className}
                   style={{...this.props.style,...this.state.style}}

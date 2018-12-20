@@ -96,8 +96,9 @@ class LoginHeader extends Component {
                         <React.Fragment key={key}>
                         <div style={{width:'2.3%',display:'inline-block'}}></div>
                         <a
-                            href={item.link.indexOf('register')>-1?'https://www.tap.company/'+item.link+'/?lang='+this.props.language:'https://www.tap.company/'+this.props.language+'/'+item.link}
-                            className="loginLink">
+                            href={item.link.indexOf('register')>-1?item.link+'/?lang='+this.props.language:item.link}
+                            className="loginLink"
+                            target="_blank">
                             {item.linkText}
                         </a>
                         </React.Fragment>

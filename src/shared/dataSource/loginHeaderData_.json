@@ -26,11 +26,18 @@
 	],
 	"links":[
 		{
-			"link":"https://www.tap.company/register",
+			"link":"/forgot-password",
+			"linkText":{
+				"en":"Forgot Password?",
+				"ar":"نسيت رمز المرور؟"				
+			}
+		},
+		{
+			"link":"/register",
 			"linkText":{
 				"en":"Sign Up",
-				"ar":"سجّل"
+				"ar":"سجّل"				
 			}
-		}
+		}		
 	]
 }

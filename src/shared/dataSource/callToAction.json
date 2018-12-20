@@ -92,7 +92,7 @@
 			"en":"Open an account",
 			"ar":"افتح حساباً"
 		},
-		"link":"/register"
+		"link":"https://www.tap.company/register/?service=goSell"
 	},
 	{
 		"product":"tap",
