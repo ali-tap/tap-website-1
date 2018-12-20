@@ -7231,7 +7231,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "@font-face{\n    font-family: 'circe';\n    src: url(" + escape(__webpack_require__(60)) + "),\n    url(" + escape(__webpack_require__(60)) + ");\n}\n\n.notFound{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  height: -webkit-fill-available;\n  align-items: center;\n}\n\n.notFoundContent{\n}\n\n.notFoundTitle{\n  font-size: 120px;\n  font-family: 'circe'\n}\n\n.notFoundImage{\n  width: 420px;\n}\n\n.notFoundParagraph{\n  font-size: 25px;\n  font-family: 'circe'\n}\n", ""]);
+exports.push([module.i, "@font-face{\n    font-family: 'circe';\n    src: url(" + escape(__webpack_require__(60)) + "),\n    url(" + escape(__webpack_require__(60)) + ");\n}\n\n.notFound{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  height: -webkit-fill-available;\n  align-items: center;\n}\n\n.notFoundContent{\n}\n\n.notFoundTitle{\n  font-size: 120px;\n  font-family: 'circe'\n}\n\n.notFoundImage{\n  width: 420px;\n}\n\n.notFoundParagraph{\n  font-size: 25px;\n  font-family: 'circe'\n}\n\n@media screen and (max-width: 767px) {\n  .notFoundImage{\n    width: 250px;\n  }\n  .notFoundTitle{\n    font-size: 90px;\n  }\n  .notFoundParagraph{\n    font-size: 20px;\n  }\n}\n", ""]);
 
 // exports
 

@@ -28,3 +28,15 @@
   font-size: 25px;
   font-family: 'circe'
 }
+
+@media screen and (max-width: 767px) {
+  .notFoundImage{
+    width: 250px;
+  }
+  .notFoundTitle{
+    font-size: 90px;
+  }
+  .notFoundParagraph{
+    font-size: 20px;
+  }
+}
