@@ -3,10 +3,8 @@ import {observer} from 'mobx-react';
 // import headful from 'headful';
 import root from 'window-or-global';
 import {Helmet} from "react-helmet";
-
 import Header from '../../components/Header/Header.js';
 import Footer from '../../components/Footer/Footer.js';
-
 import leftMenuItems from '../../dataSource/leftMenuItems.json';
 import rightMenuItems from '../../dataSource/rightMenuItems.json';
 import footerMenus from '../../dataSource/footerMenus.json';
@@ -74,9 +72,7 @@ class Page extends Component {
           page={this.props.page}
           product={this.props.product}
         />
-
         {this.props.children}
-
         {this.props.hideFooter?
           null
           :
