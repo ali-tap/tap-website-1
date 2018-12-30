@@ -184,7 +184,10 @@ class UserPreferencesStore {
       let ip = eval(res.data).ip;
       iplocation(ip)
           .then((res) => {
-            this.country_code = res.countryCode.toLowerCase();
+            this.availableCountries.filter(availableCountry=>availableCountry.toLowerCase()===res.countryCode.toLowerCase())[0]?
+              this.country_code = res.countryCode.toLowerCase()
+              :
+              this.country_code = 'kw';
             this.getCurrentCountryLoading = false;
           })
           .catch(err => {
@@ -196,7 +199,6 @@ class UserPreferencesStore {
       this.country_code = 'kw';
       this.getCurrentCountryLoading = false;
     });
-
   }
 
   getValueBasedOnCountryCode(arr){
