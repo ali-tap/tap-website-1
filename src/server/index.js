@@ -69,8 +69,8 @@ app.get("*", (req, res, next) => {
   }).catch(next)
 })
 
-app.listen(3000, () => {
-  console.log(`Server is listening on port: 3000`)
+app.listen(8001, () => {
+  console.log(`Server is listening on port: 8001`)
 })
 
 /*
