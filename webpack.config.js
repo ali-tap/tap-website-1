@@ -5,6 +5,27 @@ var nodeExternals = require('webpack-node-externals');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const RobotstxtPlugin = require("robotstxt-webpack-plugin").default;
+const options = {
+  policy: [
+    {
+      userAgent: "Googlebot",
+      allow: "/",
+      crawlDelay: 2
+    },
+    {
+      userAgent: "OtherBot",
+      allow: ["/allow-for-all-bots", "/allow-only-for-other-bot"],
+      crawlDelay: 2
+    },
+    {
+      userAgent: "*",
+      allow: "/",
+      disallow: "/search",
+      crawlDelay: 10,
+    }
+  ]
+};
 
 var browserConfig = {
   entry: './src/browser/index.js',
@@ -115,7 +136,8 @@ var serverConfig = {
     new ManifestPlugin({
 			fileName: 'asset-manifest.json'
 		}),
-    new CompressionPlugin()
+    new CompressionPlugin(),
+    new RobotstxtPlugin(options)
   ]
 }
 
