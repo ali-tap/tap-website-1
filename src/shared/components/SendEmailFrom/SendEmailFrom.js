@@ -15,6 +15,7 @@ class SendEmailFrom extends Component {
        fieldsValues: [],
        loading: false,
        success: false,
+       base64: null
     };
 
     this.onValueChange = this.onValueChange.bind(this);
@@ -28,7 +29,30 @@ class SendEmailFrom extends Component {
   }
 
   onValueChange(key,e){
-    this.state.fieldsValues[key].value = e.target.value;
+    let value = '';
+    e.target.files?this.getBase64(e.target.files[0]):value=e.target.value;
+    setTimeout(
+        function() {
+            this.state.fieldsValues[key].value = this.state.base64?this.state.base64:value;
+            console.log(this.state.fieldsValues);
+            this.setState({base64: null});
+        }
+        .bind(this),
+        1000
+    );
+  }
+
+  getBase64(file) {
+     var reader = new FileReader();
+     reader.readAsDataURL(file);
+     let value = null;
+     let this_ = this;
+     reader.onload = function () {
+        this_.setState({base64: reader.result.substring(reader.result.indexOf(',') + 1) })
+     };
+     reader.onerror = function (error) {
+       // console.log('Error: ', error);
+     };
   }
 
   sendEmail(fields){
@@ -111,7 +135,21 @@ class SendEmailFrom extends Component {
               <br/><br/>
               </React.Fragment>
               :
+              <React.Fragment>
+              {field.type==='file'?
+              <React.Fragment>
+              <TapInput
+                placeholder={field.title}
+                style={fieldsStyle}
+                type={field.type}
+                onChange={(e)=>this.onValueChange(key,e)}
+              />
+              <br/><br/>
+              </React.Fragment>
+              :
               null
+              }
+              </React.Fragment>
               }
               </React.Fragment>
               }

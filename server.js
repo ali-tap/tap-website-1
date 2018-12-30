@@ -3960,7 +3960,8 @@ var SendEmailFrom = function (_Component) {
     _this.state = {
       fieldsValues: [],
       loading: false,
-      success: false
+      success: false,
+      base64: null
     };
 
     _this.onValueChange = _this.onValueChange.bind(_this);
@@ -3980,7 +3981,27 @@ var SendEmailFrom = function (_Component) {
   }, {
     key: 'onValueChange',
     value: function onValueChange(key, e) {
-      this.state.fieldsValues[key].value = e.target.value;
+      var value = '';
+      e.target.files ? this.getBase64(e.target.files[0]) : value = e.target.value;
+      setTimeout(function () {
+        this.state.fieldsValues[key].value = this.state.base64 ? this.state.base64 : value;
+        console.log(this.state.fieldsValues);
+        this.setState({ base64: null });
+      }.bind(this), 1000);
+    }
+  }, {
+    key: 'getBase64',
+    value: function getBase64(file) {
+      var reader = new FileReader();
+      reader.readAsDataURL(file);
+      var value = null;
+      var this_ = this;
+      reader.onload = function () {
+        this_.setState({ base64: reader.result.substring(reader.result.indexOf(',') + 1) });
+      };
+      reader.onerror = function (error) {
+        // console.log('Error: ', error);
+      };
     }
   }, {
     key: 'sendEmail',
@@ -4075,7 +4096,24 @@ var SendEmailFrom = function (_Component) {
                     }),
                     _react2.default.createElement('br', null),
                     _react2.default.createElement('br', null)
-                  ) : null
+                  ) : _react2.default.createElement(
+                    _react2.default.Fragment,
+                    null,
+                    field.type === 'file' ? _react2.default.createElement(
+                      _react2.default.Fragment,
+                      null,
+                      _react2.default.createElement(_TapInput2.default, {
+                        placeholder: field.title,
+                        style: fieldsStyle,
+                        type: field.type,
+                        onChange: function onChange(e) {
+                          return _this4.onValueChange(key, e);
+                        }
+                      }),
+                      _react2.default.createElement('br', null),
+                      _react2.default.createElement('br', null)
+                    ) : null
+                  )
                 )
               )
             );
@@ -4125,7 +4163,7 @@ exports.default = (0, _mobxReact.observer)(SendEmailFrom);
 /* 80 */
 /***/ (function(module, exports) {
 
-module.exports = [{"key":"contactus","template_id":"contact_us","title":{"en":"Get in Touch","ar":"تواصل معنا"},"requiredText":{"en":"(required)","ar":"(مطلوب)"},"fields":[{"type":"input","fieldkey":"name","title":{"en":"Your Name","ar":"الاسم"},"required":true},{"type":"input","fieldkey":"email_address","title":{"en":"Your Email","ar":"بريدك الإلكتروني"},"required":true},{"type":"input","fieldkey":"phone_number","title":{"en":"Phone Number","ar":"رقم الهاتف"},"required":false},{"type":"select","fieldkey":"product_name","title":{"en":"Product Name","ar":"اسم المنتج"},"options":[{"optionValue":{"en":"goPay","ar":"goPay"}},{"optionValue":{"en":"goSell","ar":"goSell"}},{"optionValue":{"en":"goCollect","ar":"goCollect"}},{"optionValue":{"en":"goTap","ar":"goTap"}},{"optionValue":{"en":"API","ar":"API"}}],"required":false},{"type":"input","fieldkey":"subject","title":{"en":"Subject","ar":"الموضوع"},"required":false},{"type":"textArea","fieldkey":"message","title":{"en":"Write your message..","ar":"نص الرسالة ..."},"required":false}],"buttonText":{"en":"Send","ar":"إرسال"}},{"key":"applyforajob","template_id":"apply_for_a_job","title":{"en":"Apply for a position now","ar":"تقدم إلى وظيفة الآن"},"requiredText":{"en":"(required)","ar":"(مطلوب)"},"fields":[{"type":"input","fieldkey":"name","title":{"en":"Your Name","ar":"الاسم"},"required":true},{"type":"input","fieldkey":"email_address","title":{"en":"Your Email","ar":"بريدك الإلكتروني"},"required":true},{"type":"input","fieldkey":"phone_number","title":{"en":"Phone Number","ar":"رقم الهاتف"},"required":true},{"type":"input","fieldkey":"applying_for","title":{"en":"Position Applying for","ar":"الوظيفة المتقدم لها"},"required":false},{"type":"input","fieldkey":"linkedin","title":{"en":"LinkedIn","ar":"LinkedIn"},"required":false},{"type":"textArea","fieldkey":"brief","title":{"en":"Write a brief about you..","ar":"اكتب لنا نبذة عنك.."},"required":false}],"buttonText":{"en":"Apply","ar":"تقدم"}}]
+module.exports = [{"key":"contactus","template_id":"contact_us","title":{"en":"Get in Touch","ar":"تواصل معنا"},"requiredText":{"en":"(required)","ar":"(مطلوب)"},"fields":[{"type":"input","fieldkey":"name","title":{"en":"Your Name","ar":"الاسم"},"required":true},{"type":"input","fieldkey":"email_address","title":{"en":"Your Email","ar":"بريدك الإلكتروني"},"required":true},{"type":"input","fieldkey":"phone_number","title":{"en":"Phone Number","ar":"رقم الهاتف"},"required":false},{"type":"select","fieldkey":"product_name","title":{"en":"Product Name","ar":"اسم المنتج"},"options":[{"optionValue":{"en":"goPay","ar":"goPay"}},{"optionValue":{"en":"goSell","ar":"goSell"}},{"optionValue":{"en":"goCollect","ar":"goCollect"}},{"optionValue":{"en":"goTap","ar":"goTap"}},{"optionValue":{"en":"API","ar":"API"}}],"required":false},{"type":"input","fieldkey":"subject","title":{"en":"Subject","ar":"الموضوع"},"required":false},{"type":"textArea","fieldkey":"message","title":{"en":"Write your message..","ar":"نص الرسالة ..."},"required":false}],"buttonText":{"en":"Send","ar":"إرسال"}},{"key":"applyforajob","template_id":"apply_for_a_job","title":{"en":"Apply for a position now","ar":"تقدم إلى وظيفة الآن"},"requiredText":{"en":"(required)","ar":"(مطلوب)"},"fields":[{"type":"input","fieldkey":"name","title":{"en":"Your Name","ar":"الاسم"},"required":true},{"type":"input","fieldkey":"email_address","title":{"en":"Your Email","ar":"بريدك الإلكتروني"},"required":true},{"type":"input","fieldkey":"phone_number","title":{"en":"Phone Number","ar":"رقم الهاتف"},"required":true},{"type":"input","fieldkey":"applying_for","title":{"en":"Position Applying for","ar":"الوظيفة المتقدم لها"},"required":false},{"type":"input","fieldkey":"linkedin","title":{"en":"LinkedIn","ar":"LinkedIn"},"required":false},{"type":"textArea","fieldkey":"brief","title":{"en":"Write a brief about you..","ar":"اكتب لنا نبذة عنك.."},"required":false},{"type":"file","fieldkey":"cv","title":{"en":"Upload your cv","ar":"ارفع سيرتك الذاتية"},"required":true}],"buttonText":{"en":"Apply","ar":"تقدم"}}]
 
 /***/ }),
 /* 81 */
