@@ -1,6 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 var nodeExternals = require('webpack-node-externals')
+const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 
 var browserConfig = {
   entry: './src/browser/index.js',
@@ -94,7 +95,17 @@ var serverConfig = {
   plugins: [
     new webpack.DefinePlugin({
       __isBrowser__: "false"
-    })
+    }),
+    new UglifyJSPlugin({
+			cache: true,
+			parallel: true,
+			uglifyOptions: {
+				compress: true,
+				ecma: 6,
+				mangle: true
+			},
+			sourceMap: true
+		})
   ]
 }
 
