@@ -1,7 +1,10 @@
 var path = require('path')
 var webpack = require('webpack')
-var nodeExternals = require('webpack-node-externals')
-const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+var nodeExternals = require('webpack-node-externals');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 var browserConfig = {
   entry: './src/browser/index.js',
@@ -96,6 +99,9 @@ var serverConfig = {
     new webpack.DefinePlugin({
       __isBrowser__: "false"
     }),
+    new HtmlWebpackPlugin({
+			template: path.resolve(__dirname, '../', 'src/index.html'),
+		}),
     new UglifyJSPlugin({
 			cache: true,
 			parallel: true,
@@ -105,7 +111,11 @@ var serverConfig = {
 				mangle: true
 			},
 			sourceMap: true
-		})
+		}),
+    new ManifestPlugin({
+			fileName: 'asset-manifest.json'
+		}),
+    new CompressionPlugin()
   ]
 }
 
