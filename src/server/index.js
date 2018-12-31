@@ -7,10 +7,14 @@ import serialize from "serialize-javascript"
 import App from '../shared/App'
 import routes from '../shared/routes'
 import ExecutionEnvironment from 'exenv';
+import {Helmet} from "react-helmet";
+
 const app = express()
 
 app.use(cors())
 app.use(express.static("public"))
+
+app.set('port', process.env.PORT || 3000);
 
 app.get("*", (req, res, next) => {
   const activeRoute = routes.find((route) => matchPath(req.url, route)) || {}
@@ -30,12 +34,13 @@ app.get("*", (req, res, next) => {
       )
       :
       '';
-
+    const helmet = Helmet.renderStatic();
     res.send(`
       <!DOCTYPE html>
-      <html>
+      <html ${helmet.htmlAttributes.toString()}>
         <head>
-          <title>Tap | Online payment Services</title>
+          ${helmet.title.toString()}
+          ${helmet.meta.toString()}
           <script src="/bundle.js" defer></script>
           <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
           ${`<Link rel="shortcut icon" href="https://www.tap.company/images/VND75.ico"/>`}
@@ -48,7 +53,7 @@ app.get("*", (req, res, next) => {
 
         </head>
 
-        <body>
+        <body ${helmet.bodyAttributes.toString()}>
           <div id="app">${markup}</div>
           ${`<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -69,8 +74,8 @@ app.get("*", (req, res, next) => {
   }).catch(next)
 })
 
-app.listen(8001, () => {
-  console.log(`Server is listening on port: 8001`)
+app.listen(app.get('port'), () => {
+  console.log(`Server is listening on port: ` + app.get('port'));
 })
 
 /*

@@ -34,7 +34,7 @@ class Banner extends Component {
     let style = {};
     {this.props.noBackground?
           style={}:
-          style={backgroundColor:this.props.backgroundColor,backgroundImage:'url('+this.props.backgroundImage+')'}
+          style={backgroundColor:this.props.backgroundColor,backgroundImage:'url('+this.props.backgroundImage+')',backgroundSize:this.props.backgroundSize, backgroundPosition:this.props.backgroundPosition}
     }
     return (
       <div className={this.props.maxContentHeight?'maxContentHeight banner':'banner'} style={{height:this.state.bannerHeight}}>

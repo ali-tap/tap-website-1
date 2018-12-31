@@ -1,5 +1,14 @@
 [
   {
+    "hasBanner": true,
+    "hasBlock": false,
+		"brandingColor":"#fff",
+    "paternImage":"https://www.tap.company/websiteImages/bannerImages/new-year.gif",
+    "paternImageSize":"auto 70%",
+    "patternImagePosition":"top",
+		"countries":["kw","om","eg","qa","ae","sa","bh","jo","lb"]
+	},
+  {
     "smimilar":true,
     "hasBanner": true,
     "hasBlock": true,

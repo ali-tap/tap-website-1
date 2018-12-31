@@ -181,6 +181,8 @@ class MainPage extends Component {
                     cropped={65}
                     backgroundColor={partner?partner.brandingColor:banner.brandingColor}
                     backgroundImage={partner?partner.paternImage:banner.paternImage?banner.paternImage:null}
+                    backgroundSize={banner.paternImageSize?banner.paternImageSize:null}
+                    backgroundPosition={banner.patternImagePosition?banner.patternImagePosition:null}
                     reverse={true}
                     maxContentHeight={true}
                     >
@@ -200,7 +202,7 @@ class MainPage extends Component {
                         <BannerLayer
                             animation='shortFromRight'>
                               <Img
-                                src={preferencesStore.getProduct(banner.product).bannerImage}
+                                src={preferencesStore.getProduct(banner.product)?preferencesStore.getProduct(banner.product).bannerImage:null}
                                 className={this.getVideoLink(partner,banner)?'openLightBox bannerImage videoLightBox':'bannerImage'}
                                 onClick={()=>this.openLightBoxFunction(this.getVideoLink(partner,banner))}
                               />

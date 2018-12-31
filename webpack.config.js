@@ -1,11 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 var nodeExternals = require('webpack-node-externals');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const RobotstxtPlugin = require("robotstxt-webpack-plugin").default;
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+
 const options = {
   policy: [
     {
@@ -26,6 +28,11 @@ const options = {
     }
   ]
 };
+
+const pathsToClean = [
+  './server.js',
+  'public/bundle.js'
+];
 
 var browserConfig = {
   entry: './src/browser/index.js',
@@ -120,23 +127,23 @@ var serverConfig = {
     new webpack.DefinePlugin({
       __isBrowser__: "false"
     }),
-    new HtmlWebpackPlugin({
-			template: path.resolve(__dirname, '../', 'src/index.html'),
-		}),
+    new CleanWebpackPlugin(pathsToClean),
     new UglifyJSPlugin({
-			cache: true,
-			parallel: true,
-			uglifyOptions: {
-				compress: true,
-				ecma: 6,
-				mangle: true
-			},
-			sourceMap: true
-		}),
+            cache: true,
+            parallel: true,
+            uglifyOptions: {
+                compress: true,
+                ecma: 6,
+                mangle: true
+            },
+            sourceMap: true
+        }),
     new ManifestPlugin({
-			fileName: 'asset-manifest.json'
-		}),
-    new CompressionPlugin(),
+            fileName: 'asset-manifest.json'
+        }),
+    // new CompressionPlugin({
+    //   include: 'public/bundle.js'
+    // }),
     new RobotstxtPlugin(options)
   ]
 }

@@ -54,6 +54,8 @@ class Page extends Component {
       <div className="page">
         {this.props.metaTag?
           <Helmet>
+              <title>{this.props.metaTag.title}</title>
+              <meta name="description" content={this.props.metaTag.description} />
               <meta property="og:title" content={this.props.metaTag.title} />
               <meta property="og:image" content={this.props.metaTag.image}/>
               <meta name="og:description" content={this.props.metaTag.description} />
