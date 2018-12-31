@@ -14,7 +14,6 @@ import Title from '../../components/Title/Title.js';
 import Separator from '../../components/Separator/Separator.js';
 import TapCarouselSlider from '../../components/TapCarouselSlider/TapCarouselSlider.js';
 import Img from '../../components/Img/Img.js';
-
 import callToAction from '../../dataSource/callToAction.json';
 import features from '../../dataSource/features.json';
 import tapPageIntro from '../../dataSource/tapPageIntro.json';
@@ -211,6 +210,7 @@ class MainPage extends Component {
                 );
             })}
             </Slider>
+              <div className='visible-xs mainPageMobileBanner'></div>
               <ProductsBlocks
                 productsObjects={blocks}
                 language={this.props.match.params.language}

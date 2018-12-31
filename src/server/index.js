@@ -8,6 +8,7 @@ import App from '../shared/App'
 import routes from '../shared/routes'
 import ExecutionEnvironment from 'exenv';
 import {Helmet} from "react-helmet";
+import ReactDOMServer from 'react-dom/server';
 
 const app = express()
 
@@ -34,6 +35,8 @@ app.get("*", (req, res, next) => {
       )
       :
       '';
+
+    // ReactDOMServer.renderToString(<Handler />);
     const helmet = Helmet.renderStatic();
     res.send(`
       <!DOCTYPE html>

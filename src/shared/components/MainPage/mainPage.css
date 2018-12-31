@@ -8,3 +8,23 @@
 .lessOpacityOnHover:hover{
   opacity: 0.4;
 }
+
+.mainPageMobileBanner {
+  background-image: url(https://www.tap.company/websiteImages/bannerImages/new-year.gif);
+  background-size: auto 72%;
+  background-position: center top;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+
+.visible-xs{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .visible-xs{
+    display: block;
+  }
+}
