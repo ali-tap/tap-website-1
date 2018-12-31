@@ -3,6 +3,8 @@
     width: 100%;
     overflow: hidden;
     min-height: 550px !important;
+    position: relative;
+    /* z-index: 99; */
 }
 
 .bannerBackground {
@@ -36,7 +38,7 @@
     transition: 0.4s ease-in-out;
     width: 50%;
     margin: auto;
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .oneLayer{
