@@ -15,6 +15,7 @@ render() {
         <div className='tapAddressMapPin'></div>
         {this.props.children}
         <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyApaAVAecsdLIL6lhd9M2glYlE3-98jdJY' }}
           defaultCenter={ { lat: this.props.lat, lng: this.props.lng } }
           defaultZoom={ this.props.zoom }>
         </GoogleMapReact>
