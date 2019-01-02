@@ -138,6 +138,8 @@ class SendEmailFrom extends Component {
               <React.Fragment>
               {field.type==='file'?
               <React.Fragment>
+              <p style={{textAlign:'justify',margin:'0 auto',marginTop:'-15px',width:'80%'}}>{field.title}</p>
+
               <TapInput
                 placeholder={field.title}
                 style={fieldsStyle}
