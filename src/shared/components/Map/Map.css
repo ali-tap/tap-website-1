@@ -3,7 +3,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 9;
+    z-index: 1;
     background-repeat: no-repeat;
     background-position: center;
 }
