@@ -179,7 +179,7 @@
             "type":"file",
             "fieldkey":"cv",
             "title":{
-              "en":"Upload your cv",
+              "en":"Upload your CV:",
               "ar":"ارفع سيرتك الذاتية"
             },
             "required": true
