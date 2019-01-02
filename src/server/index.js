@@ -36,7 +36,7 @@ app.get("*", (req, res, next) => {
       :
       '';
 
-    // ReactDOMServer.renderToString(<Handler />);
+    // ReactDOMServer.renderToString(<App />);
     const helmet = Helmet.renderStatic();
     res.send(`
       <!DOCTYPE html>
