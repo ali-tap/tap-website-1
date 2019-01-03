@@ -13,7 +13,16 @@ class Features extends Component {
        return (
          <div key={key} id={category.categoryName.replace(/\s/g,'')}>
           {features.categories.length===1?<React.Fragment/>:<div className={key===0?'hidden-xs':'visible-xs'} style={{height:'60px'}}></div>}
-          {features.categories.length===1?<React.Fragment/>:<div className='hidden-xs' style={{height:'150px'}}></div>}
+          {features.categories.length===1?
+            <React.Fragment/>
+            :
+            <React.Fragment>
+            {key===0?
+            <div className='hidden-xs' style={{height:'100px'}}></div>
+            :
+            <div className='hidden-xs' style={{height:'190px'}}></div>
+            }
+            </React.Fragment>}
           <Title
             title={category.categoryName}
             separator={<Separator width="25%"/>}
