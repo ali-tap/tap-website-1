@@ -61,11 +61,11 @@ class CallToActionStore {
 
   sendSms(schedule_for, source, partner, send_sms, redirectLink){
     this.loading=true;
-    console.log('source '+source);
-    console.log('partner '+partner);
-    console.log('schedule_for '+schedule_for);
-    console.log('send_sms '+send_sms);
-    console.log('redirectLink '+redirectLink);
+    // console.log('source '+source);
+    // console.log('partner '+partner);
+    // console.log('schedule_for '+schedule_for);
+    // console.log('send_sms '+send_sms);
+    // console.log('redirectLink '+redirectLink);
     var mypostrequest = new XMLHttpRequest();
     let this_ = this;
     source?null:source='tap';
@@ -79,7 +79,7 @@ class CallToActionStore {
                     var postrequest = new XMLHttpRequest();
                     postrequest.open("POST", "https://partners.payments.tap.company/api/v1.3/api/SMS/SendSMS", true);
                     postrequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                    postrequest.send('mobile_number='+this_.currentCountry.international_code+this_.mobile_number+'&source='+source+'&partner='+partner+'&country_code='+this_.currentCountry.country_code+'&schedule_for='+schedule_for+'&language_code='+this_.language+'&send_sms='+send_sms+'&add_lead='+1);
+                    postrequest.send('mobile_number='+this_.currentCountry.international_code+this_.mobile_number+'&source='+source+'&partner='+partner+'&country_code='+this_.currentCountry.country_code.toUpperCase()+'&schedule_for='+schedule_for+'&language_code='+this_.language+'&send_sms='+send_sms+'&add_lead='+1);
                     postrequest.onreadystatechange=function(){
                      if (postrequest.readyState===4){
                       if (postrequest.status===200 || window.location.href.indexOf("http")===-1){

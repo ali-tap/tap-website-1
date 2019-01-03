@@ -30,13 +30,13 @@ app.get("*", (req, res, next) => {
     const markup = ExecutionEnvironment.canUseDOM ?
       renderToString(
         <StaticRouter location={req.url} context={context}>
-          {ReactDOMServer.renderToString(<App />)}
+          <App />
         </StaticRouter>
       )
       :
       '';
 
-    // ReactDOMServer.renderToString(<App />);
+    // ReactDOMServer.renderToString(<Handler />);
     const helmet = Helmet.renderStatic();
     res.send(`
       <!DOCTYPE html>
