@@ -30,7 +30,7 @@ app.get("*", (req, res, next) => {
     const markup = ExecutionEnvironment.canUseDOM ?
       renderToString(
         <StaticRouter location={req.url} context={context}>
-          <App />
+          {ReactDOMServer.renderToString(<App />)}
         </StaticRouter>
       )
       :

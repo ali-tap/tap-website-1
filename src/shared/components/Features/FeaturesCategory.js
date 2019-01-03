@@ -8,43 +8,27 @@ class FeatureCategory extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      hide: true,
       hiddenFeatures: 'hiddenItem hide',
       showButton: 'shownItem'
     };
   }
 
-  showFeatures(){
-
-      this.setState({
-        hiddenFeatures: 'shownItem'
-      });
-
-      this.setState({showButton: 'hiddenItem'});
-      setTimeout(
-          function() {
-            this.setState({showButton: 'hiddenItem hide'});
-          }
-          .bind(this),
-          500
-      );
-  }
-
-  hideFeatures(middleFeatureId){
-
-      this.setState({hiddenFeatures: 'hiddenItem'});
-      setTimeout(
-          function() {
+  toggleHideAndShow(middleFeatureId){
+    if(this.state.hide){
+          this.setState({hiddenFeatures: 'shownItem'});
+          this.setState({hide: false});
+    }
+    else{
+          this.setState({hiddenFeatures: 'hiddenItem'});
+          this.setState({hide: true});
+          setTimeout(function()
+          {
             this.setState({hiddenFeatures: 'hiddenItem hide'});
           }
-          .bind(this),
-          500
-      );
-
-      this.setState({
-        showButton: 'shownItem'
-      });
-
-      document.getElementById(middleFeatureId).scrollIntoView({ behavior: 'smooth' });
+          .bind(this), 500);
+          document.getElementById(middleFeatureId).scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
   render() {
@@ -52,8 +36,8 @@ class FeatureCategory extends Component {
     let middleFeatureId = category.categoryName.replace(/\s/g,'')+'middle';
     let features = category.items.filter(feature=>((feature.partner===this.props.partner) || feature.partner===undefined))
     return features.map((feature,key) =>
-        <div
-            key={key}
+      <React.Fragment key={key}>
+            <div
             id={key===3?middleFeatureId:''}
             className={key>3? this.state.hiddenFeatures : ''}>
                 <Feature
@@ -63,41 +47,26 @@ class FeatureCategory extends Component {
                   leftPartAnimation={this.props.leftPartAnimation}
                   language={this.props.language}
                 />
-
-                {/* WITH SHOW MORE BUTTON? */}
-                {key===3 && features.length>4?
-                  <div className={this.state.showButton}>
-                    <div style={{height:'70px'}}></div>
-                    <TapButton
-                      text={category.showMoreButtonText}
-                      shape='bordered colored'
-                      product='general'
-                      fontAwesomeIcon={<i className="fas fa-angle-down"></i>}
-                      onClick={()=>this.showFeatures()}
-                      className={this.state.showButton}
-                      style={{width:'280px'}}
-                      color='#585858'
-                    />
-                  </div>
-                  :null
-                }
-                {/* WITH SHOW LESS BUTTON? */}
-                {key===features.length-1 && features.length>4?
-                  <div>
-                    <div style={{height:'70px'}}></div>
-                    <TapButton
-                      text={category.showLessButtonText}
-                      shape='bordered colored'
-                      product='general'
-                      fontAwesomeIcon={<i className="fas fa-angle-up"></i>}
-                      onClick={()=>this.hideFeatures(middleFeatureId)}
-                      style={{width:'280px'}}
-                      color='#585858'
-                    />
-                  </div>
-                  :<Separator width='90%'/>
-                }
-      </div>
+                {key===features.length-1?null:<Separator width='90%'/>}
+                {features.length<=4 && key===features.length-1?<Separator width='90%'/>:null}
+              </div>
+              {key===features.length-1 && features.length>4?
+                <div className={this.state.showButton}>
+                  <div style={{height:'70px'}}></div>
+                  <TapButton
+                    text={this.state.hide?category.showMoreButtonText:category.showLessButtonText}
+                    shape='bordered colored'
+                    product='general'
+                    fontAwesomeIcon={<i className={this.state.hide?'fas fa-angle-down':'fas fa-angle-up'}></i>}
+                    onClick={()=>this.toggleHideAndShow(middleFeatureId)}
+                    className={this.state.showButton}
+                    style={{width:'280px'}}
+                    color='#585858'
+                  />
+                </div>
+                :null
+              }
+      </React.Fragment>
     )
   }
 }
